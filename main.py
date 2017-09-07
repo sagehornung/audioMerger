@@ -26,7 +26,8 @@ def get_recorder_nums(*args):
 
 def get_files(mypath):
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
-    return onlyfiles
+    only_wav_files = [f for f in onlyfiles if f.endswith('.wav')]
+    return only_wav_files
 
 
 def write_merged_file(multi_ch_file, output_dir):
@@ -69,18 +70,32 @@ def get_all_channel_one_files(working_dir, folders):
         new_name = create_multi_ch_name(name)
         try:
             ch1 = AudioSegment.from_wav(multi_ch_paths[0])
+            print 'Got CH1'
             ch2 = AudioSegment.from_wav(multi_ch_paths[1])
+            print "Got CH2"
             ch3 = AudioSegment.from_wav(multi_ch_paths[2])
+            print "Got CH3"
             ch4 = AudioSegment.from_wav(multi_ch_paths[3])
+            print "Got CH4"
+        except Exception, e:
+            print 'Failed to open a file', e
+
+        try:
             multi = AudioSegment.from_mono_audiosegments(ch1, ch2, ch3, ch4)
-            file_handle = multi.export(working_dir + "\\" + "Multichannel_Output\\" + new_name, format="wav")
-        except:
-            print 'Failed to merge files', new_name
+            reduced_multi = multi.set_frame_rate(16000)
+        except Exception, e:
+            print 'Failed to merge files to multi channel', new_name, e
+
+        try:
+            file_handle = reduced_multi.export(working_dir + "\\" + "Multichannel_Output\\" + new_name, format="wav")
+        except Exception, e:
+            print 'Failed to save file ', working_dir + "\\" + "Multichannel_Output\\" + new_name
 
 
 def path_leaf(path):
     head, tail = ntpath.split(path)
     return tail or ntpath.basename(head)
+
 
 
 def create_multi_ch_name(single_ch_name):

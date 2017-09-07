@@ -1,0 +1,33 @@
+Hypebolicloc: input=4CH-170813-153500.wav
+Comment (150.00 s): this comment was made ~100 sec from the start of the file. It would represent
+Hypebolicloc: input=4CH-170813-153500.wav
+Comment (150.00 s): this comment was made ~100 sec from the start of the file. It would represent
+Hypebolicloc: input=4CH-170813-153500.wav
+Comment (150.00 s): this comment was made ~100 sec from the start of the file. It would represent
+Hypebolicloc: input=4CH-170813-153500.wav
+Comment (150.00 s): this comment was made ~100 sec from the start of the file. It would represent
+Hypebolicloc: input=4CH-170813-153500.wav
+Comment (150.00 s): this comment was made ~100 sec from the start of the file. It would represent
+Hypebolicloc: input=4CH-170813-153500.wav
+Comment (100.00 s): this comment was made ~100 sec from the start of the file. It would represent
+Hyperbolic: input=M-170813-153500.wav, sel=(84.010 s, 68.97 Hz) to (128.475 s, 5655.17 Hz)
+
+Hyperbolic: input=M-170813-153500.wav, sel=113.350-153.806 s
+
+Hyperbolic: input=M-170813-153500.wav, sel=(103.145 s, 68.97 Hz) to (136.858 s, 1448.28 Hz)
+
+Hyperbolic: input=M-170813-153500.wav, sel=91.846-123.737 s
+
+Hyperbolic: input=M-170813-153500.wav, sel=100.593-125.377 s
+
+Hyperbolic: input=M-170813-153500.wav, sel=(80.548 s, 68.97 Hz) to (116.630 s, 4827.59 Hz)
+
+Hyperbolic: input=M-170813-153500.wav, sel=(107.883 s, 68.97 Hz) to (121.550 s, 5517.24 Hz)
+
+hyperbolicLocPosition: file=C:\Users\BIOWAVES\Desktop\sage\testM-170813-153500_000101-010147.wav
+hyperbolicLocPosition: file=C:\Users\BIOWAVES\Desktop\sage\testM-170813-153500_000101-010213.wav
+Hyperbolic: input=M-170813-153500.wav, sel=(111.892 s, 68.97 Hz) to (124.102 s, 4068.97 Hz)
+
+hyperbolicLocPosition: file=C:\Users\BIOWAVES\Desktop\sage\testM-170813-153500_000101-010151.wav
+Hyperbolic: input=M-170813-153500.wav, sel=195.720-213.032 s
+
