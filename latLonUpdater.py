@@ -42,7 +42,6 @@ class Event(LoggingEventHandler):
             else:
                 print 'Not building .arr file'
 
-            # build_arr_file(working_dir, elapsed_time, fn, recorder_dirs, wav_file_len_in_mins):
     # def on_modified(self, event):
     #     print("Doh", event)
 
@@ -66,9 +65,15 @@ def extract_log_hyperbolic_data(line):
     file_name = line[:comma]
     line_chunks = line.split(' ')
     et = line_chunks[1]
-    et = et[5:]
-    et = et.split('-')
-    start_time = et[0]
+    print 'Elapsed Time Piece: ', et
+    if et.startswith('sel=('):
+        print 'Parsing with sel=('
+        start_time = et[5:]
+    else:
+        print 'Parsing with sel='
+        et = et[4:]
+        et = et.split('-')
+        start_time = et[0]
     print 'Extracting from log: filename:', file_name, ', Time:', start_time
     return file_name, start_time
 
@@ -116,37 +121,6 @@ def parse_log_file(event_str):
         append_to_complete_log(content)
         clear_ish_log(logfile_path)
         return
-    #     f = open(path[1], 'r')
-    #     file_line = f.readline()
-    #     print 'First line of log file after opening: ', file_line
-    #     print 'First line of log file after opening: ', file_line
-    #     if not file_line or file_line == '':
-    #         print 'First line is empty'
-    #         return
-    #     elif file_line.startswith('Hyperbolic:'):
-    #         print 'Found Hyperbolic: data', file_line
-    #         filename, elapsed_time = extract_log_hyperbolic_data(file_line)
-    #         fh = open('./dir/log_complete.txt', 'a')
-    #         fh.write(file_line)
-    #         fh.close()
-    #     elif file_line.startswith('hyperbolicLocPosition:'):
-    #         print 'Found hyperbolicLocPosition: data'
-    #         fh = open('./dir/log_complete.txt', 'a')
-    #         fh.write(file_line)
-    #         for line in f:
-    #             fh = open('./dir/log_complete.txt', 'a')
-    #             fh.write(line + '\n')
-    #         fh.close()
-    #
-    #     f.close()
-    #
-    #     f = open(path[1], 'w')
-    #     f.write('')
-    #     f.close()
-    #     return filename, elapsed_time
-    # except Exception, e:
-    #     print 'Exception Thrown', e
-    #     return
 
 
 def get_gps_file_name(wave_file_name, recorder_dir):
@@ -171,6 +145,7 @@ def get_mins_and_secs(elapsed_time):
     mins = int(elapsed_time_parts[0]) / 60
     secs = int(elapsed_time_parts[0]) % 60
     ms = elapsed_time_parts[1]
+    print 'Elapsed Time', elapsed_time, 'Converted time', str(mins) + ':' + str(secs) + '.' + str(ms)
     return str(mins) + ':' + str(secs) + '.' + str(ms)
 
 
