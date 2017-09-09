@@ -31,3 +31,12 @@ Hyperbolic: input=M-170813-153500.wav, sel=(111.892 s, 68.97 Hz) to (124.102 s, 
 hyperbolicLocPosition: file=C:\Users\BIOWAVES\Desktop\sage\testM-170813-153500_000101-010151.wav
 Hyperbolic: input=M-170813-153500.wav, sel=195.720-213.032 s
 
+Hyperbolic: input=M-170813-153500.wav, sel=(43.736 s, 68.97 Hz) to (60.866 s, 4068.97 Hz)
+
+Hyperbolic: input=M-170813-153500.wav, sel=91.846-105.514 s
+
+hyperbolicLocPosition: file=C:\Users\BIOWAVES\Desktop\sage\testM-170813-153500_000101-010131.wav
+Hyperbolic: input=M-170813-153500.wav, sel=(119.728 s, 68.97 Hz) to (132.485 s, 4965.52 Hz)
+
+hyperbolicLocPosition: file=C:\Users\BIOWAVES\Desktop\sage\testM-170813-153500_000101-010159.wav
+hyperbolicLocPosition: file=C:\Users\BIOWAVES\Desktop\sage\testM-170813-153500_000101-010159.wav
