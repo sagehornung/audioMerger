@@ -8,6 +8,7 @@ from datetime import datetime
 from datetime import timedelta
 import subprocess
 import os
+import time
 
 # Here is a list of arguments to pass to the script
 # 1. Location of the directory to watch containing the Ishmael log.txt file
@@ -16,31 +17,31 @@ import os
 # 4. Location of the FOLDER containing the FOLDERS with the GPS files
 # 5. Add as many folder names as you like that contain GPS file -- Ex: Recorder_1 Recorder_2 ... Recorder_N
 
-class Event(LoggingEventHandler):
-    def dispatch(self, event):
 
-        args = sys.argv[:]
-        print 'ARGS ... What do we got?', args
-        print("Event caught", event)
+class Event(LoggingEventHandler):
+
+    def dispatch(self, event):
+        print "Watchdog file event: ", event
         event_str = str(event)
-        if event_str.endswith("ish_log.txt'>"):
-        # if event_str == "<FileModifiedEvent: src_path=u'.\\\\dir\\\\log.txt'>)":
-            print('Log file has been modified')
+        fn = ''
+        et = ''
+        if event_str.startswith('<FileModifiedEvent:') and event_str.endswith("ish_log.txt'>"):
+            print 'ish_log.txt modified'
             try:
                 fn, et = parse_log_file(event_str)
-                # working_dir = 'C:\Users\BIOWAVES\PycharmProjects\\audioMerger\\test'
-                working_dir = os.path.join(sys.argv[4])
-                recorder_dirs = ['Recorder_1', 'Recorder_2', 'Recorder_3', 'Recorder_5']
-                recorder_dirs2 = sys.argv[5:]
-                print "Recorder Dirs from ARGS", recorder_dirs2
-                duration = int(sys.argv[3])
+            except Exception, e:
+                print 'Error parsing ishmeal log file', e
 
-                if fn and et:
-                    build_arr_file(working_dir, et, fn, recorder_dirs, 5)
-                else:
-                    print 'Error Parsing Ishmial Log File'
-            except:
-                print 'File Watch Error'
+            working_dir = os.path.join(sys.argv[4])
+            recorder_dirs = sys.argv[5:]
+            print "Extracting data from directories (Args passed to program): ", recorder_dirs
+            duration = int(sys.argv[3])
+            if not fn == '' and not et == '':
+                print 'Calling buld array with params', working_dir, et, fn, recorder_dirs, duration
+                build_arr_file(working_dir, et, fn, recorder_dirs, duration)
+            else:
+                print 'Not building .arr file'
+
             # build_arr_file(working_dir, elapsed_time, fn, recorder_dirs, wav_file_len_in_mins):
     # def on_modified(self, event):
     #     print("Doh", event)
@@ -58,6 +59,7 @@ def write_to_array_file(listdata):
     except Exception, e:
         print 'Failure writing .arr file', e
 
+
 def extract_log_hyperbolic_data(line):
     line = line[18:]
     comma = line.index(',')
@@ -65,50 +67,89 @@ def extract_log_hyperbolic_data(line):
     line_chunks = line.split(' ')
     et = line_chunks[1]
     et = et[5:]
-    print 'Extracing filename: ', file_name, 'Time: ', et
-    return  file_name, et
+    et = et.split('-')
+    start_time = et[0]
+    print 'Extracting from log: filename:', file_name, ', Time:', start_time
+    return file_name, start_time
 
 
-def parse_log_file(str):
+def append_to_complete_log(content):
+    fh = open('./dir/log_complete.txt', 'a')
+    fh.write(content + '\n')
+    fh.close()
+
+
+def clear_ish_log(p):
+    f = open(p, 'w')
+    f.write('')
+    f.close()
+
+
+def parse_log_file(event_str):
+
+    logfile_path = event_str.split("'")
+    logfile_path = logfile_path[1]
+    print 'Audio filename from ish_log.txt', logfile_path
+
     try:
-        path = str.split("'")
-        print 'parse_log_file', path
-        f = open(path[1], 'r')
-        file_line = f.readline()
-
-        if not file_line:
-            print('File is empty')
-            return
-        elif file_line == '':
-            print('File is empty')
-            return
-        elif file_line.startswith('Hyperbolic:'):
-            print 'Found Hyperbolic: data', file_line
-            filename, elapsed_time = extract_log_hyperbolic_data(file_line)
-            fh = open('./dir/log_complete.txt', 'a')
-            fh.write(file_line + '\n')
-            fh.close()
-        elif file_line.startswith('hyperbolicLocPosition:'):
-            print 'Found hyperbolicLocPosition: data'
-            fh = open('./dir/log_complete.txt', 'a')
-            fh.write(file_line)
-            for line in f:
-                fh = open('./dir/log_complete.txt', 'a')
-                fh.write(line + '\n')
-            fh.close()
-
-        f.close()
-
-        f = open(path[1], 'w')
-        f.write('')
-        f.close()
-        return filename, elapsed_time
+        with open(logfile_path, 'r') as content_file:
+            content = content_file.read()
     except Exception, e:
-        print 'Exception Thrown', e
+        print 'Exception opening logfile ', e
+
+    if not content or content == '':
+        print 'File empty'
         return
+    elif content.startswith('Hyperbolic:'):
+        print 'Found Hyperbolic: data', content
+        append_to_complete_log(content)
+        filename, elapsed_time = extract_log_hyperbolic_data(content)
+        clear_ish_log(logfile_path)
+        return filename, elapsed_time
+    elif content.startswith('hyperbolicLocPosition:'):
+        print 'Found hyperbolicLocPosition: data', content
+        append_to_complete_log(content)
+        clear_ish_log(logfile_path)
+        return
+    else:
+        print 'Found something else in log file appending anyways ...', content
+        append_to_complete_log(content)
+        clear_ish_log(logfile_path)
+        return
+    #     f = open(path[1], 'r')
+    #     file_line = f.readline()
+    #     print 'First line of log file after opening: ', file_line
+    #     print 'First line of log file after opening: ', file_line
+    #     if not file_line or file_line == '':
+    #         print 'First line is empty'
+    #         return
+    #     elif file_line.startswith('Hyperbolic:'):
+    #         print 'Found Hyperbolic: data', file_line
+    #         filename, elapsed_time = extract_log_hyperbolic_data(file_line)
+    #         fh = open('./dir/log_complete.txt', 'a')
+    #         fh.write(file_line)
+    #         fh.close()
+    #     elif file_line.startswith('hyperbolicLocPosition:'):
+    #         print 'Found hyperbolicLocPosition: data'
+    #         fh = open('./dir/log_complete.txt', 'a')
+    #         fh.write(file_line)
+    #         for line in f:
+    #             fh = open('./dir/log_complete.txt', 'a')
+    #             fh.write(line + '\n')
+    #         fh.close()
+    #
+    #     f.close()
+    #
+    #     f = open(path[1], 'w')
+    #     f.write('')
+    #     f.close()
+    #     return filename, elapsed_time
+    # except Exception, e:
+    #     print 'Exception Thrown', e
+    #     return
+
 
 def get_gps_file_name(wave_file_name, recorder_dir):
-    print wave_file_name
     gps_file_name = wave_file_name.split('.')
     gps_file_name = gps_file_name[0].split('-')
 
@@ -120,7 +161,7 @@ def get_gps_file_name(wave_file_name, recorder_dir):
         name += '-' + part
 
     name += '.csv'
-    print name
+    print 'GPS File name:', name
     return name
 
 
@@ -184,10 +225,10 @@ def get_next_file_start_time(file_name, delta):
 
     datetime_object = datetime(year=int(year), month=int(month), day=int(day_of_month), hour=int(hour),
                                minute=int(minutes), second=int(seconds))
-    print(datetime_object)
+    print 'Current File Time:', datetime_object
 
     now_plus_delta = datetime_object + timedelta(minutes=int(delta))
-    print(now_plus_delta)
+    print 'Next File Time:', now_plus_delta
 
     #TODO Need to convert date object back to a filename string
     new_file_name = convert_dateobject_to_file_name(file_name, now_plus_delta)
@@ -218,20 +259,22 @@ def convert_dateobject_to_file_name(old_filename, dateobject):
 
 def extract_data_from_gps_csv(file_path):
     print 'Reading data from GPS file:', file_path
-    with open(file_path, 'rb') as csvfile:
-        spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
-        data = [[] for x in xrange(4)]
-        for row in spamreader:
-            # print row[0], row[1], row[2], row[3], row[4], row[5]
-            # print(', ').join(row)
-            data[0].append(row[0])
-            data[1].append(row[1])
-            data[2].append(row[2])
-            data[3].append(row[3])
+    try:
+        with open(file_path, 'rb') as csvfile:
+            spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+            data = [[] for x in xrange(4)]
+            for row in spamreader:
+                # print row[0], row[1], row[2], row[3], row[4], row[5]
+                # print(', ').join(row)
+                data[0].append(row[0])
+                data[1].append(row[1])
+                data[2].append(row[2])
+                data[3].append(row[3])
 
-    print data
-    print data[2][1], data[3][1]
-    return data[2][1], data[3][1]
+        print 'Succesfully extracted', data[2][1], data[3][1]
+        return data[2][1], data[3][1]
+    except Exception, e:
+        print 'Error extracting GPS data', e
 
 
 def get_data_from_excel_script(fst, nfst, et, clat, clon, nlat, nlon):
@@ -256,8 +299,11 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(message)s',
                         datefmt='%Y-%m-%d %H:%M:%S')
+
     path = sys.argv[1]
-    print 'MAIN PATH', path
+    print 'Script running at: ', path
+    print 'Agrs passed to script: ', sys.argv[:]
+
     event_handler = Event()
     observer = Observer()
     observer.schedule(event_handler, path + '\\', recursive=False)
