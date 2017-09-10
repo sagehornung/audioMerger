@@ -82,7 +82,7 @@ def get_all_channel_one_files(working_dir, folders):
 
         try:
             multi = AudioSegment.from_mono_audiosegments(ch1, ch2, ch3, ch4)
-            reduced_multi = multi.set_frame_rate(16000)
+            reduced_multi = multi.set_frame_rate(24000)
         except Exception, e:
             print 'Failed to merge files to multi channel', new_name, e
 

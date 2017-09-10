@@ -109,6 +109,7 @@ def parse_log_file(event_str):
         print 'Found Hyperbolic: data', content
         append_to_complete_log(content)
         filename, elapsed_time = extract_log_hyperbolic_data(content)
+        
         clear_ish_log(logfile_path)
         return filename, elapsed_time
     elif content.startswith('hyperbolicLocPosition:'):
