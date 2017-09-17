@@ -12,6 +12,8 @@ import time
 import utm
 import math
 import requests
+import json
+import urllib2
 
 # Here is a list of arguments to pass to the script
 # 1. Location of the directory to watch containing the Ishmael log.txt file
@@ -19,12 +21,15 @@ import requests
 # 3. Duration of audio files
 # 4. Location of the FOLDER containing the FOLDERS with the GPS files
 # 5. Add as many folder names as you like that contain GPS file -- Ex: Recorder_1 Recorder_2 ... Recorder_N
-last_hyperloc_pos = 0
+
+last_hyperloc_pos = 0,0
 
 class Event(LoggingEventHandler):
 
+
     def dispatch(self, event):
-        print "Watchdog file event: ", event
+        global last_hyperloc_pos
+        print "Watchdog file event: ", event, 'last_hyperloc_pos', last_hyperloc_pos
         event_str = str(event)
         fn = ''
         et = ''
@@ -50,8 +55,16 @@ class Event(LoggingEventHandler):
 
 
 def http_post_request(data):
-    r = requests.post("localhost:4200", data={'number': 12524, 'type': 'issue', 'action': 'show'})
+    print 'Sending POST request: to 192.168.1.84:4200 with data:', data
+    headers = {'content-type': 'application/json'}
+    r = requests.post("http://localhost:4200/update", data, headers)
     print(r.status_code, r.reason)
+    return r.status_code1
+
+def build_post_request(whale_num, data):
+    params = {"id": whale_num, "lat": data[0], "lng": data[1]}
+    print 'BUILT PARAMS', params
+    return params
 
 
 def utm_to_lat_lon(zone, easting, northing, northernHemisphere=True):
@@ -169,7 +182,7 @@ def parse_log_file(event_str):
         print 'Found Hyperbolic: data', content
         append_to_complete_log(content)
         filename, elapsed_time = extract_log_hyperbolic_data(content)
-        
+
         clear_ish_log(logfile_path)
         return filename, elapsed_time
     elif content.startswith('hyperbolicLocPosition'):
@@ -177,8 +190,24 @@ def parse_log_file(event_str):
         append_to_complete_log(content)
         clear_ish_log(logfile_path)
         return
-    elif content.startswith('plotLoc2'):
-        pass
+    elif content.startswith('plotLoc'):
+        whale_num = content[7:8]
+        global last_hyperloc_pos
+        print 'Using this value for last_hyperloc_pos:', last_hyperloc_pos
+
+        # payload = {'lat': 36.78848171840966, 'lng': -121.82906786028143, 'id': '1'}
+        payload = {'lat': last_hyperloc_pos[0], 'lng': last_hyperloc_pos[1], 'id': whale_num}
+        print "Payload before request", payload
+
+        req = urllib2.Request('http://localhost:4200/update')
+        req.add_header('Content-Type', 'application/json')
+
+        response = urllib2.urlopen(req, json.dumps(payload))
+
+        append_to_complete_log(content)
+        clear_ish_log(logfile_path)
+        return
+
     elif content.startswith('Location'):
         print 'Location CONTENT', content
         if "position=(" in content:
@@ -196,6 +225,8 @@ def parse_log_file(event_str):
             # l = utm.to_latlon(a, b, 32, 'U')
             # l = utm_to_lat_lon(10, a, b)
             l = utm.to_latlon(a, b, 10, 'S')
+            global last_hyperloc_pos
+            last_hyperloc_pos = l
             print 'Ad back to LAT LON???', l
             append_to_complete_log(content)
             clear_ish_log(logfile_path)
@@ -359,6 +390,7 @@ def get_data_from_excel_script(fst, nfst, et, clat, clon, nlat, nlon):
 
 
 if __name__ == "__main__":
+
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(message)s',
                         datefmt='%Y-%m-%d %H:%M:%S')
