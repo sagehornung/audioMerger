@@ -177,6 +177,8 @@ def parse_log_file(event_str):
         append_to_complete_log(content)
         clear_ish_log(logfile_path)
         return
+    elif content.startswith('plotLoc2'):
+        pass
     elif content.startswith('Location'):
         print 'Location CONTENT', content
         if "position=(" in content:
