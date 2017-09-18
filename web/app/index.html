@@ -25,10 +25,10 @@
 <div style="padding: 5px; margin: 5px; background-color: #00274E">
     <span style="display: inline;">
       <img src="http://biowaves.net/images/grafx/Bio_waves_3_web_trans_larger.png">
-      <input id="b0" style="margin: 5px;" type="submit" value="Undo 0"/>
-      <input id="b1" style="margin: 5px;" type="submit" value="Undo 1"/>
-      <input id="b2" style="margin: 5px;" type="submit" value="Undo 2"/>
-      <input id="b3 "style="margin: 5px;" type="submit" value="Undo 3"/>
+      <input id="b0" style="margin: 5px; border: solid 1px red;" type="submit" value="Undo 0"/>
+      <input id="b1" style="margin: 5px; border: solid 1px green;" type="submit" value="Undo 1"/>
+      <input id="b2" style="margin: 5px; border: solid 1px blue;" type="submit" value="Undo 2"/>
+      <input id="b3" style="margin: 5px; border: solid 1px yellow;" type="submit" value="Undo 3"/>
       <input id="b4" style="margin: 5px;" type="submit" value="Undo 4"/>
       <input id="b5" style="margin: 5px;" type="submit" value="Undo 5"/>
       <input id="b6" style="margin: 5px;" type="submit" value="Undo 6"/>
@@ -258,9 +258,11 @@
         removeWhale('1')
     });
     $( "#b2" ).click(function() {
+        console.log('JQuery remove 2');
         removeWhale('2')
     });
     $( "#b3" ).click(function() {
+        console.log('JQuery remove 3');
         removeWhale('3')
     });
 

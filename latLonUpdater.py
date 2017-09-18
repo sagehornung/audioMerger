@@ -1,5 +1,4 @@
 import sys
-import time
 import logging
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
@@ -10,7 +9,6 @@ import subprocess
 import os
 import time
 import utm
-import math
 import requests
 import json
 import urllib2
@@ -26,7 +24,6 @@ last_hyperloc_pos = 0,0
 
 class Event(LoggingEventHandler):
 
-
     def dispatch(self, event):
         global last_hyperloc_pos
         print "Watchdog file event: ", event, 'last_hyperloc_pos', last_hyperloc_pos
@@ -34,24 +31,34 @@ class Event(LoggingEventHandler):
         fn = ''
         et = ''
         if event_str.startswith('<FileModifiedEvent:') and event_str.endswith("ish_log.txt'>"):
-            print 'ish_log.txt modified'
             try:
-                fn, et = parse_log_file(event_str)
+                data = parse_log_file(event_str)
+                if data is not None:
+                    fn = data[0]
+                    et = data[1]
+                    working_dir = os.path.join(sys.argv[4])
+                    recorder_dirs = sys.argv[5:]
+                    duration = int(sys.argv[3])
+
+                    print 'Calling build array with params', working_dir, et, fn, recorder_dirs, duration
+                    build_arr_file(working_dir, et, fn, recorder_dirs, duration)
+                else:
+                    print 'Doing nothing'
             except Exception, e:
-                print 'Error parsing ishmeal log file', e
+                print '', e
+                return
 
-            working_dir = os.path.join(sys.argv[4])
-            recorder_dirs = sys.argv[5:]
-            print "Extracting data from directories (Args passed to program): ", recorder_dirs
-            duration = int(sys.argv[3])
-            if not fn == '' and not et == '':
-                print 'Calling buld array with params', working_dir, et, fn, recorder_dirs, duration
-                build_arr_file(working_dir, et, fn, recorder_dirs, duration)
-            else:
-                print 'Not building .arr file'
+            # working_dir = os.path.join(sys.argv[4])
+            # recorder_dirs = sys.argv[5:]
+            # duration = int(sys.argv[3])
+            # if fn is not None and et is not None:
+            #     print 'Calling buld array with params', working_dir, et, fn, recorder_dirs, duration
+            #     build_arr_file(working_dir, et, fn, recorder_dirs, duration)
+            # else:
+            #     print ''
 
-    # def on_modified(self, event):
-    #     print("Doh", event)
+    def on_modified(self, event):
+        print("Doh", event)
 
 
 def http_post_request(data):
@@ -61,62 +68,11 @@ def http_post_request(data):
     print(r.status_code, r.reason)
     return r.status_code1
 
+
 def build_post_request(whale_num, data):
     params = {"id": whale_num, "lat": data[0], "lng": data[1]}
     print 'BUILT PARAMS', params
     return params
-
-
-def utm_to_lat_lon(zone, easting, northing, northernHemisphere=True):
-    if not northernHemisphere:
-        northing = 10000000 - northing
-
-    a = 6378137
-    e = 0.081819191
-    e1sq = 0.006739497
-    k0 = 0.9996
-
-    arc = northing / k0
-    mu = arc / (a * (1 - math.pow(e, 2) / 4.0 - 3 * math.pow(e, 4) / 64.0 - 5 * math.pow(e, 6) / 256.0))
-
-    ei = (1 - math.pow((1 - e * e), (1 / 2.0))) / (1 + math.pow((1 - e * e), (1 / 2.0)))
-
-    ca = 3 * ei / 2 - 27 * math.pow(ei, 3) / 32.0
-
-    cb = 21 * math.pow(ei, 2) / 16 - 55 * math.pow(ei, 4) / 32
-    cc = 151 * math.pow(ei, 3) / 96
-    cd = 1097 * math.pow(ei, 4) / 512
-    phi1 = mu + ca * math.sin(2 * mu) + cb * math.sin(4 * mu) + cc * math.sin(6 * mu) + cd * math.sin(8 * mu)
-
-    n0 = a / math.pow((1 - math.pow((e * math.sin(phi1)), 2)), (1 / 2.0))
-
-    r0 = a * (1 - e * e) / math.pow((1 - math.pow((e * math.sin(phi1)), 2)), (3 / 2.0))
-    fact1 = n0 * math.tan(phi1) / r0
-
-    _a1 = 500000 - easting
-    dd0 = _a1 / (n0 * k0)
-    fact2 = dd0 * dd0 / 2
-
-    t0 = math.pow(math.tan(phi1), 2)
-    Q0 = e1sq * math.pow(math.cos(phi1), 2)
-    fact3 = (5 + 3 * t0 + 10 * Q0 - 4 * Q0 * Q0 - 9 * e1sq) * math.pow(dd0, 4) / 24
-
-    fact4 = (61 + 90 * t0 + 298 * Q0 + 45 * t0 * t0 - 252 * e1sq - 3 * Q0 * Q0) * math.pow(dd0, 6) / 720
-
-    lof1 = _a1 / (n0 * k0)
-    lof2 = (1 + 2 * t0 + Q0) * math.pow(dd0, 3) / 6.0
-    lof3 = (5 - 2 * Q0 + 28 * t0 - 3 * math.pow(Q0, 2) + 8 * e1sq + 24 * math.pow(t0, 2)) * math.pow(dd0, 5) / 120
-    _a2 = (lof1 - lof2 + lof3) / math.cos(phi1)
-    _a3 = _a2 * 180 / math.pi
-
-    latitude = 180 * (phi1 - fact1 * (fact2 + fact3 + fact4)) / math.pi
-
-    if not northernHemisphere:
-        latitude = -latitude
-
-    longitude = ((zone > 0) and (6 * zone - 183.0) or 3.0) - _a3
-
-    return (latitude, longitude)
 
 
 def write_to_array_file(listdata):
@@ -167,22 +123,21 @@ def parse_log_file(event_str):
 
     logfile_path = event_str.split("'")
     logfile_path = logfile_path[1]
-    print 'Audio filename from ish_log.txt', logfile_path
 
     try:
         with open(logfile_path, 'r') as content_file:
             content = content_file.read()
     except Exception, e:
         print 'Exception opening logfile ', e
+        return
 
     if not content or content == '':
-        print 'File empty'
+        print 'Ish Log File empty'
         return
     elif content.startswith('Hyperbolic:'):
         print 'Found Hyperbolic: data', content
         append_to_complete_log(content)
         filename, elapsed_time = extract_log_hyperbolic_data(content)
-
         clear_ish_log(logfile_path)
         return filename, elapsed_time
     elif content.startswith('hyperbolicLocPosition'):
@@ -207,27 +162,52 @@ def parse_log_file(event_str):
         append_to_complete_log(content)
         clear_ish_log(logfile_path)
         return
+    elif content.startswith('plotRecorders'):
+        parts = content.split(' ')
+        wav_file = parts[1]
+        wav_file = wav_file[6:]
+
+        recorder_dirs = sys.argv[5:]
+        for dir in recorder_dirs:
+            csv = get_gps_file_name(wav_file, dir)
+            working_dir = os.path.join(sys.argv[4])
+            gps_file_path = working_dir + '\\' + dir + '\\' + csv
+            lat, lng = extract_data_from_gps_csv(gps_file_path)
+            payload = {'lat': lat, 'lng': lng}
+            print "Payload before request", payload
+
+            req = urllib2.Request('http://localhost:4200/recorder')
+            req.add_header('Content-Type', 'application/json')
+
+            response = urllib2.urlopen(req, json.dumps(payload))
+
+        append_to_complete_log(content)
+        clear_ish_log(logfile_path)
 
     elif content.startswith('Location'):
         print 'Location CONTENT', content
         if "position=(" in content:
-            parts = content.split('position=(')
-            pos = parts[len(parts) - 1:]
-            print 'HOPEFULLY FOUND POS STR -->', pos
-            utm_parts = pos[0].split(',')
-            part_a = utm_parts[0].strip()
-            part_b = utm_parts[1].split(')')
-            part_b = part_b[0]
+            try:
+                parts = content.split('position=(')
+                pos = parts[len(parts) - 1:]
+                print 'HOPEFULLY FOUND POS STR -->', pos
+                utm_parts = pos[0].split(',')
+                part_a = utm_parts[0].strip()
+                part_b = utm_parts[1].split(')')
+                part_b = part_b[0]
 
-            a = float(part_a)
-            b = float(part_b)
-            print 'Parts = ', part_a, part_b, a, b
-            # l = utm.to_latlon(a, b, 32, 'U')
-            # l = utm_to_lat_lon(10, a, b)
-            l = utm.to_latlon(a, b, 10, 'S')
-            global last_hyperloc_pos
-            last_hyperloc_pos = l
-            print 'Ad back to LAT LON???', l
+                a = float(part_a)
+                b = float(part_b)
+                print 'Parts = ', part_a, part_b, a, b
+                # l = utm.to_latlon(a, b, 32, 'U')
+                # l = utm_to_lat_lon(10, a, b)
+                l = utm.to_latlon(a, b, 10, 'S')
+                global last_hyperloc_pos
+                last_hyperloc_pos = l
+                print 'And back to LAT LON???', l
+
+            except Exception, e:
+                print 'Most likely some bad data in Ish Localization', e
             append_to_complete_log(content)
             clear_ish_log(logfile_path)
             return
@@ -240,6 +220,8 @@ def parse_log_file(event_str):
         append_to_complete_log(content)
         clear_ish_log(logfile_path)
         return
+
+    return
 
 
 def get_gps_file_name(wave_file_name, recorder_dir):

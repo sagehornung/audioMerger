@@ -2483,3 +2483,228 @@ Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(23.034 s, 52.98 Hz) to (23.29
 
 hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
 
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:20.779, phone  1-2  delay=  -0.137058 s
+Location: time=2000 Jan  1 01:00:20.779, phone  1-3  delay=  -0.045289 s
+Location: time=2000 Jan  1 01:00:20.779, phone  1-4  delay=  +0.058681 s
+Location: time=2000 Jan  1 01:00:20.779, phone  2-3  delay=  +0.091397 s
+Location: time=2000 Jan  1 01:00:20.779, phone  2-4  delay=  +0.261678 s
+Location: time=2000 Jan  1 01:00:20.779, phone  3-4  delay=  +0.207602 s
+Location: time=2000 Jan  1 01:00:20.779, position=(604553.250,4072078.250)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 13.25 Hz) to (21.004 s, 225.17 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:20.779, phone  1-2  delay=  -0.137058 s
+Location: time=2000 Jan  1 01:00:20.779, phone  1-3  delay=  -0.045289 s
+Location: time=2000 Jan  1 01:00:20.779, phone  1-4  delay=  +0.058681 s
+Location: time=2000 Jan  1 01:00:20.779, phone  2-3  delay=  +0.091397 s
+Location: time=2000 Jan  1 01:00:20.779, phone  2-4  delay=  +0.261678 s
+Location: time=2000 Jan  1 01:00:20.779, phone  3-4  delay=  +0.207602 s
+Location: time=2000 Jan  1 01:00:20.779, position=(604553.250,4072078.250)
+
+plotLoc1
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(44.038 s, 66.23 Hz) to (44.650 s, 384.11 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.585 s, 13.25 Hz) to (20.972 s, 251.66 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:20.779, phone  1-2  delay=  -0.138236 s
+
+Location: time=2000 Jan  1 01:00:20.779, phone  1-4  delay=  +0.058382 s
+
+Location: time=2000 Jan  1 01:00:20.779, phone  3-4  delay=  +0.207398 s
+
+plotLoc1
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 52.98 Hz) to (20.972 s, 251.66 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.553 s, 52.98 Hz) to (20.972 s, 251.66 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:20.762, phone  1-2  delay=  -0.134894 s
+Location: time=2000 Jan  1 01:00:20.762, phone  1-3  delay=  -0.045110 s
+Location: time=2000 Jan  1 01:00:20.762, phone  1-4  delay=  +0.058603 s
+Location: time=2000 Jan  1 01:00:20.762, phone  2-3  delay=  +0.091778 s
+Location: time=2000 Jan  1 01:00:20.762, phone  2-4  delay=  +0.260341 s
+Location: time=2000 Jan  1 01:00:20.762, phone  3-4  delay=  +0.102908 s
+Location: time=2000 Jan  1 01:00:20.762, position=(604479.000,4072047.250)
+
+plotLoc2
+
+plotLoc1
+
+plotLoc2
+
+plotLoc1
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(20.617 s, 13.25 Hz) to (20.907 s, 278.15 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:20.762, phone  1-3  delay=  -0.044984 s
+Location: time=2000 Jan  1 01:00:20.762, phone  1-4  delay=  +0.057708 s
+Location: time=2000 Jan  1 01:00:20.762, phone  2-3  delay=  +0.063387 s
+Location: time=2000 Jan  1 01:00:20.762, phone  2-4  delay=  +0.199681 s
+Location: time=2000 Jan  1 01:00:20.762, phone  3-4  delay=  +0.103610 s
+Location: time=2000 Jan  1 01:00:20.762, position=(604439.688,4072074.500)
+
+plotLoc3
+
+plotLoc0
+
+plotLoc0
+
+plotLoc3
+
+plotLoc3
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(44.070 s, 66.23 Hz) to (44.746 s, 476.82 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:44.408, phone  1-2  delay=  -0.141319 s
+Location: time=2000 Jan  1 01:00:44.408, phone  1-3  delay=  -0.026588 s
+Location: time=2000 Jan  1 01:00:44.408, phone  1-4  delay=  +0.020600 s
+Location: time=2000 Jan  1 01:00:44.408, phone  2-3  delay=  +0.114847 s
+Location: time=2000 Jan  1 01:00:44.408, phone  2-4  delay=  +0.191034 s
+Location: time=2000 Jan  1 01:00:44.408, phone  3-4  delay=  +0.046285 s
+Location: time=2000 Jan  1 01:00:44.408, position=(604558.312,4071932.500)
+
+plotLoc3
+
+plotRecorders: input=4CHD1235-170813-190500.wav
+
+plotRecorders: input=4CHD1235-170813-190500.wav
+
+plotLoc3
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(44.070 s, 66.23 Hz) to (44.746 s, 476.82 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:44.408, phone  1-2  delay=  -0.141319 s
+Location: time=2000 Jan  1 01:00:44.408, phone  1-3  delay=  -0.026588 s
+Location: time=2000 Jan  1 01:00:44.408, phone  1-4  delay=  +0.020600 s
+Location: time=2000 Jan  1 01:00:44.408, phone  2-3  delay=  +0.114847 s
+Location: time=2000 Jan  1 01:00:44.408, phone  2-4  delay=  +0.191034 s
+Location: time=2000 Jan  1 01:00:44.408, phone  3-4  delay=  +0.046285 s
+Location: time=2000 Jan  1 01:00:44.408, position=(604558.312,4071932.500)
+
+plotLoc2
+
+plotLoc3
+
+plotRecorders: input=4CHD1235-170813-190500.wav
+
+plotLoc3
+
+plotLoc0
+
+plotLoc2
+
+plotLoc3
+
+plotLoc1
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(46.744 s, 26.49 Hz) to (47.098 s, 397.35 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:46.921, phone  1-2  delay=  +0.097315 s
+Location: time=2000 Jan  1 01:00:46.921, phone  1-3  delay=  -0.013599 s
+Location: time=2000 Jan  1 01:00:46.921, phone  1-4  delay=  +0.036632 s
+Location: time=2000 Jan  1 01:00:46.921, phone  2-3  delay=  -0.112778 s
+Location: time=2000 Jan  1 01:00:46.921, phone  2-4  delay=  +0.088058 s
+Location: time=2000 Jan  1 01:00:46.921, phone  3-4  delay=  +0.028652 s
+Location: time=2000 Jan  1 01:00:46.921, position=(604270.312,4072195.000)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:46.921, phone  1-2  delay=  +0.097315 s
+Location: time=2000 Jan  1 01:00:46.921, phone  1-3  delay=  -0.013599 s
+Location: time=2000 Jan  1 01:00:46.921, phone  1-4  delay=  +0.036632 s
+Location: time=2000 Jan  1 01:00:46.921, phone  2-3  delay=  -0.112778 s
+Location: time=2000 Jan  1 01:00:46.921, phone  2-4  delay=  +0.088058 s
+Location: time=2000 Jan  1 01:00:46.921, phone  3-4  delay=  +0.028652 s
+Location: time=2000 Jan  1 01:00:46.921, position=(604270.312,4072195.000)
+
+plotLoc1
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(28.897 s, 13.25 Hz) to (29.154 s, 331.13 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:29.026, phone  1-2  delay=  +0.056302 s
+Location: time=2000 Jan  1 01:00:29.026, phone  1-3  delay=  -0.088848 s
+Location: time=2000 Jan  1 01:00:29.026, phone  1-4  delay=  +0.020904 s
+Location: time=2000 Jan  1 01:00:29.026, phone  2-3  delay=  -0.009720 s
+Location: time=2000 Jan  1 01:00:29.026, phone  2-4  delay=  +0.125366 s
+Location: time=2000 Jan  1 01:00:29.026, phone  3-4  delay=  +0.108890 s
+Location: time=2000 Jan  1 01:00:29.026, position=(604360.125,4072138.250)
+
+plotLoc0
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(38.787 s, 13.33 Hz) to (39.077 s, 266.67 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:38.932, phone  1-2  delay=  +0.047083 s
+Location: time=2000 Jan  1 01:00:38.932, phone  1-3  delay=  -0.152734 s
+Location: time=2000 Jan  1 01:00:38.932, phone  1-4  delay=  -0.051744 s
+Location: time=2000 Jan  1 01:00:38.932, phone  2-3  delay=  +0.014067 s
+Location: time=2000 Jan  1 01:00:38.932, phone  2-4  delay=  -0.047545 s
+Location: time=2000 Jan  1 01:00:38.932, phone  3-4  delay=  +0.061606 s
+Location: time=2000 Jan  1 01:00:38.932, position=(-2918172672.000,5653884928.000)
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(42.846 s, 26.67 Hz) to (43.168 s, 200.00 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:43.007, phone  1-2  delay=  +0.189241 s
+Location: time=2000 Jan  1 01:00:43.007, phone  1-3  delay=  -0.001224 s
+Location: time=2000 Jan  1 01:00:43.007, phone  1-4  delay=  +0.061219 s
+Location: time=2000 Jan  1 01:00:43.007, phone  2-3  delay=  -0.240250 s
+Location: time=2000 Jan  1 01:00:43.007, phone  2-4  delay=  -0.022335 s
+Location: time=2000 Jan  1 01:00:43.007, phone  3-4  delay=  +0.010395 s
+Location: time=2000 Jan  1 01:00:43.007, position=(-1613714048.000,2206070272.000)
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(35.887 s, 13.33 Hz) to (36.113 s, 213.33 Hz)
+
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:36.000, phone  1-2  delay=  +0.126653 s
+Location: time=2000 Jan  1 01:00:36.000, phone  1-3  delay=  +0.060240 s
+Location: time=2000 Jan  1 01:00:36.000, phone  1-4  delay=  +0.161588 s
+Location: time=2000 Jan  1 01:00:36.000, phone  2-3  delay=  -0.064302 s
+Location: time=2000 Jan  1 01:00:36.000, phone  2-4  delay=  +0.035588 s
+Location: time=2000 Jan  1 01:00:36.000, phone  3-4  delay=  +0.100280 s
+Location: time=2000 Jan  1 01:00:36.000, position=(604254.688,4072182.500)
+
+plotLoc0
+

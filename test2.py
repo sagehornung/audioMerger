@@ -72,3 +72,10 @@ print l2
 p = "plotLoc2    \n"
 p = p[7:8]
 print p
+
+
+def ret_test():
+    return 1, 2
+
+a = ret_test()
+print a
