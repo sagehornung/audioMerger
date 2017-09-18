@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!--//TODO Be sure to add local storage-->
+
+<div style="padding: 5px; margin: 5px; background-color: #00274E">
+    <span style="display: inline;">
+      <img src="http://biowaves.net/images/grafx/Bio_waves_3_web_trans_larger.png">
+      <input id="b0" style="margin: 5px;" type="submit" value="Undo 0"/>
+      <input id="b1" style="margin: 5px;" type="submit" value="Undo 1"/>
+      <input id="b2" style="margin: 5px;" type="submit" value="Undo 2"/>
+      <input id="b3 "style="margin: 5px;" type="submit" value="Undo 3"/>
+      <input id="b4" style="margin: 5px;" type="submit" value="Undo 4"/>
+      <input id="b5" style="margin: 5px;" type="submit" value="Undo 5"/>
+      <input id="b6" style="margin: 5px;" type="submit" value="Undo 6"/>
+      <input id="b7" style="margin: 5px;" type="submit" value="Undo 7"/>
+      <input id="b8" style="margin: 5px;" type="submit" value="Undo 8"/>
+      <input id="b9" style="margin: 5px;" type="submit" value="Undo 9"/>
+    </span>
+</div>
+
+<div id="map"></div>
+
+<script>
+    var map, whale;
+    var whaleMap = {};
+    var whaleMapPtr = {};
+    var recorders = [];
+    var vectorsArray = [];
+
+
+    function updateWhale(whaleObj) {
+
+        console.log('Update whale location', whaleObj);
+
+        if(!whaleMap[whaleObj.id])  {
+            whaleMap[whaleObj.id] = [];
+        }
+
+        if(!whaleMapPtr[whaleObj.id])  {
+            whaleMapPtr[whaleObj.id] = [];
+        }
+
+        addWhalePoint(whaleObj, 'whale');
+        plotAllPairs();
+
+    }
+
+    function removeWhale(id) {
+
+        for (var i = 0; i <vectorsArray.length; i++)
+        {
+            vectorsArray[i].setMap(null); //or line[i].setVisible(false);
+        }
+
+        console.log('removeWhale called with id ', id);
+        console.log('WhaleMap array obj before', whaleMap[id]);
+        if(whaleMap[id].length > 0 ) {
+            var ele = whaleMap[id].pop();
+            var m = whaleMapPtr[id].pop();
+            m.setMap(null);
+        }
+
+
+
+        console.log('WhaleMap array obj after', whaleMap[id], 'ele', ele);
+//        drawWhalesOnScreen();
+        plotAllPairs();
+    }
+
+    function addWhalePoint(whaleObj, iconType) {
+        console.log('Plotting a whale point', whaleObj);
+//        var lat = whaleObj.lat;
+//        var lng = whaleObj.lng;
+//        whaleMap[whaleObj.id].push({position: new google.maps.LatLng(lat, lng), type: iconType, lat: lat, lng: lng} );
+//        drawWhalesOnScreen();
+        drawSingleWhale(whaleObj, iconType);
+    }
+
+    function drawSingleWhale(whaleObj, iconType) {
+        console.log('drawSingleWhale', whaleObj)
+        var lat = whaleObj.lat;
+        var lng = whaleObj.lng;
+        var whale = {position: new google.maps.LatLng(lat, lng), type: iconType, lat: lat, lng: lng};
+        whaleMap[whaleObj.id].push(whale);
+        var marker = new google.maps.Marker({
+            position: whale.position,
+            icon: whaleImgs[whaleObj.id],
+            map: map
+        });
+        whaleMapPtr[whaleObj.id].push(marker);
+    }
+
+    function drawWhalesOnScreen() {
+        for (var key in whaleMap) {
+            if (whaleMap.hasOwnProperty(key)) {
+                console.log(key + " -> " + whaleMap[key]);
+                var whalePosArr = whaleMap[key];
+                if ( whalePosArr.length > 0) {
+                    console.log('Drawing all recorders');
+                    whalePosArr.forEach(function(whale) {
+                        var marker = new google.maps.Marker({
+                            position: whale.position,
+                            icon: icons[whale.type].icon,
+                            map: map
+                        });
+                        if(!whaleMapPtr[key]) { whaleMapPtr[key] = []; }
+
+                    });
+                }
+
+            }
+        }
+    }
+
+
+    function plotAllPairs() {
+
+        var lineSymbol = {
+            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+            strokeColor: '#820000'
+        };
+
+        for (var key in whaleMap) {
+            if (whaleMap.hasOwnProperty(key)) {
+//                console.log(key + " -> " + JSON.stringify(whaleMap[key]));
+                var whalePosArr = whaleMap[key];
+                console.log('whalePosArr', whalePosArr.length, whalePosArr);
+                if(whalePosArr.length > 1) {
+//                    console.log('Whale has more than 1 pt... lets plot a vector', whalePosArr.length, JSON.stringify(whalePosArr));
+                    for(var i = 0; i < whalePosArr.length - 1; i++) {
+                        console.log('Plotting pair of pts', whalePosArr[i], whalePosArr[i + 1]);
+                        plotWhalePathVector(whalePosArr[i], whalePosArr[i + 1], key);
+                    }
+                }
+            }
+        }
+    }
+
+    var colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
+    var whaleImgs = [
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704745/whale_red_lky0d6.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704390/whale_green_ti38zv.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704745/whale_blue_rz5zfv.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704391/whale_yellow_ao8bz3.png'
+    ];
+    function plotWhalePathVector(v1, v2, key){
+
+        console.log('v1 & v2', v1.lat, v1.lng, v2.lat, v2.lng);
+
+        var lineSymbol = {
+            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+            strokeColor: '#820000'
+        };
+
+
+        // Create the polyline and add the symbols via the 'icons' property.
+        var vector = new google.maps.Polyline({
+            path: [{lat: parseFloat(v1.lat), lng: parseFloat(v1.lng)}, {lat: parseFloat(v2.lat), lng: parseFloat(v2.lng)}],
+            strokeColor: colors[key],
+            icons: [
+                {
+                    icon: lineSymbol,
+                    offset: '50%'
+
+                }
+            ],
+            map: map
+        });
+
+        vectorsArray.push(vector);
+
+    }
+
+
+    function addRecorderPoint(point, iconType) {
+        console.log('Plotting a recorder point', point);
+        var lat = point.lat;
+        var lng = point.lng;
+        recorders.push( {position: new google.maps.LatLng(lat, lng), type: iconType} );
+        drawRecordersOnScreen();
+    }
+
+    function drawRecordersOnScreen(){
+        console.log('Drawing all recorders');
+        recorders.forEach(function(recorder) {
+            var marker = new google.maps.Marker({
+                position: recorder.position,
+                icon: icons[recorder.type].icon,
+                map: map
+            });
+        });
+    }
+
+
+</script>
+
+<script>
+
+
+    var icons = {
+        whale: {
+            icon: 'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_30,bo_1px_solid_rgb:0000ff/v1505261225/whale1600_rnwr0w.png'
+        },
+        recorder: {
+            icon: 'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505451762/recorder_rm2mod.png',
+        }
+    };
+
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: new google.maps.LatLng(36.6734051, -122.4007693),
+            mapTypeId: 'roadmap'
+        });
+
+    }
+
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1bXSJZH-AMPLSmi-i9AV8jhIK4yji794&callback=initMap">
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+</body>
+
+<script>
+
+    $( "#b0" ).click(function() {
+        console.log('JQuery remove 0');
+        removeWhale('0')
+    });
+    $( "#b1" ).click(function() {
+        console.log('JQuery remove 1');
+        removeWhale('1')
+    });
+    $( "#b2" ).click(function() {
+        removeWhale('2')
+    });
+    $( "#b3" ).click(function() {
+        removeWhale('3')
+    });
+
+    var socket = io.connect('192.168.1.84:4200');
+    socket.on('connect', function(data) {
+        socket.emit('join', 'Hello World from client');
+        socket.emit('subscribe', {room: 'map'});
+
+    });
+
+    socket.on('update-map', function(data) {
+        console.log('Updating map with whale data', data);
+        updateWhale(data);
+    });
+
+    socket.on('plot-recorder', function(data) {
+        console.log('Updating map with recorder position', data);
+        addRecorderPoint(data, 'recorder');
+    });
+
+</script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</html>
