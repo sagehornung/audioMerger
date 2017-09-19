@@ -1,48 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <style>
-        /* Always set the map height explicitly to define the size of the div
-         * element that contains the map. */
-        #map {
-            height: 100%;
-        }
-        /* Optional: Makes the sample page fill the window. */
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-</head>
-<body>
-
-<!--//TODO Be sure to add local storage-->
-
-<div style="padding: 5px; margin: 5px; background-color: #00274E">
-    <span style="display: inline;">
-      <img src="http://biowaves.net/images/grafx/Bio_waves_3_web_trans_larger.png">
-      <input id="b0" style="margin: 5px; border: solid 2px red;" type="submit" value="Undo 0"/>
-      <input id="b1" style="margin: 5px; border: solid 2px green;" type="submit" value="Undo 1"/>
-      <input id="b2" style="margin: 5px; border: solid 2px blue;" type="submit" value="Undo 2"/>
-      <input id="b3" style="margin: 5px; border: solid 2px yellow;" type="submit" value="Undo 3"/>
-      <!--<input id="b4" style="margin: 5px;" type="submit" value="Undo 4"/>-->
-      <!--<input id="b5" style="margin: 5px;" type="submit" value="Undo 5"/>-->
-      <!--<input id="b6" style="margin: 5px;" type="submit" value="Undo 6"/>-->
-      <!--<input id="b7" style="margin: 5px;" type="submit" value="Undo 7"/>-->
-      <!--<input id="b8" style="margin: 5px;" type="submit" value="Undo 8"/>-->
-      <!--<input id="b9" style="margin: 5px;" type="submit" value="Undo 9"/>-->
-     <input id="save" style="margin: 5px; border: solid 2px hotpink; float: right" type="submit" value="Save Map"/>
-    </span>
-</div>
-
-<div id="map"></div>
-
-<script>
-    var map, whale;
+var map, whale;
     var whaleMap = {};
     var whaleMapPtr = {};
     var recorders = [];
@@ -55,6 +11,20 @@
         'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704745/whale_blue_rz5zfv.png',
         'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704391/whale_yellow_ao8bz3.png'
     ];
+
+    var icons = {
+        whale: {
+            icon: 'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_30,bo_1px_solid_rgb:0000ff/v1505261225/whale1600_rnwr0w.png'
+        },
+        recorder: {
+            icon: 'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505451762/recorder_rm2mod.png',
+        }
+    };
+
+    var lineSymbol = {
+            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+            strokeColor: '#820000'
+        };
 
     function updateWhale(whaleObj) {
 
@@ -96,7 +66,7 @@
     }
 
     function addWhalePoint(whaleObj, iconType) {
-        console.log('drawSingleWhale', whaleObj)
+        console.log('addWhalePoint', whaleObj)
         var lat = whaleObj.lat;
         var lng = whaleObj.lng;
         var whale = {position: new google.maps.LatLng(lat, lng), type: iconType, lat: lat, lng: lng};
@@ -109,22 +79,13 @@
         whaleMapPtr[whaleObj.id].push(marker);
     }
 
-
-
     function plotAllPairs() {
-
-        var lineSymbol = {
-            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
-            strokeColor: '#820000'
-        };
 
         for (var key in whaleMap) {
             if (whaleMap.hasOwnProperty(key)) {
-//                console.log(key + " -> " + JSON.stringify(whaleMap[key]));
                 var whalePosArr = whaleMap[key];
                 console.log('whalePosArr', whalePosArr.length, whalePosArr);
                 if(whalePosArr.length > 1) {
-//                    console.log('Whale has more than 1 pt... lets plot a vector', whalePosArr.length, JSON.stringify(whalePosArr));
                     for(var i = 0; i < whalePosArr.length - 1; i++) {
                         console.log('Plotting pair of pts', whalePosArr[i], whalePosArr[i + 1]);
                         plotWhalePathVector(whalePosArr[i], whalePosArr[i + 1], key);
@@ -139,12 +100,6 @@
 
         console.log('v1 & v2', v1.lat, v1.lng, v2.lat, v2.lng);
 
-        var lineSymbol = {
-            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
-            strokeColor: '#820000'
-        };
-
-
         // Create the polyline and add the symbols via the 'icons' property.
         var vector = new google.maps.Polyline({
             path: [{lat: parseFloat(v1.lat), lng: parseFloat(v1.lng)}, {lat: parseFloat(v2.lat), lng: parseFloat(v2.lng)}],
@@ -153,16 +108,12 @@
                 {
                     icon: lineSymbol,
                     offset: '50%'
-
                 }
             ],
             map: map
         });
-
         vectorsArray.push(vector);
-
     }
-
 
     function addRecorderPoint(point, iconType) {
         console.log('Plotting a recorder point', point);
@@ -183,22 +134,6 @@
         });
     }
 
-
-</script>
-
-<script>
-
-
-    var icons = {
-        whale: {
-            icon: 'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_30,bo_1px_solid_rgb:0000ff/v1505261225/whale1600_rnwr0w.png'
-        },
-        recorder: {
-            icon: 'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505451762/recorder_rm2mod.png',
-        }
-    };
-
-
     function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
@@ -208,20 +143,6 @@
 
     }
 
-
-</script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1bXSJZH-AMPLSmi-i9AV8jhIK4yji794&callback=initMap">
-</script>
-
-
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
-
-<script>
 
     $( "#b0" ).click(function() {
         console.log('JQuery remove 0');
@@ -239,16 +160,6 @@
         console.log('JQuery remove 3');
         removeWhale('3')
     });
-    $( '#save').click(function () {
-        console.log('Saving things');
-        var posting =  $.post( "http://localhost:4200/save", { name: "John", time: "2pm" });
-       posting.done(function( data ) {
-           alert( "Data Loaded: " + data );
-       });
-    });
-
-
-
 
     var socket = io.connect('192.168.1.84:4200');
     socket.on('connect', function(data) {
@@ -266,10 +177,3 @@
         console.log('Updating map with recorder position', data);
         addRecorderPoint(data, 'recorder');
     });
-
-</script>
-
-
-
-
-</html>
