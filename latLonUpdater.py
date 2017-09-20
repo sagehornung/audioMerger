@@ -146,12 +146,14 @@ def parse_log_file(event_str):
         clear_ish_log(logfile_path)
         return
     elif content.startswith('plotLoc'):
+        #TODO Currently only allows for 10 whales 0-9
         whale_num = content[7:8]
+        meta_data = content[9:]
         global last_hyperloc_pos
         print 'Using this value for last_hyperloc_pos:', last_hyperloc_pos
 
         # payload = {'lat': 36.78848171840966, 'lng': -121.82906786028143, 'id': '1'}
-        payload = {'lat': last_hyperloc_pos[0], 'lng': last_hyperloc_pos[1], 'id': whale_num}
+        payload = {'lat': last_hyperloc_pos[0], 'lng': last_hyperloc_pos[1], 'id': whale_num, 'meta_data': meta_data}
         print "Payload before request", payload
 
         req = urllib2.Request('http://localhost:4200/update')
@@ -173,7 +175,9 @@ def parse_log_file(event_str):
             working_dir = os.path.join(sys.argv[4])
             gps_file_path = working_dir + '\\' + dir + '\\' + csv
             lat, lng = extract_data_from_gps_csv(gps_file_path)
-            payload = {'lat': lat, 'lng': lng}
+            recorder_id = dir.split('_')
+            recorder_id = recorder_id[1]
+            payload = {'lat': lat, 'lng': lng, 'recorder_id': recorder_id}
             print "Payload before request", payload
 
             req = urllib2.Request('http://localhost:4200/recorder')

@@ -2,18 +2,17 @@ from os import listdir
 import os
 from os.path import isfile, join
 from pydub import AudioSegment
-import sys
 import ntpath
 
-def main(args):
-    pass
+# "E:\Monterey Bay 13Aug2017" "24000" "Recorder_1" "Recorder_2" "Recorder_3" "Recorder_5"
 
-# ch1 = AudioSegment.from_wav(cur_dir + "\D1-170813-153000.wav")
-# ch2 = AudioSegment.from_wav(cur_dir + '\D2-170813-153000.wav')
-# multi = AudioSegment.from_mono_audiosegments(ch1, ch2)
-# file_handle = multi.export(cur_dir + "\output.wav", format="wav")
-
-
+# Program Args
+# 1. Path of the directory containing the folders with audio files
+#   a. Sub directories must have the form (No spaces allowed) ->  NAME_1 or Recorder_1 or Buoy_1 .... Buoy_N
+# 2. This argument is the frequency to downsample the files . Ex -> 96000, 48000, 16000 (NO commas)
+#   a. You have to enter this argument. If you do not want to down sample files put a zero digit -> 0
+# 3. The next arguments are for entering the subdirectories you are going to merge (This is multiple args)
+#    Ex. -> "Recorder_1" "Recorder_2" "Recorder_3" "Recorder_5"
 
 def get_recorder_nums(*args):
     nums = []
@@ -53,7 +52,7 @@ def get_file_path_based_on_folder(working_dir, file_name, folder):
     return other_ch_file
 
 
-def get_all_channel_one_files(working_dir, folders):
+def get_all_channel_one_files(working_dir, sample_rate, folders):
     ch_one_folder = folders[0]
     other_channels = folders[1:]
     ch_one_files = get_files(os.path.join(working_dir, ch_one_folder))
@@ -82,7 +81,8 @@ def get_all_channel_one_files(working_dir, folders):
 
         try:
             multi = AudioSegment.from_mono_audiosegments(ch1, ch2, ch3, ch4)
-            reduced_multi = multi.set_frame_rate(24000)
+            if not sample_rate == "0":
+                reduced_multi = multi.set_frame_rate(int(sample_rate))
         except Exception, e:
             print 'Failed to merge files to multi channel', new_name, e
 
@@ -116,9 +116,7 @@ if __name__ == "__main__":
     working_dir = os.path.join(sys.argv[1])
     print 'Working dir in main', working_dir
     create_output_dir(working_dir + '/Multichannel_Output')
-    args = sys.argv[2:]
+    sample_rate = sys.argv[2]
+    args = sys.argv[3:]
     print 'Args', args, args[0], args[1:]
-    get_all_channel_one_files(working_dir, args)
-    recorder_nums = get_recorder_nums(*args)
-    print 'Main Method', recorder_nums
-    main(args)
+    get_all_channel_one_files(working_dir, sample_rate, args)

@@ -2812,3 +2812,276 @@ plotRecorders: input=4CHD1235-170813-190500.wav
 
 plotLoc0
 
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(192.797 s, 13.25 Hz) to (193.659 s, 688.74 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(190.248 s, 13.25 Hz) to (190.915 s, 238.41 Hz)
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:03:10.581, phone  1-2  delay=  +0.024052 s
+Location: time=2000 Jan  1 01:03:10.581, phone  1-3  delay=  +0.140915 s
+Location: time=2000 Jan  1 01:03:10.581, phone  1-4  delay=  -0.052686 s
+Location: time=2000 Jan  1 01:03:10.581, phone  2-3  delay=  +0.181216 s
+Location: time=2000 Jan  1 01:03:10.581, phone  2-4  delay=  +0.058228 s
+Location: time=2000 Jan  1 01:03:10.581, phone  3-4  delay=  -0.154468 s
+Location: time=2000 Jan  1 01:03:10.581, position=(604335.625,4071835.000)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 18 20:22:17.
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(12.352 s, 39.74 Hz) to (13.057 s, 476.82 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(15.136 s, 13.25 Hz) to (16.155 s, 529.80 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 18 20:23:43.
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(22.625 s, 13.25 Hz) to (22.978 s, 397.35 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(22.625 s, 13.25 Hz) to (22.978 s, 397.35 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(20.547 s, 13.25 Hz) to (22.899 s, 609.27 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(19.802 s, 13.25 Hz) to (20.664 s, 410.60 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(11.724 s, 52.98 Hz) to (12.665 s, 543.05 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 18 20:32:10.
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(8.391 s, 251.66 Hz) to (9.175 s, 1350.99 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(70.183 s, 278.15 Hz) to (71.164 s, 1350.99 Hz)
+Comment (70.18 s): test
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 18 20:33:41.
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(8.666 s, 13.25 Hz) to (9.528 s, 317.88 Hz)
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:00:09.430, phone  1-2  delay=  -0.321797 s
+Location: time=2000 Jan  1 01:00:09.430, phone  1-3  delay=  +0.171796 s
+Location: time=2000 Jan  1 01:00:09.430, phone  1-4  delay=  +0.390426 s
+Location: time=2000 Jan  1 01:00:09.430, phone  2-3  delay=  +0.497835 s
+Location: time=2000 Jan  1 01:00:09.430, phone  2-4  delay=  -0.051476 s
+Location: time=2000 Jan  1 01:00:09.430, phone  3-4  delay=  +0.236833 s
+Location: time=2000 Jan  1 01:00:09.430, position=(604453.562,4072026.250)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(9.999 s, 145.70 Hz) to (10.626 s, 953.64 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(16.547 s, 264.90 Hz) to (17.527 s, 781.46 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:31:01.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:31:07.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Sep 20 08:31:29.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:32:37.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:36:16.
+Hyperbolic: input=4CHD1235-170813-190500.wav
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(23.840 s, 301.89 Hz) to (36.388 s, 943.40 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(10.352 s, 654.09 Hz) to (24.781 s, 1257.86 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:41:43.
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(93.479 s, 25.32 Hz) to (98.812 s, 189.87 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(120.770 s, 88.05 Hz) to (124.848 s, 314.47 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:45:32.
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(37.329 s, 19.42 Hz) to (41.407 s, 427.18 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(85.323 s, 19.42 Hz) to (90.970 s, 427.18 Hz)
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(106.027 s, 19.42 Hz) to (112.301 s, 271.84 Hz)
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:48:08.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Sep 20 08:48:21.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 20 08:49:13.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 20 08:49:21.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 20 08:49:58.
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:03:35.030, phone  1-2  delay=  -0.049131 s
+Location: time=2000 Jan  1 01:03:35.030, phone  1-3  delay=  -0.127350 s
+Location: time=2000 Jan  1 01:03:35.030, phone  1-4  delay=  -0.162111 s
+Location: time=2000 Jan  1 01:03:35.030, phone  2-3  delay=  +0.411921 s
+Location: time=2000 Jan  1 01:03:35.030, phone  2-4  delay=  -0.101390 s
+Location: time=2000 Jan  1 01:03:35.030, phone  3-4  delay=  -0.357567 s
+Location: time=2000 Jan  1 01:03:35.030, position=(-186010416.000,-10056051712.000)
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:04:22.684, phone  1-2  delay=  +0.116802 s
+Location: time=2000 Jan  1 01:04:22.684, phone  1-3  delay=  +0.432313 s
+Location: time=2000 Jan  1 01:04:22.684, phone  1-4  delay=  +0.696775 s
+Location: time=2000 Jan  1 01:04:22.684, phone  2-3  delay=  -0.214582 s
+Location: time=2000 Jan  1 01:04:22.684, phone  2-4  delay=  +0.580795 s
+Location: time=2000 Jan  1 01:04:22.684, phone  3-4  delay=  -0.374985 s
+Location: time=2000 Jan  1 01:04:22.684, position=(604227.312,4072087.250)
+plotLoc1
+hyperbolicLocPosition%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:04:21.558, phone  1-2  delay=  -0.259375 s
+Location: time=2000 Jan  1 01:04:21.558, phone  1-3  delay=  -0.183737 s
+Location: time=2000 Jan  1 01:04:21.558, phone  1-4  delay=  -0.022074 s
+Location: time=2000 Jan  1 01:04:21.558, phone  2-3  delay=  +0.001392 s
+Location: time=2000 Jan  1 01:04:21.558, phone  2-4  delay=  +0.277907 s
+Location: time=2000 Jan  1 01:04:21.558, phone  3-4  delay=  +0.053536 s
+Location: time=2000 Jan  1 01:04:21.558, position=(8298608128.000,-1542619136.000)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 20 08:55:57.
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(15.760 s, 19.42 Hz) to (16.534 s, 466.02 Hz)
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(15.760 s, 19.42 Hz) to (16.534 s, 466.02 Hz)
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(15.760 s, 19.42 Hz) to (16.534 s, 466.02 Hz)
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(15.760 s, 19.42 Hz) to (16.534 s, 466.02 Hz)
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:00:16.147, phone  1-2  delay=  -0.155310 s
+Location: time=2000 Jan  1 01:00:16.147, phone  1-3  delay=  -0.110045 s
+Location: time=2000 Jan  1 01:00:16.147, phone  1-4  delay=  -0.392438 s
+Location: time=2000 Jan  1 01:00:16.147, phone  2-3  delay=  +0.024994 s
+Location: time=2000 Jan  1 01:00:16.147, phone  2-4  delay=  -0.225680 s
+Location: time=2000 Jan  1 01:00:16.147, phone  3-4  delay=  -0.263030 s
+Location: time=2000 Jan  1 01:00:16.147, position=(-804789312.000,-4708518912.000)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 20 09:00:59.
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:00:44.497, phone  1-2  delay=  +0.110363 s
+Location: time=2000 Jan  1 01:00:44.497, phone  1-3  delay=  +0.084563 s
+Location: time=2000 Jan  1 01:00:44.497, phone  1-4  delay=  -0.319144 s
+Location: time=2000 Jan  1 01:00:44.497, phone  2-3  delay=  +0.133959 s
+Location: time=2000 Jan  1 01:00:44.497, phone  2-4  delay=  -0.122193 s
+Location: time=2000 Jan  1 01:00:44.497, phone  3-4  delay=  +0.038162 s
+Location: time=2000 Jan  1 01:00:44.497, position=(604252.625,4071834.250)
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(44.180 s, 19.42 Hz) to (44.813 s, 407.77 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 20 09:02:51.
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-2  delay=  -0.335701 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-3  delay=  -0.080644 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-4  delay=  -0.014909 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-3  delay=  -0.240948 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-4  delay=  -0.202549 s
+Location: time=2000 Jan  1 01:00:44.462, phone  3-4  delay=  +0.005169 s
+Location: time=2000 Jan  1 01:00:44.462, position=(-2852663552.000,5717253120.000)
+plotLoc1
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:00:44.479, phone  1-2  delay=  -0.334853 s
+Location: time=2000 Jan  1 01:00:44.479, phone  1-3  delay=  -0.022863 s
+Location: time=2000 Jan  1 01:00:44.479, phone  1-4  delay=  -0.014811 s
+Location: time=2000 Jan  1 01:00:44.479, phone  2-3  delay=  -0.240939 s
+Location: time=2000 Jan  1 01:00:44.479, phone  2-4  delay=  -0.202607 s
+Location: time=2000 Jan  1 01:00:44.479, phone  3-4  delay=  +0.005190 s
+Location: time=2000 Jan  1 01:00:44.479, position=(-5437028352.000,8969702400.000)
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+Location: time=2000 Jan  1 01:00:44.426, phone  1-2  delay=  -0.334268 s
+Location: time=2000 Jan  1 01:00:44.426, phone  1-3  delay=  -0.004032 s
+Location: time=2000 Jan  1 01:00:44.426, phone  1-4  delay=  -0.014767 s
+Location: time=2000 Jan  1 01:00:44.426, phone  2-3  delay=  -0.240867 s
+Location: time=2000 Jan  1 01:00:44.426, phone  2-4  delay=  -0.202573 s
+Location: time=2000 Jan  1 01:00:44.426, phone  3-4  delay=  +0.005180 s
+Location: time=2000 Jan  1 01:00:44.426, position=(-4954117632.000,7699380736.000)
+Hyperbolic: input=4CHD1235-170813-192000.wav
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(44.039 s, 97.09 Hz) to (44.813 s, 873.79 Hz)
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(44.004 s, 19.42 Hz) to (44.778 s, 504.85 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+
+Location: time=2000 Jan  1 01:00:44.391, phone  1-2  delay=  +0.292306 s
+Location: time=2000 Jan  1 01:00:44.391, phone  1-3  delay=  -0.080379 s
+Location: time=2000 Jan  1 01:00:44.391, phone  1-4  delay=  -0.014715 s
+Location: time=2000 Jan  1 01:00:44.391, phone  2-3  delay=  -0.240845 s
+Location: time=2000 Jan  1 01:00:44.391, phone  2-4  delay=  -0.202217 s
+Location: time=2000 Jan  1 01:00:44.391, phone  3-4  delay=  -0.002320 s
+Location: time=2000 Jan  1 01:00:44.391, position=(-12592801792.000,10611860480.000)
+
+plotLoc1: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(44.039 s, 77.67 Hz) to (44.954 s, 757.28 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000_000101-010044.wav
+
+Location: time=2000 Jan  1 01:00:44.497, phone  1-2  delay=  +0.324824 s
+Location: time=2000 Jan  1 01:00:44.497, phone  1-3  delay=  -0.022959 s
+Location: time=2000 Jan  1 01:00:44.497, phone  1-4  delay=  -0.014898 s
+Location: time=2000 Jan  1 01:00:44.497, phone  2-3  delay=  -0.240874 s
+Location: time=2000 Jan  1 01:00:44.497, phone  2-4  delay=  -0.202559 s
+Location: time=2000 Jan  1 01:00:44.497, phone  3-4  delay=  +0.005155 s
+Location: time=2000 Jan  1 01:00:44.497, position=(-4682230784.000,3634359808.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000_000101-010043.wav
+
+Location: time=2000 Jan  1 01:00:44.462, phone  1-2  delay=  +0.324853 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-3  delay=  -0.004103 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-4  delay=  -0.014871 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-3  delay=  -0.240827 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-4  delay=  -0.202555 s
+Location: time=2000 Jan  1 01:00:44.462, phone  3-4  delay=  +0.005144 s
+Location: time=2000 Jan  1 01:00:44.462, position=(-11606413312.000,8730669056.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000_000101-010043.wav
+
+Location: time=2000 Jan  1 01:00:44.514, phone  1-2  delay=  +0.324751 s
+Location: time=2000 Jan  1 01:00:44.514, phone  1-3  delay=  -0.004090 s
+Location: time=2000 Jan  1 01:00:44.514, phone  1-4  delay=  -0.014856 s
+Location: time=2000 Jan  1 01:00:44.514, phone  2-3  delay=  -0.240894 s
+Location: time=2000 Jan  1 01:00:44.514, phone  2-4  delay=  -0.202540 s
+Location: time=2000 Jan  1 01:00:44.514, phone  3-4  delay=  +0.005165 s
+Location: time=2000 Jan  1 01:00:44.514, position=(-15104313344.000,11362987008.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000_000101-010044.wav
+
+Location: time=2000 Jan  1 01:00:44.479, phone  1-2  delay=  -0.334905 s
+Location: time=2000 Jan  1 01:00:44.479, phone  1-3  delay=  -0.644971 s
+Location: time=2000 Jan  1 01:00:44.479, phone  1-4  delay=  -0.014798 s
+Location: time=2000 Jan  1 01:00:44.479, phone  2-3  delay=  -0.240795 s
+Location: time=2000 Jan  1 01:00:44.479, phone  2-4  delay=  -0.202205 s
+Location: time=2000 Jan  1 01:00:44.479, phone  3-4  delay=  -0.002539 s
+Location: time=2000 Jan  1 01:00:44.479, position=(604435.375,4072232.750)
+
+plotLoc1: input=4CHD1235-170813-192000.wav%WRITE FAILURE!!!!sfile=%s
+
+plotLoc1: input=4CHD1235-170813-192000.wav, file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000_000101-010043.wav
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(43.969 s, 77.67 Hz) to (44.919 s, 737.86 Hz), file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000-0000.wav
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(43.969 s, 19.42 Hz) to (44.708 s, 504.85 Hz), file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000-0001.wav
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(43.934 s, 19.42 Hz) to (44.849 s, 466.02 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav
+
+Location: time=2000 Jan  1 01:00:44.391, phone  1-2  delay=  +0.324752 s
+Location: time=2000 Jan  1 01:00:44.391, phone  1-3  delay=  -0.080775 s
+Location: time=2000 Jan  1 01:00:44.391, phone  1-4  delay=  -0.014874 s
+Location: time=2000 Jan  1 01:00:44.391, phone  2-3  delay=  -0.240866 s
+Location: time=2000 Jan  1 01:00:44.391, phone  2-4  delay=  -0.202191 s
+Location: time=2000 Jan  1 01:00:44.391, phone  3-4  delay=  -0.002428 s
+Location: time=2000 Jan  1 01:00:44.391, position=(-7580154368.000,6324348928.000)
+
+Location: time=2000 Jan  1 01:00:44.462, phone  1-2  delay=  -0.066363 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-3  delay=  -0.002070 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-4  delay=  -0.036826 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-3  delay=  +0.132289 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-4  delay=  -0.113404 s
+Location: time=2000 Jan  1 01:00:44.462, phone  3-4  delay=  -0.247453 s
+Location: time=2000 Jan  1 01:00:44.462, position=(89208928.000,-4849513472.000)
+
+Location: time=2000 Jan  1 01:00:44.462, phone  1-2  delay=  -0.066363 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-3  delay=  -0.002070 s
+Location: time=2000 Jan  1 01:00:44.462, phone  1-4  delay=  -0.036826 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-3  delay=  +0.132289 s
+Location: time=2000 Jan  1 01:00:44.462, phone  2-4  delay=  -0.113404 s
+Location: time=2000 Jan  1 01:00:44.462, phone  3-4  delay=  -0.247453 s
+Location: time=2000 Jan  1 01:00:44.462, position=(89208928.000,-4849513472.000)
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(45.411 s, 19.42 Hz) to (45.728 s, 291.26 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav
+
+Location: time=2000 Jan  1 01:00:45.570, phone  1-2  delay=  +0.139642 s
+Location: time=2000 Jan  1 01:00:45.570, phone  1-3  delay=  +0.068415 s
+Location: time=2000 Jan  1 01:00:45.570, phone  1-4  delay=  +0.042868 s
+Location: time=2000 Jan  1 01:00:45.570, phone  2-3  delay=  -0.065314 s
+Location: time=2000 Jan  1 01:00:45.570, phone  2-4  delay=  -0.052658 s
+Location: time=2000 Jan  1 01:00:45.570, phone  3-4  delay=  +0.050949 s
+Location: time=2000 Jan  1 01:00:45.570, position=(604139.562,4072267.000)
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(45.411 s, 19.42 Hz) to (45.728 s, 291.26 Hz), file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000-0002.wav
+
+plotRecorders: input=4CHD1235-170813-192000.wav
+
+plotRecorders: input=4CHD1235-170813-192000.wav
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(45.411 s, 19.42 Hz) to (45.728 s, 291.26 Hz), file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000-0003.wav
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(54.488 s, 19.23 Hz) to (54.734 s, 384.62 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav
+
+Location: time=2000 Jan  1 01:00:54.611, phone  1-2  delay=  -0.031293 s
+Location: time=2000 Jan  1 01:00:54.611, phone  1-3  delay=  -0.073077 s
+Location: time=2000 Jan  1 01:00:54.611, phone  1-4  delay=  +0.035341 s
+Location: time=2000 Jan  1 01:00:54.611, phone  2-3  delay=  +0.053255 s
+Location: time=2000 Jan  1 01:00:54.611, phone  2-4  delay=  +0.013377 s
+Location: time=2000 Jan  1 01:00:54.611, phone  3-4  delay=  +0.067930 s
+Location: time=2000 Jan  1 01:00:54.611, position=(604385.688,4072085.250)
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(54.488 s, 19.23 Hz) to (54.734 s, 384.62 Hz), file=E:\Monterey Bay 13Aug2017\test4CHD1235-170813-192000-0004.wav
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(62.192 s, 19.23 Hz) to (62.614 s, 250.00 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav
+
+Location: time=2000 Jan  1 01:01:02.403, phone  1-2  delay=  -0.048841 s
+Location: time=2000 Jan  1 01:01:02.403, phone  1-3  delay=  +0.014136 s
+Location: time=2000 Jan  1 01:01:02.403, phone  1-4  delay=  +0.028519 s
+Location: time=2000 Jan  1 01:01:02.403, phone  2-3  delay=  -0.022166 s
+Location: time=2000 Jan  1 01:01:02.403, phone  2-4  delay=  +0.181979 s
+Location: time=2000 Jan  1 01:01:02.403, phone  3-4  delay=  +0.217924 s
+Location: time=2000 Jan  1 01:01:02.403, position=(604440.000,4072130.000)
+
+plotLoc2
+

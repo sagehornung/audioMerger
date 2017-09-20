@@ -35,7 +35,12 @@
       <!--<input id="b7" style="margin: 5px;" type="submit" value="Undo 7"/>-->
       <!--<input id="b8" style="margin: 5px;" type="submit" value="Undo 8"/>-->
       <!--<input id="b9" style="margin: 5px;" type="submit" value="Undo 9"/>-->
-     <input id="save" style="margin: 5px; border: solid 2px hotpink; float: right" type="submit" value="Save Map"/>
+        <input id="save" style="margin: 5px; border: solid 2px hotpink; float: right" type="submit" value="Save Map"/>
+     <input id="mapname" style="margin: 5px; border: solid 2px hotpink; float: right" type="text" name="MapName" value="Map Name"><br>
+
+
+
+
     </span>
 </div>
 
@@ -45,8 +50,10 @@
     var map, whale;
     var whaleMap = {};
     var whaleMapPtr = {};
+    var recorderPts = [];
     var recorders = [];
     var vectorsArray = [];
+    var rawWalePts = [];
 
     var colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
     var whaleImgs = [
@@ -55,6 +62,10 @@
         'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704745/whale_blue_rz5zfv.png',
         'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704391/whale_yellow_ao8bz3.png'
     ];
+
+    function loadSavedMap(id) {
+
+    }
 
     function updateWhale(whaleObj) {
 
@@ -99,7 +110,7 @@
         console.log('drawSingleWhale', whaleObj)
         var lat = whaleObj.lat;
         var lng = whaleObj.lng;
-        var whale = {position: new google.maps.LatLng(lat, lng), type: iconType, lat: lat, lng: lng};
+        var whale = {position: new google.maps.LatLng(lat, lng), type: iconType, lat: lat, lng: lng, whale: whaleObj};
         whaleMap[whaleObj.id].push(whale);
         var marker = new google.maps.Marker({
             position: whale.position,
@@ -164,10 +175,17 @@
     }
 
 
+
     function addRecorderPoint(point, iconType) {
         console.log('Plotting a recorder point', point);
         var lat = point.lat;
         var lng = point.lng;
+        var recorderId = point.recorder_id;
+        recorderPts.push({lat:lat, lng:lng, recorderId: recorderId});
+        addToRecorderMarkerArr(lat, lng, iconType);
+    }
+
+    function addToRecorderMarkerArr(lat, lng, iconType){
         recorders.push( {position: new google.maps.LatLng(lat, lng), type: iconType} );
         drawRecordersOnScreen();
     }
@@ -241,13 +259,29 @@
     });
     $( '#save').click(function () {
         console.log('Saving things');
-        var posting =  $.post( "http://localhost:4200/save", { name: "John", time: "2pm" });
-       posting.done(function( data ) {
-           alert( "Data Loaded: " + data );
-       });
+        var mapName = $('#mapname').val();
+        var body = buildMapObjBody(mapName);
+        console.log('Mapname', mapName, 'Body', body);
+        var url = 'http://localhost:4200/save';
+        $.ajax(url, {
+            data: JSON.stringify(body),
+            contentType: 'application/json',
+            type: 'POST',
+            success: function(data){alert(data);},
+            failure: function(errMsg) {
+                alert(errMsg);
+            }
+        });
     });
 
-
+    function buildMapObjBody(mapName) {
+        var body = {
+            mapName: mapName,
+            recorderPts: recorderPts,
+            whaleMap: whaleMap
+        };
+        return body;
+    }
 
 
     var socket = io.connect('192.168.1.84:4200');
