@@ -13,6 +13,8 @@ import requests
 import json
 import urllib2
 
+# FIXME Add an argumnet for UMT ZONE --- Such as 'S 10' for
+
 # Here is a list of arguments to pass to the script
 # 1. Location of the directory to watch containing the Ishmael log.txt file
 # 2. Location of .arr file
