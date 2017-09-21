@@ -59,8 +59,7 @@ def get_all_channel_one_files(working_dir, sample_rate, folders):
     print 'get_all_channel_one_files', ch_one_folder, other_channels, ch_one_files, working_dir
     for ch_one_file in ch_one_files:
         multi_ch_paths = []
-        if not ch_one_file.endswith('.wav'):
-            pass
+
         multi_ch_paths.append(working_dir + '\\' + ch_one_folder + '\\' + ch_one_file)
         for ch in other_channels:
             multi_ch_paths.append(get_file_path_based_on_folder(working_dir, ch_one_file, ch))
@@ -69,25 +68,24 @@ def get_all_channel_one_files(working_dir, sample_rate, folders):
         new_name = create_multi_ch_name(name)
         try:
             ch1 = AudioSegment.from_wav(multi_ch_paths[0])
-            print 'Got CH1'
+            print 'Got CH1', multi_ch_paths[0]
+            ch1 = ch1.set_frame_rate(48000)
+
             ch2 = AudioSegment.from_wav(multi_ch_paths[1])
-            print "Got CH2"
+            print "Got CH2", multi_ch_paths[1]
+            ch2 = ch2.set_frame_rate(48000)
+
             ch3 = AudioSegment.from_wav(multi_ch_paths[2])
-            print "Got CH3"
+            print "Got CH3", multi_ch_paths[2]
+            ch3 = ch3.set_frame_rate(48000)
+
             ch4 = AudioSegment.from_wav(multi_ch_paths[3])
-            print "Got CH4"
-        except Exception, e:
-            print 'Failed to open a file', e
+            print "Got CH4", multi_ch_paths[3]
+            ch4 = ch4.set_frame_rate(48000)
 
-        try:
             multi = AudioSegment.from_mono_audiosegments(ch1, ch2, ch3, ch4)
-            if not sample_rate == "0":
-                reduced_multi = multi.set_frame_rate(int(sample_rate))
-        except Exception, e:
-            print 'Failed to merge files to multi channel', new_name, e
-
-        try:
-            file_handle = reduced_multi.export(working_dir + "\\" + "Multichannel_Output\\" + new_name, format="wav")
+            # reduced_multi = multi.set_frame_rate(24000)
+            file_handle = multi.export(working_dir + "\\" + "Multichannel_Output\\" + new_name, format="wav")
         except Exception, e:
             print 'Failed to save file ', working_dir + "\\" + "Multichannel_Output\\" + new_name
 

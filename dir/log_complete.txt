@@ -3085,3 +3085,27 @@ Location: time=2000 Jan  1 01:01:02.403, position=(604440.000,4072130.000)
 
 plotLoc2
 
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(68.489 s, 76.92 Hz) to (68.771 s, 250.00 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav
+
+Location: time=2000 Jan  1 01:01:08.630, phone  1-4  delay=  -0.105916 s
+Location: time=2000 Jan  1 01:01:08.630, phone  2-3  delay=  +0.168568 s
+Location: time=2000 Jan  1 01:01:08.630, phone  2-4  delay=  +0.080569 s
+Location: time=2000 Jan  1 01:01:08.630, phone  3-4  delay=  -0.039790 s
+Location: time=2000 Jan  1 01:01:08.630, position=(5454517760.000,-8249462784.000)
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(67.645 s, 76.92 Hz) to (67.997 s, 307.69 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav
+
+Location: time=2000 Jan  1 01:01:07.821, phone  1-2  delay=  -0.026737 s
+Location: time=2000 Jan  1 01:01:07.821, phone  1-3  delay=  -0.199265 s
+Location: time=2000 Jan  1 01:01:07.821, phone  1-4  delay=  -0.033090 s
+Location: time=2000 Jan  1 01:01:07.821, phone  2-3  delay=  -0.061865 s
+Location: time=2000 Jan  1 01:01:07.821, phone  2-4  delay=  +0.040552 s
+Location: time=2000 Jan  1 01:01:07.821, phone  3-4  delay=  +0.053157 s
+Location: time=2000 Jan  1 01:01:07.821, position=(604401.000,4072160.750)
+
+plotLoc2: input=4CHD1235-170813-192000.wav, sel=(67.645 s, 76.92 Hz) to (67.997 s, 307.69 Hz), file=E:\Monterey Bay 13Aug2017\saved_clips\test4CHD1235-170813-192000-0005.wav
+
