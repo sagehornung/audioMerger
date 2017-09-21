@@ -49,10 +49,6 @@ def get_files(mypath):
     return only_wav_files
 
 
-def write_merged_file(multi_ch_file, output_dir):
-    file_handle = multi_ch_file.export(output_dir + "/output.wav", format="wav")
-
-
 def change_file_name_based_on_folder(file_name, dir_num):
     file_name_split = file_name.split('-')
     updated_name = 'D' + dir_num
@@ -67,44 +63,6 @@ def get_file_path_based_on_folder(base_dir, file_name, folder):
     f = change_file_name_based_on_folder(file_name, recorder_num)
     other_ch_file = base_dir + '\\' + folder + '\\' + f
     return other_ch_file
-
-
-def get_all_channel_one_files(working_dir, sample_rate, folders):
-    ch_one_folder = folders[0]
-    other_channels = folders[1:]
-    ch_one_files = get_files(os.path.join(working_dir, ch_one_folder))
-    print 'get_all_channel_one_files', ch_one_folder, other_channels, ch_one_files, working_dir
-    for ch_one_file in ch_one_files:
-        multi_ch_paths = []
-
-        multi_ch_paths.append(working_dir + '\\' + ch_one_folder + '\\' + ch_one_file)
-        for ch in other_channels:
-            multi_ch_paths.append(get_file_path_based_on_folder(working_dir, ch_one_file, ch))
-        print 'Files to merge', multi_ch_paths
-        name = path_leaf(multi_ch_paths[0])
-        new_name = create_multi_ch_name(name)
-        try:
-            ch1 = AudioSegment.from_wav(multi_ch_paths[0])
-            print 'Got CH1', multi_ch_paths[0]
-            ch1 = ch1.set_frame_rate(48000)
-
-            ch2 = AudioSegment.from_wav(multi_ch_paths[1])
-            print "Got CH2", multi_ch_paths[1]
-            ch2 = ch2.set_frame_rate(48000)
-
-            ch3 = AudioSegment.from_wav(multi_ch_paths[2])
-            print "Got CH3", multi_ch_paths[2]
-            ch3 = ch3.set_frame_rate(48000)
-
-            ch4 = AudioSegment.from_wav(multi_ch_paths[3])
-            print "Got CH4", multi_ch_paths[3]
-            ch4 = ch4.set_frame_rate(48000)
-
-            multi = AudioSegment.from_mono_audiosegments(ch1, ch2, ch3, ch4)
-            # reduced_multi = multi.set_frame_rate(24000)
-            file_handle = multi.export(working_dir + "\\" + "Multichannel_Output\\" + new_name, format="wav")
-        except Exception, e:
-            print 'Failed to save file ', working_dir + "\\" + "Multichannel_Output\\" + new_name
 
 
 def validate_file_list(files):
@@ -123,35 +81,64 @@ def build_single_ch_file_list(project_dir, file_name, dirs):
 
 
 def merge_audio_files(project_dir, ch_one_files, dir_list):
+
     for recording in ch_one_files:
         paths_list = build_single_ch_file_list(project_dir, recording, dir_list)
         logging.info('Validating files %s' % paths_list)
         valid_paths = validate_file_list(paths_list)
 
         logging.info('Found %s valid matching files for %s' % (len(valid_paths), recording))
+
         if len(valid_paths) < len(paths_list):
             logging.warning('Found less valid files (%s) than recording folders (%s) %s' % (len(valid_paths), len(paths_list), valid_paths))
         if len(valid_paths) < int(script_params["minnumfilesformerge"]):
             logging.warning('Not enough files to merge, skipping: %s' % recording)
             continue
-        audio = load_audio_segments(valid_paths)
-        multi = AudioSegment.from_mono_audiosegments(*audio)
+
+        try:
+            audio_segs = load_audio_segments(valid_paths)
+            logging.info('Success loading audio segments: %s' % valid_paths)
+        except Exception, e:
+            logging.error('Error loading an audio segment %s', e)
+            continue
+
+        if script_params["downsampleaudio"]:
+            try:
+                audio_segs = [down_sample_audio(f) for f in audio_segs]
+            except Exception, e:
+                logging.error('Error down sampling audio %s', e)
+                continue
+        try:
+            multi = AudioSegment.from_mono_audiosegments(*audio_segs)
+            logging.info('Success merging mono audio segments: %s' % valid_paths)
+        except Exception, e:
+            logging.error('Failed to merge mono audio segments for file %s, Error: %s' % (recording, e))
+            continue
+
         folders_used = get_valid_recorder_nums(valid_paths)
         save_name = create_multi_ch_name(recording, folders_used)
-        write_file_to_disk(multi, output_dir_path, save_name)
+
+        write_file_to_disk(multi, save_name)
 
 
-def write_file_to_disk(multi, save_dir, filename):
-    file_handle = multi.export(os.path.join(output_dir_path, filename), format="wav")
+def write_file_to_disk(multi, filename):
+    try:
+        file_handle = multi.export(os.path.join(output_dir_path, filename), format="wav")
+        logging.info('Successfully saved multi-channel file: %s' % filename)
+    except Exception, e:
+        logging.error('Failed to save multi-channel file: %s Error: %s' % (filename, e))
+
 
 def load_audio_segments(files_list):
     return [AudioSegment.from_wav(segment) for segment in files_list]
 
 
-def down_sample_audio():
+def down_sample_audio(audio_file):
     sample_rate = int(script_params["samplerate"])
-    logging.info('Audio Sample Rate %s' % sample_rate)
-    # return audio.set_frame_rate(sample_rate)
+    logging.info('Attempting to convert audio to sample rate %s' % sample_rate)
+    reduced_audio_file = audio_file.set_frame_rate(sample_rate)
+    logging.info('Success down sampling audio %s' % sample_rate)
+    return reduced_audio_file
 
 
 def path_leaf(path):
