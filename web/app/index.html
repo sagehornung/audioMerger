@@ -33,7 +33,7 @@
       <input id="b5" style="margin: 5px; border: solid 2px purple;" type="submit" value="Undo 5"/>
       <input id="b6" style="margin: 5px; border: solid 2px lightgreen;" type="submit" value="Undo 6"/>
       <input id="b7" style="margin: 5px; border: solid 2px #1dd6ff;" type="submit" value="Undo 7"/>
-      <input id="b8" style="margin: 5px; border: solid 2px grey;" type="submit" value="Undo 8"/>
+      <input id="b8" style="margin: 5px; border: solid 2px #565656;" type="submit" value="Undo 8"/>
       <input id="b9" style="margin: 5px; border: solid 2px magenta;" type="submit" value="Undo 9"/>
 
         <input id="save" style="margin: 5px; border: solid 2px hotpink; float: right" type="submit" value="Save Map"/>
@@ -56,12 +56,20 @@
     var vectorsArray = [];
     var rawWalePts = [];
 
-    var colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
+    var colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#FFA500', '#800080', '#90EE90', '#1DD6FF', '#565656', '#FF00FF'];
     var whaleImgs = [
         'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704745/whale_red_lky0d6.png',
-        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704390/whale_green_ti38zv.png',
-        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704745/whale_blue_rz5zfv.png',
-        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704391/whale_yellow_ao8bz3.png'
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111066/whale_darkgreen_rnpi1c.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111448/whale_darkblue_rqerkl.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1505704391/whale_yellow_ao8bz3.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111078/whale_orange_mi4nok.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111078/whale_purple_jsefjq.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111067/whale_lightgreen_fo5rrc.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111696/whale_lightblue_itvawo.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111067/whale_darkgrey_mlh0yh.png',
+        'http://res.cloudinary.com/dtf5iuzbg/image/upload/c_scale,w_25/v1506111074/whale_magenta_hgy8sm.png'
+
+
     ];
 
     function loadSavedMap(id) {
@@ -153,7 +161,7 @@
 
         var lineSymbol = {
             path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
-            strokeColor: '#820000'
+            strokeColor: colors[key]
         };
 
 
