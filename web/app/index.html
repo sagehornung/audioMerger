@@ -29,12 +29,13 @@
       <input id="b1" style="margin: 5px; border: solid 2px green;" type="submit" value="Undo 1"/>
       <input id="b2" style="margin: 5px; border: solid 2px blue;" type="submit" value="Undo 2"/>
       <input id="b3" style="margin: 5px; border: solid 2px yellow;" type="submit" value="Undo 3"/>
-      <!--<input id="b4" style="margin: 5px;" type="submit" value="Undo 4"/>-->
-      <!--<input id="b5" style="margin: 5px;" type="submit" value="Undo 5"/>-->
-      <!--<input id="b6" style="margin: 5px;" type="submit" value="Undo 6"/>-->
-      <!--<input id="b7" style="margin: 5px;" type="submit" value="Undo 7"/>-->
-      <!--<input id="b8" style="margin: 5px;" type="submit" value="Undo 8"/>-->
-      <!--<input id="b9" style="margin: 5px;" type="submit" value="Undo 9"/>-->
+      <input id="b4" style="margin: 5px; border: solid 2px orange;" type="submit" value="Undo 4"/>
+      <input id="b5" style="margin: 5px; border: solid 2px purple;" type="submit" value="Undo 5"/>
+      <input id="b6" style="margin: 5px; border: solid 2px lightgreen;" type="submit" value="Undo 6"/>
+      <input id="b7" style="margin: 5px; border: solid 2px #1dd6ff;" type="submit" value="Undo 7"/>
+      <input id="b8" style="margin: 5px; border: solid 2px grey;" type="submit" value="Undo 8"/>
+      <input id="b9" style="margin: 5px; border: solid 2px magenta;" type="submit" value="Undo 9"/>
+
         <input id="save" style="margin: 5px; border: solid 2px hotpink; float: right" type="submit" value="Save Map"/>
      <input id="mapname" style="margin: 5px; border: solid 2px hotpink; float: right" type="text" name="MapName" value="Map Name"><br>
 
@@ -257,6 +258,32 @@
         console.log('JQuery remove 3');
         removeWhale('3')
     });
+    $( "#b4" ).click(function() {
+        console.log('JQuery remove 3');
+        removeWhale('4')
+    });
+    $( "#b5" ).click(function() {
+        console.log('JQuery remove 3');
+        removeWhale('5')
+    });
+    $( "#b6" ).click(function() {
+        console.log('JQuery remove 3');
+        removeWhale('6')
+    });
+    $( "#b7" ).click(function() {
+        console.log('JQuery remove 3');
+        removeWhale('7')
+    });
+    $( "#b8" ).click(function() {
+        console.log('JQuery remove 3');
+        removeWhale('8')
+    });
+    $( "#b9" ).click(function() {
+        console.log('JQuery remove 3');
+        removeWhale('9')
+    });
+
+
     $( '#save').click(function () {
         console.log('Saving things');
         var mapName = $('#mapname').val();
