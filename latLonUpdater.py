@@ -166,6 +166,24 @@ def parse_log_file(event_str):
         append_to_complete_log(content)
         clear_ish_log(logfile_path)
         return
+    elif content.startswith('seaFloor'):
+        arr_path = os.path.join(sys.argv[2])
+        file = open(arr_path, 'r')
+        recorder_dirs = sys.argv[5:]
+        curr_dir = 0
+        for line in file:
+            parts = line.split()
+            l = utm.to_latlon(parts[0], parts[1], 10, 'S')
+            d = recorder_dirs[curr_dir]
+            d = d.split('_')
+            d = d[1]
+            payload = {'lat': l[0], 'lng': l[1], 'recorder_id': d}
+            print "Payload before request", payload
+
+            req = urllib2.Request('http://localhost:4200/recorder')
+            req.add_header('Content-Type', 'application/json')
+            response = urllib2.urlopen(req, json.dumps(payload))
+            curr_dir = curr_dir + 1
     elif content.startswith('plotRecorders'):
         parts = content.split(' ')
         wav_file = parts[1]
