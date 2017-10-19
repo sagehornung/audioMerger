@@ -9,6 +9,7 @@
          * element that contains the map. */
         #map {
             height: 100%;
+            font-size: 2em;
         }
         /* Optional: Makes the sample page fill the window. */
         html, body {
@@ -16,6 +17,7 @@
             margin: 0;
             padding: 0;
         }
+
     </style>
 </head>
 <body>
@@ -230,7 +232,9 @@
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
             center: new google.maps.LatLng(36.6734051, -122.4007693),
-            mapTypeId: 'roadmap'
+            mapTypeId: 'roadmap',
+            scaleControl: true,
+
         });
 
     }
@@ -318,8 +322,8 @@
         return body;
     }
 
-
-    var socket = io.connect('192.168.1.84:4200');
+    //ENTER IP BELOW XXX.XXX.XXX.XXX:4200
+    var socket = io.connect('192.168.0.11:4200');
     socket.on('connect', function(data) {
         socket.emit('join', 'Hello World from client');
         socket.emit('subscribe', {room: 'map'});

@@ -3109,3 +3109,1715 @@ Location: time=2000 Jan  1 01:01:07.821, position=(604401.000,4072160.750)
 
 plotLoc2: input=4CHD1235-170813-192000.wav, sel=(67.645 s, 76.92 Hz) to (67.997 s, 307.69 Hz), file=E:\Monterey Bay 13Aug2017\saved_clips\test4CHD1235-170813-192000-0005.wav
 
+
+
+
+
+plotSeafloorRecorder: input=M2345-170606-183000.wav
+
+plotSeafloorRecorder: input=M2345-170606-183000.wav
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_48000\M2345-170606-183000.wav' localTimeNow=2017 Oct  9 21:09:21.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_48000\M2345-170606-183000.wav' localTimeNow=2017 Oct  9 21:10:01.
+
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0004.wav
+Location: time=2000 Jan  1 01:00:54.874, phone  1-2  delay=  +0.410020 s
+Location: time=2000 Jan  1 01:00:54.874, phone  1-3  delay=  +0.172284 s
+Location: time=2000 Jan  1 01:00:54.874, phone  1-4  delay=  +1.688451 s
+Location: time=2000 Jan  1 01:00:54.874, phone  2-3  delay=  -0.524021 s
+Location: time=2000 Jan  1 01:00:54.874, phone  2-4  delay=  +0.307772 s
+Location: time=2000 Jan  1 01:00:54.874, phone  3-4  delay=  +0.216851 s
+Location: time=2000 Jan  1 01:00:54.874, position=(487351.438,5380008.000)
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0005.wav
+Location: time=2000 Jan  1 01:01:09.989, phone  1-2  delay=  +0.503450 s
+Location: time=2000 Jan  1 01:01:09.989, phone  1-3  delay=  -0.398709 s
+Location: time=2000 Jan  1 01:01:09.989, phone  1-4  delay=  +0.493346 s
+Location: time=2000 Jan  1 01:01:09.989, phone  2-3  delay=  +0.182107 s
+Location: time=2000 Jan  1 01:01:09.989, phone  2-4  delay=  +0.992122 s
+Location: time=2000 Jan  1 01:01:09.989, phone  3-4  delay=  +0.184215 s
+Location: time=2000 Jan  1 01:01:09.989, position=(6697195520.000,5219719680.000)
+plotLoc1: input=M2345-170606-183000.wav, sel=(67.963 s, 1127.66 Hz) to (72.014 s, 6489.36 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_48000\M2345-170606-183000.wav' localTimeNow=2017 Oct  9 21:11:52.
+
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0007.wav
+Location: time=2000 Jan  1 01:03:08.796, phone  1-2  delay=  +0.766503 s
+Location: time=2000 Jan  1 01:03:08.796, phone  1-3  delay=  +0.179314 s
+Location: time=2000 Jan  1 01:03:08.796, phone  1-4  delay=  +1.946506 s
+Location: time=2000 Jan  1 01:03:08.796, phone  2-3  delay=  +0.078140 s
+Location: time=2000 Jan  1 01:03:08.796, phone  2-4  delay=  +1.165887 s
+Location: time=2000 Jan  1 01:03:08.796, phone  3-4  delay=  +1.002145 s
+Location: time=2000 Jan  1 01:03:08.796, position=(15108597760.000,7247438848.000)
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0008.wav
+Location: time=2000 Jan  1 01:03:08.796, phone  1-2  delay=  +0.766503 s
+Location: time=2000 Jan  1 01:03:08.796, phone  1-3  delay=  +0.179314 s
+Location: time=2000 Jan  1 01:03:08.796, phone  1-4  delay=  +1.946506 s
+Location: time=2000 Jan  1 01:03:08.796, phone  2-3  delay=  +0.078140 s
+Location: time=2000 Jan  1 01:03:08.796, phone  2-4  delay=  +1.165887 s
+Location: time=2000 Jan  1 01:03:08.796, phone  3-4  delay=  +1.002145 s
+Location: time=2000 Jan  1 01:03:08.796, position=(15108597760.000,7247438848.000)
+plotLoc2: input=M2345-170606-183000.wav
+
+Hyperbolic: input=M2345-170606-183000.wav, sel=(181.932 s, 2531.91 Hz) to (183.637 s, 8659.57 Hz)
+Hyperbolic: input=M2345-170606-183000.wav, sel=(181.932 s, 2531.91 Hz) to (183.637 s, 8659.57 Hz)
+
+Hyperbolic: input=M2345-170606-183000.wav
+
+
+
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0009.wav
+
+Location: time=2000 Jan  1 01:02:43.214, phone  1-2  delay=  -0.254753 s
+Location: time=2000 Jan  1 01:02:43.214, phone  1-3  delay=  +0.211342 s
+Location: time=2000 Jan  1 01:02:43.214, phone  1-4  delay=  +0.870013 s
+Location: time=2000 Jan  1 01:02:43.214, phone  2-3  delay=  +0.094355 s
+Location: time=2000 Jan  1 01:02:43.214, phone  2-4  delay=  -0.539895 s
+Location: time=2000 Jan  1 01:02:43.214, phone  3-4  delay=  -0.296412 s
+Location: time=2000 Jan  1 01:02:43.214, position=(29724760064.000,-9236928512.000)
+
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0010.wav
+
+Location: time=2000 Jan  1 01:03:08.050, phone  1-2  delay=  -0.255400 s
+Location: time=2000 Jan  1 01:03:08.050, phone  1-3  delay=  +0.081736 s
+Location: time=2000 Jan  1 01:03:08.050, phone  1-4  delay=  +0.366477 s
+Location: time=2000 Jan  1 01:03:08.050, phone  2-3  delay=  +0.197262 s
+Location: time=2000 Jan  1 01:03:08.050, phone  2-4  delay=  +0.541917 s
+Location: time=2000 Jan  1 01:03:08.050, phone  3-4  delay=  +0.105904 s
+Location: time=2000 Jan  1 01:03:08.050, position=(10330044416.000,9466118144.000)
+
+plotLoc1: input=M2345-170606-183000.wav, sel=(147.438 s, 13834.22 Hz) to (147.566 s, 14347.59 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotSeafloorRecorder: input=M2345-170606-183000.wav
+
+plotLoc1: input=M2345-170606-183000.wav, sel=(176.773 s, 1382.98 Hz) to (182.145 s, 5212.77 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\testM2345-170606-183000-0012.wav
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_48000\M2345-170606-183000.wav' localTimeNow=2017 Oct  9 21:29:31.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_48000\M2345-170606-183000.wav' localTimeNow=2017 Oct  9 21:30:07.
+
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0013.wav
+
+Location: time=2000 Jan  1 01:03:08.817, phone  1-2  delay=  -0.255326 s
+Location: time=2000 Jan  1 01:03:08.817, phone  1-3  delay=  +0.549369 s
+Location: time=2000 Jan  1 01:03:08.817, phone  1-4  delay=  +1.945780 s
+Location: time=2000 Jan  1 01:03:08.817, phone  2-3  delay=  +0.342228 s
+Location: time=2000 Jan  1 01:03:08.817, phone  2-4  delay=  -0.096851 s
+Location: time=2000 Jan  1 01:03:08.817, phone  3-4  delay=  -0.440235 s
+Location: time=2000 Jan  1 01:03:08.817, position=(18442166272.000,760478976.000)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_48000\M2345-170606-183000.wav' localTimeNow=2017 Oct  9 21:31:09.
+
+Location: time=2000 Jan  1 01:03:08.817, phone  1-2  delay=  -0.255326 s
+Location: time=2000 Jan  1 01:03:08.817, phone  1-3  delay=  +0.549369 s
+Location: time=2000 Jan  1 01:03:08.817, phone  1-4  delay=  +1.945780 s
+Location: time=2000 Jan  1 01:03:08.817, phone  2-3  delay=  +0.342228 s
+Location: time=2000 Jan  1 01:03:08.817, phone  2-4  delay=  -0.096851 s
+Location: time=2000 Jan  1 01:03:08.817, phone  3-4  delay=  -0.440235 s
+Location: time=2000 Jan  1 01:03:08.817, position=(486886,5380576)
+plotLoc1: input=M2345-170607-182000.wav
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-180500.wav' localTimeNow=2017 Oct 10 21:29:11.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-181500.wav' localTimeNow=2017 Oct 10 21:31:11.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-181500.wav' localTimeNow=2017 Oct 10 21:31:17.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-183000.wav' localTimeNow=2017 Oct 10 21:36:54.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-183000.wav' localTimeNow=2017 Oct 10 21:36:59.
+
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0014.wav
+
+Location: time=2000 Jan  1 01:04:32.841, phone  1-2  delay=  -0.217176 s
+Location: time=2000 Jan  1 01:04:32.841, phone  1-3  delay=  +0.093251 s
+Location: time=2000 Jan  1 01:04:32.841, phone  1-4  delay=  -0.079720 s
+Location: time=2000 Jan  1 01:04:32.841, phone  2-3  delay=  -0.002476 s
+Location: time=2000 Jan  1 01:04:32.841, phone  2-4  delay=  -0.123414 s
+Location: time=2000 Jan  1 01:04:32.841, phone  3-4  delay=  -0.034234 s
+Location: time=2000 Jan  1 01:04:32.841, position=(-17600872448.000,-184709872.000)
+
+hyperbolicLocPosition: input=M2345-170606-183000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-183000-0015.wav
+
+Location: time=2000 Jan  1 01:04:32.841, phone  1-2  delay=  -0.217176 s
+Location: time=2000 Jan  1 01:04:32.841, phone  1-3  delay=  +0.093251 s
+Location: time=2000 Jan  1 01:04:32.841, phone  1-4  delay=  -0.079720 s
+Location: time=2000 Jan  1 01:04:32.841, phone  2-3  delay=  -0.002476 s
+Location: time=2000 Jan  1 01:04:32.841, phone  2-4  delay=  -0.123414 s
+Location: time=2000 Jan  1 01:04:32.841, phone  3-4  delay=  -0.034234 s
+Location: time=2000 Jan  1 01:04:32.841, position=(-17600872448.000,-184709872.000)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-184500.wav' localTimeNow=2017 Oct 10 21:45:06.
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0016.wav
+Location: time=2000 Jan  1 01:00:04.004, phone  1-2  delay=  -0.000720 s
+Location: time=2000 Jan  1 01:00:04.004, phone  1-3  delay=  +0.027146 s
+Location: time=2000 Jan  1 01:00:04.004, phone  1-4  delay=  -0.222587 s
+Location: time=2000 Jan  1 01:00:04.004, phone  2-3  delay=  +0.096424 s
+Location: time=2000 Jan  1 01:00:04.004, phone  2-4  delay=  +0.011022 s
+Location: time=2000 Jan  1 01:00:04.004, phone  3-4  delay=  -0.723489 s
+Location: time=2000 Jan  1 01:00:04.004, position=(-24324569088.000,-8814629888.000)
+
+plotLoc1: input=M2345-170606-184500.wav, sel=(3.400 s, 14048.91 Hz) to (4.608 s, 47070.65 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\testM2345-170606-184500-0017.wav
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0018.wav
+
+Location: time=2000 Jan  1 01:00:04.032, phone  1-2  delay=  +0.190570 s
+Location: time=2000 Jan  1 01:00:04.032, phone  1-3  delay=  +0.269075 s
+Location: time=2000 Jan  1 01:00:04.032, phone  1-4  delay=  -0.222590 s
+Location: time=2000 Jan  1 01:00:04.032, phone  2-3  delay=  +0.272897 s
+Location: time=2000 Jan  1 01:00:04.032, phone  2-4  delay=  +0.011021 s
+Location: time=2000 Jan  1 01:00:04.032, phone  3-4  delay=  -0.723628 s
+Location: time=2000 Jan  1 01:00:04.032, position=(17445074944.000,-9507590144.000)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-184500.wav' localTimeNow=2017 Oct 10 21:47:46.
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0019.wav
+Location: time=2000 Jan  1 01:01:06.344, phone  1-2  delay=  -0.071554 s
+Location: time=2000 Jan  1 01:01:06.344, phone  1-3  delay=  -0.034323 s
+Location: time=2000 Jan  1 01:01:06.344, phone  1-4  delay=  +0.113113 s
+Location: time=2000 Jan  1 01:01:06.344, phone  2-3  delay=  +0.060355 s
+Location: time=2000 Jan  1 01:01:06.344, phone  2-4  delay=  -0.013789 s
+Location: time=2000 Jan  1 01:01:06.344, phone  3-4  delay=  +0.060892 s
+Location: time=2000 Jan  1 01:01:06.344, position=(487034.719,5380232.500)
+
+plotLoc1: input=M2345-170606-184500.wav, sel=(65.846 s, 15380.43 Hz) to (66.843 s, 33489.13 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\testM2345-170606-184500-0020.wav
+
+plotLoc2: input=M2345-170606-184500.wav, sel=(65.846 s, 15380.43 Hz) to (66.843 s, 33489.13 Hz)%WRITE FAILURE!!!!sfile=%s
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0022.wav
+
+Location: time=2000 Jan  1 01:01:06.344, phone  1-2  delay=  -0.071554 s
+Location: time=2000 Jan  1 01:01:06.344, phone  1-3  delay=  -0.034323 s
+Location: time=2000 Jan  1 01:01:06.344, phone  1-4  delay=  +0.113113 s
+Location: time=2000 Jan  1 01:01:06.344, phone  2-3  delay=  +0.060355 s
+Location: time=2000 Jan  1 01:01:06.344, phone  2-4  delay=  -0.013789 s
+Location: time=2000 Jan  1 01:01:06.344, phone  3-4  delay=  +0.060892 s
+Location: time=2000 Jan  1 01:01:06.344, position=(487034.719,5380232.500)
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0023.wav
+
+Location: time=2000 Jan  1 01:01:06.267, phone  1-2  delay=  -0.071543 s
+Location: time=2000 Jan  1 01:01:06.267, phone  1-3  delay=  +0.005737 s
+Location: time=2000 Jan  1 01:01:06.267, phone  1-4  delay=  +0.113110 s
+Location: time=2000 Jan  1 01:01:06.267, phone  2-3  delay=  +0.040040 s
+Location: time=2000 Jan  1 01:01:06.267, phone  2-4  delay=  +0.146522 s
+Location: time=2000 Jan  1 01:01:06.267, phone  3-4  delay=  +0.013931 s
+Location: time=2000 Jan  1 01:01:06.267, position=(487113.625,5380284.000)
+
+plotLoc1: input=M2345-170606-184500.wav, sel=(65.733 s, 13250.00 Hz) to (66.801 s, 33489.13 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\testM2345-170606-184500-0024.wav
+
+plotLoc1: input=M2345-170606-184500.wav, sel=(65.733 s, 13250.00 Hz) to (66.801 s, 33489.13 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\testM2345-170606-184500-0025.wav
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-184500.wav' localTimeNow=2017 Oct 10 21:50:49.
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0026.wav
+
+Location: time=2000 Jan  1 01:02:19.600, phone  1-2  delay=  -0.051495 s
+Location: time=2000 Jan  1 01:02:19.600, phone  1-3  delay=  +0.154041 s
+Location: time=2000 Jan  1 01:02:19.600, phone  1-4  delay=  +0.020353 s
+Location: time=2000 Jan  1 01:02:19.600, phone  2-3  delay=  -0.097718 s
+Location: time=2000 Jan  1 01:02:19.600, phone  2-4  delay=  -0.075313 s
+Location: time=2000 Jan  1 01:02:19.600, phone  3-4  delay=  -0.023105 s
+Location: time=2000 Jan  1 01:02:19.600, position=(486999.812,5380128.000)
+
+plotLoc1: input=M2345-170606-184500.wav, sel=(138.918 s, 10320.65 Hz) to (140.281 s, 43608.70 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\testM2345-170606-184500-0027.wav
+
+plotLoc2: input=M2345-170606-184500.wav, sel=(138.918 s, 10320.65 Hz) to (140.281 s, 43608.70 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc2: input=M2345-170606-184500.wav, sel=(138.918 s, 10320.65 Hz) to (140.281 s, 43608.70 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-184500.wav' localTimeNow=2017 Oct 10 21:54:07.
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0030.wav
+Location: time=2000 Jan  1 01:00:04.180, phone  1-2  delay=  -0.006559 s
+Location: time=2000 Jan  1 01:00:04.180, phone  1-3  delay=  -0.108186 s
+Location: time=2000 Jan  1 01:00:04.180, phone  1-4  delay=  -0.071019 s
+Location: time=2000 Jan  1 01:00:04.180, phone  2-3  delay=  +0.221655 s
+Location: time=2000 Jan  1 01:00:04.180, phone  2-4  delay=  +0.007153 s
+Location: time=2000 Jan  1 01:00:04.180, phone  3-4  delay=  -0.723382 s
+Location: time=2000 Jan  1 01:00:04.180, position=(-40016465920.000,-9130424320.000)
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0031.wav
+Location: time=2000 Jan  1 01:00:03.850, phone  1-2  delay=  +0.059874 s
+Location: time=2000 Jan  1 01:00:03.850, phone  1-3  delay=  +0.029701 s
+Location: time=2000 Jan  1 01:00:03.850, phone  1-4  delay=  -0.009938 s
+Location: time=2000 Jan  1 01:00:03.850, phone  2-3  delay=  -0.035400 s
+Location: time=2000 Jan  1 01:00:03.850, phone  2-4  delay=  +0.199054 s
+Location: time=2000 Jan  1 01:00:03.850, phone  3-4  delay=  -0.724387 s
+Location: time=2000 Jan  1 01:00:03.850, position=(34201382912.000,-8362818560.000)
+plotLoc0: input=M2345-170606-184500.wav
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0032.wav
+Location: time=2000 Jan  1 01:02:50.614, phone  1-2  delay=  -0.827801 s
+Location: time=2000 Jan  1 01:02:50.614, phone  1-3  delay=  -0.328607 s
+Location: time=2000 Jan  1 01:02:50.614, phone  1-4  delay=  -0.483444 s
+Location: time=2000 Jan  1 01:02:50.614, phone  2-3  delay=  +0.061107 s
+Location: time=2000 Jan  1 01:02:50.614, phone  2-4  delay=  +0.344338 s
+Location: time=2000 Jan  1 01:02:50.614, phone  3-4  delay=  +0.283271 s
+Location: time=2000 Jan  1 01:02:50.614, position=(-12671056896.000,14875220992.000)
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0033.wav
+Location: time=2000 Jan  1 01:03:15.616, phone  1-2  delay=  -0.042002 s
+Location: time=2000 Jan  1 01:03:15.616, phone  1-3  delay=  -1.293640 s
+Location: time=2000 Jan  1 01:03:15.616, phone  1-4  delay=  -1.012079 s
+Location: time=2000 Jan  1 01:03:15.616, phone  2-3  delay=  +0.355039 s
+Location: time=2000 Jan  1 01:03:15.616, phone  2-4  delay=  +0.572934 s
+Location: time=2000 Jan  1 01:03:15.616, phone  3-4  delay=  +0.281532 s
+Location: time=2000 Jan  1 01:03:15.616, position=(-11505544192.000,9132005376.000)
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0034.wav
+Location: time=2000 Jan  1 01:03:15.602, phone  1-2  delay=  -0.169906 s
+Location: time=2000 Jan  1 01:03:15.602, phone  1-3  delay=  -1.293661 s
+Location: time=2000 Jan  1 01:03:15.602, phone  1-4  delay=  -1.012202 s
+Location: time=2000 Jan  1 01:03:15.602, phone  2-3  delay=  +0.023090 s
+Location: time=2000 Jan  1 01:03:15.602, phone  2-4  delay=  -0.004003 s
+Location: time=2000 Jan  1 01:03:15.602, phone  3-4  delay=  +0.281537 s
+Location: time=2000 Jan  1 01:03:15.602, position=(-5750605312.000,1923977984.000)
+
+plotLoc0: input=M2345-170606-184500.wav, sel=(194.822 s, 9521.74 Hz) to (196.381 s, 36152.18 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc2: input=M2345-170606-184500.wav, sel=(194.822 s, 9521.74 Hz) to (196.381 s, 36152.18 Hz)%WRITE FAILURE!!!!sfile=%s
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0037.wav
+
+Location: time=2000 Jan  1 01:03:21.123, phone  1-2  delay=  -0.109763 s
+Location: time=2000 Jan  1 01:03:21.123, phone  1-3  delay=  +0.028180 s
+Location: time=2000 Jan  1 01:03:21.123, phone  1-4  delay=  -0.064630 s
+Location: time=2000 Jan  1 01:03:21.123, phone  2-3  delay=  +0.094836 s
+Location: time=2000 Jan  1 01:03:21.123, phone  2-4  delay=  -0.106751 s
+Location: time=2000 Jan  1 01:03:21.123, phone  3-4  delay=  +0.096867 s
+Location: time=2000 Jan  1 01:03:21.123, position=(486978.438,5380209.500)
+
+plotLoc0: input=M2345-170606-184500.wav, sel=(200.596 s, 24168.48 Hz) to (201.650 s, 39614.13 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-184500.wav' localTimeNow=2017 Oct 10 21:58:23.
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0039.wav
+Location: time=2000 Jan  1 01:02:50.495, phone  1-2  delay=  -0.829657 s
+Location: time=2000 Jan  1 01:02:50.495, phone  1-3  delay=  -0.034843 s
+Location: time=2000 Jan  1 01:02:50.495, phone  1-4  delay=  -0.483532 s
+Location: time=2000 Jan  1 01:02:50.495, phone  2-3  delay=  +0.064812 s
+Location: time=2000 Jan  1 01:02:50.495, phone  2-4  delay=  +0.344342 s
+Location: time=2000 Jan  1 01:02:50.495, phone  3-4  delay=  +0.283272 s
+Location: time=2000 Jan  1 01:02:50.495, position=(-10283393024.000,13000811520.000)
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0040.wav
+Location: time=2000 Jan  1 01:03:28.204, phone  1-2  delay=  +0.098438 s
+Location: time=2000 Jan  1 01:03:28.204, phone  1-3  delay=  +0.012541 s
+Location: time=2000 Jan  1 01:03:28.204, phone  1-4  delay=  +0.000825 s
+Location: time=2000 Jan  1 01:03:28.204, phone  2-3  delay=  +0.017149 s
+Location: time=2000 Jan  1 01:03:28.204, phone  2-4  delay=  -0.083362 s
+Location: time=2000 Jan  1 01:03:28.204, phone  3-4  delay=  -0.006776 s
+Location: time=2000 Jan  1 01:03:28.204, position=(486976.406,5380114.000)
+
+plotLoc0: input=M2345-170606-184500.wav, sel=(207.565 s, 6858.70 Hz) to (208.844 s, 33222.82 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-184500.wav' localTimeNow=2017 Oct 10 22:00:51.
+
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0042.wav
+Location: time=2000 Jan  1 01:03:15.700, phone  1-2  delay=  +0.093978 s
+Location: time=2000 Jan  1 01:03:15.700, phone  1-3  delay=  -1.293655 s
+Location: time=2000 Jan  1 01:03:15.700, phone  1-4  delay=  -1.012111 s
+Location: time=2000 Jan  1 01:03:15.700, phone  2-3  delay=  +0.051077 s
+Location: time=2000 Jan  1 01:03:15.700, phone  2-4  delay=  +0.327982 s
+Location: time=2000 Jan  1 01:03:15.700, phone  3-4  delay=  +0.281534 s
+Location: time=2000 Jan  1 01:03:15.700, position=(-1271714432.000,546673984.000)
+hyperbolicLocPosition: input=M2345-170606-184500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-184500-0043.wav
+Location: time=2000 Jan  1 01:03:15.552, phone  1-2  delay=  -0.042288 s
+Location: time=2000 Jan  1 01:03:15.552, phone  1-3  delay=  -1.293646 s
+Location: time=2000 Jan  1 01:03:15.552, phone  1-4  delay=  -1.012073 s
+Location: time=2000 Jan  1 01:03:15.552, phone  2-3  delay=  +0.163804 s
+Location: time=2000 Jan  1 01:03:15.552, phone  2-4  delay=  +0.234640 s
+Location: time=2000 Jan  1 01:03:15.552, phone  3-4  delay=  +0.280915 s
+Location: time=2000 Jan  1 01:03:15.552, position=(-4603301376.000,2144377984.000)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-190000.wav' localTimeNow=2017 Oct 10 22:05:37.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-190000.wav' localTimeNow=2017 Oct 10 22:06:00.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-190000.wav' localTimeNow=2017 Oct 10 22:06:05.
+
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0044.wav
+Location: time=2000 Jan  1 01:00:56.687, phone  1-2  delay=  +0.037472 s
+Location: time=2000 Jan  1 01:00:56.687, phone  1-3  delay=  -0.224093 s
+Location: time=2000 Jan  1 01:00:56.687, phone  1-4  delay=  +0.160381 s
+Location: time=2000 Jan  1 01:00:56.687, phone  2-3  delay=  -0.061666 s
+Location: time=2000 Jan  1 01:00:56.687, phone  2-4  delay=  -0.118430 s
+Location: time=2000 Jan  1 01:00:56.687, phone  3-4  delay=  -0.259533 s
+Location: time=2000 Jan  1 01:00:56.687, position=(486894.594,5380074.500)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0045.wav
+Location: time=2000 Jan  1 01:00:56.827, phone  1-2  delay=  +0.019580 s
+Location: time=2000 Jan  1 01:00:56.827, phone  1-3  delay=  -0.230556 s
+Location: time=2000 Jan  1 01:00:56.827, phone  1-4  delay=  -0.024151 s
+Location: time=2000 Jan  1 01:00:56.827, phone  2-3  delay=  -0.052693 s
+Location: time=2000 Jan  1 01:00:56.827, phone  2-4  delay=  +0.017965 s
+Location: time=2000 Jan  1 01:00:56.827, phone  3-4  delay=  +0.322929 s
+Location: time=2000 Jan  1 01:00:56.827, position=(486837.750,5380226.000)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0046.wav
+Location: time=2000 Jan  1 01:00:56.792, phone  1-2  delay=  +0.019584 s
+Location: time=2000 Jan  1 01:00:56.792, phone  1-3  delay=  -0.225941 s
+Location: time=2000 Jan  1 01:00:56.792, phone  1-4  delay=  -0.080790 s
+Location: time=2000 Jan  1 01:00:56.792, phone  2-3  delay=  -0.038868 s
+Location: time=2000 Jan  1 01:00:56.792, phone  2-4  delay=  -0.036383 s
+Location: time=2000 Jan  1 01:00:56.792, phone  3-4  delay=  +0.104305 s
+Location: time=2000 Jan  1 01:00:56.792, position=(486423.438,5380209.500)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0047.wav
+Location: time=2000 Jan  1 01:00:56.799, phone  1-2  delay=  -0.180932 s
+Location: time=2000 Jan  1 01:00:56.799, phone  1-3  delay=  -0.156830 s
+Location: time=2000 Jan  1 01:00:56.799, phone  1-4  delay=  -0.080792 s
+Location: time=2000 Jan  1 01:00:56.799, phone  2-3  delay=  +0.006057 s
+Location: time=2000 Jan  1 01:00:56.799, phone  2-4  delay=  +0.020816 s
+Location: time=2000 Jan  1 01:00:56.799, phone  3-4  delay=  +0.051555 s
+Location: time=2000 Jan  1 01:00:56.799, position=(485390.906,5380563.000)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0048.wav
+Location: time=2000 Jan  1 01:00:55.696, phone  1-2  delay=  +0.016818 s
+Location: time=2000 Jan  1 01:00:55.696, phone  1-3  delay=  +0.064577 s
+Location: time=2000 Jan  1 01:00:55.696, phone  1-4  delay=  -0.153773 s
+Location: time=2000 Jan  1 01:00:55.696, phone  2-3  delay=  -0.022867 s
+Location: time=2000 Jan  1 01:00:55.696, phone  2-4  delay=  +0.093252 s
+Location: time=2000 Jan  1 01:00:55.696, phone  3-4  delay=  +0.018336 s
+Location: time=2000 Jan  1 01:00:55.696, position=(486990.031,5380196.500)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0049.wav
+Location: time=2000 Jan  1 01:00:56.799, phone  1-2  delay=  +0.000375 s
+Location: time=2000 Jan  1 01:00:56.799, phone  1-3  delay=  -0.225290 s
+Location: time=2000 Jan  1 01:00:56.799, phone  1-4  delay=  -0.074353 s
+Location: time=2000 Jan  1 01:00:56.799, phone  2-3  delay=  +0.005607 s
+Location: time=2000 Jan  1 01:00:56.799, phone  2-4  delay=  +0.020814 s
+Location: time=2000 Jan  1 01:00:56.799, phone  3-4  delay=  +0.114971 s
+Location: time=2000 Jan  1 01:00:56.799, position=(486385.938,5380275.000)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0050.wav
+Location: time=2000 Jan  1 01:00:57.850, phone  1-2  delay=  -0.005861 s
+Location: time=2000 Jan  1 01:00:57.850, phone  1-3  delay=  -0.028768 s
+Location: time=2000 Jan  1 01:00:57.850, phone  1-4  delay=  +0.064690 s
+Location: time=2000 Jan  1 01:00:57.850, phone  2-3  delay=  +0.028775 s
+Location: time=2000 Jan  1 01:00:57.850, phone  2-4  delay=  -0.069738 s
+Location: time=2000 Jan  1 01:00:57.850, phone  3-4  delay=  +0.177804 s
+Location: time=2000 Jan  1 01:00:57.850, position=(486982.031,5380192.500)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0051.wav
+Location: time=2000 Jan  1 01:00:56.740, phone  1-2  delay=  +0.000902 s
+Location: time=2000 Jan  1 01:00:56.740, phone  1-3  delay=  -0.225283 s
+Location: time=2000 Jan  1 01:00:56.740, phone  1-4  delay=  -0.026699 s
+Location: time=2000 Jan  1 01:00:56.740, phone  2-3  delay=  +0.005606 s
+Location: time=2000 Jan  1 01:00:56.740, phone  2-4  delay=  -0.061594 s
+Location: time=2000 Jan  1 01:00:56.740, phone  3-4  delay=  +0.095791 s
+Location: time=2000 Jan  1 01:00:56.740, position=(486391.688,5380225.500)
+plotLoc0: input=M2345-170606-190000.wav, sel=(56.582 s, 5793.48 Hz) to (56.898 s, 28429.35 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc0: input=M2345-170606-190000.wav, sel=(56.582 s, 5793.48 Hz) to (56.898 s, 28429.35 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc2: input=M2345-170606-190000.wav, sel=(56.582 s, 5793.48 Hz) to (56.898 s, 28429.35 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-190000.wav' localTimeNow=2017 Oct 10 22:09:29.
+
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0055.wav
+Location: time=2000 Jan  1 01:00:31.815, phone  1-2  delay=  +0.017776 s
+Location: time=2000 Jan  1 01:00:31.815, phone  1-3  delay=  -0.017852 s
+Location: time=2000 Jan  1 01:00:31.815, phone  1-4  delay=  -0.090770 s
+Location: time=2000 Jan  1 01:00:31.815, phone  2-3  delay=  +0.082757 s
+Location: time=2000 Jan  1 01:00:31.815, phone  2-4  delay=  +0.021785 s
+Location: time=2000 Jan  1 01:00:31.815, phone  3-4  delay=  +0.013909 s
+Location: time=2000 Jan  1 01:00:31.815, position=(486996.562,5380205.500)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0056.wav
+Location: time=2000 Jan  1 01:01:31.389, phone  1-2  delay=  -0.121473 s
+Location: time=2000 Jan  1 01:01:31.389, phone  1-3  delay=  -0.090886 s
+Location: time=2000 Jan  1 01:01:31.389, phone  1-4  delay=  -0.144499 s
+Location: time=2000 Jan  1 01:01:31.389, phone  2-3  delay=  +0.600069 s
+Location: time=2000 Jan  1 01:01:31.389, phone  2-4  delay=  +0.703275 s
+Location: time=2000 Jan  1 01:01:31.389, phone  3-4  delay=  +0.108876 s
+Location: time=2000 Jan  1 01:01:31.389, position=(487532.844,5381568.000)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0057.wav
+Location: time=2000 Jan  1 01:04:18.644, phone  1-2  delay=  +0.224339 s
+Location: time=2000 Jan  1 01:04:18.644, phone  1-3  delay=  +0.055349 s
+Location: time=2000 Jan  1 01:04:18.644, phone  1-4  delay=  +0.136030 s
+Location: time=2000 Jan  1 01:04:18.644, phone  2-3  delay=  +0.064327 s
+Location: time=2000 Jan  1 01:04:18.644, phone  2-4  delay=  -0.045822 s
+Location: time=2000 Jan  1 01:04:18.644, phone  3-4  delay=  -0.012838 s
+Location: time=2000 Jan  1 01:04:18.644, position=(487108.312,5380111.500)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0058.wav
+Location: time=2000 Jan  1 01:04:32.562, phone  1-2  delay=  -0.148876 s
+Location: time=2000 Jan  1 01:04:32.562, phone  1-3  delay=  +0.029466 s
+Location: time=2000 Jan  1 01:04:32.562, phone  1-4  delay=  +0.000914 s
+Location: time=2000 Jan  1 01:04:32.562, phone  2-3  delay=  -0.083677 s
+Location: time=2000 Jan  1 01:04:32.562, phone  2-4  delay=  -0.007841 s
+Location: time=2000 Jan  1 01:04:32.562, phone  3-4  delay=  +0.171318 s
+Location: time=2000 Jan  1 01:04:32.562, position=(486948.750,5380224.000)
+hyperbolicLocPosition: input=M2345-170606-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-190000-0059.wav
+Location: time=2000 Jan  1 01:04:37.468, phone  1-2  delay=  +0.228341 s
+Location: time=2000 Jan  1 01:04:37.468, phone  1-3  delay=  -0.123703 s
+Location: time=2000 Jan  1 01:04:37.468, phone  1-4  delay=  -0.084548 s
+Location: time=2000 Jan  1 01:04:37.468, phone  2-3  delay=  -0.064027 s
+Location: time=2000 Jan  1 01:04:37.468, phone  2-4  delay=  -0.020150 s
+Location: time=2000 Jan  1 01:04:37.468, phone  3-4  delay=  +0.178875 s
+Location: time=2000 Jan  1 01:04:37.468, position=(486891.906,5380121.500)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:15:02.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:16:09.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-190000.wav' localTimeNow=2017 Oct 10 22:17:34.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:18:42.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:19:50.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:19:57.
+
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0000.wav
+Location: time=2000 Jan  1 01:02:46.535, phone  1-2  delay=  -0.063747 s
+Location: time=2000 Jan  1 01:02:46.535, phone  1-3  delay=  +0.030919 s
+Location: time=2000 Jan  1 01:02:46.535, phone  1-4  delay=  -0.002118 s
+Location: time=2000 Jan  1 01:02:46.535, phone  2-3  delay=  +0.027932 s
+Location: time=2000 Jan  1 01:02:46.535, phone  2-4  delay=  +0.022942 s
+Location: time=2000 Jan  1 01:02:46.535, phone  3-4  delay=  +0.130794 s
+Location: time=2000 Jan  1 01:02:46.535, position=(487011.938,5380232.500)
+
+plotLoc3: input=M2345-170606-191500.wav, sel=(166.321 s, 11119.57 Hz) to (166.749 s, 34554.35 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:21:35.
+
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0002.wav
+Location: time=2000 Jan  1 01:02:01.193, phone  1-2  delay=  +0.105075 s
+Location: time=2000 Jan  1 01:02:01.193, phone  1-3  delay=  -0.137058 s
+Location: time=2000 Jan  1 01:02:01.193, phone  1-4  delay=  -0.070513 s
+Location: time=2000 Jan  1 01:02:01.193, phone  2-3  delay=  -0.059728 s
+Location: time=2000 Jan  1 01:02:01.193, phone  2-4  delay=  +0.175776 s
+Location: time=2000 Jan  1 01:02:01.193, phone  3-4  delay=  -0.037315 s
+Location: time=2000 Jan  1 01:02:01.193, position=(486951.031,5380200.000)
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0003.wav
+Location: time=2000 Jan  1 01:02:01.198, phone  1-2  delay=  +0.002723 s
+Location: time=2000 Jan  1 01:02:01.198, phone  1-3  delay=  -0.064044 s
+Location: time=2000 Jan  1 01:02:01.198, phone  1-4  delay=  +0.066648 s
+Location: time=2000 Jan  1 01:02:01.198, phone  2-3  delay=  +0.230838 s
+Location: time=2000 Jan  1 01:02:01.198, phone  2-4  delay=  +0.043333 s
+Location: time=2000 Jan  1 01:02:01.198, phone  3-4  delay=  -0.037309 s
+Location: time=2000 Jan  1 01:02:01.198, position=(487129.969,5380275.000)
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0004.wav
+Location: time=2000 Jan  1 01:02:00.065, phone  1-2  delay=  -0.167676 s
+Location: time=2000 Jan  1 01:02:00.065, phone  1-3  delay=  +0.068179 s
+Location: time=2000 Jan  1 01:02:00.065, phone  1-4  delay=  -0.059091 s
+Location: time=2000 Jan  1 01:02:00.065, phone  2-3  delay=  +0.081120 s
+Location: time=2000 Jan  1 01:02:00.065, phone  2-4  delay=  -0.083053 s
+Location: time=2000 Jan  1 01:02:00.065, phone  3-4  delay=  +0.082748 s
+Location: time=2000 Jan  1 01:02:00.065, position=(486998.219,5380232.500)
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0005.wav
+Location: time=2000 Jan  1 01:01:58.342, phone  1-2  delay=  +0.168752 s
+Location: time=2000 Jan  1 01:01:58.342, phone  1-3  delay=  +0.149094 s
+Location: time=2000 Jan  1 01:01:58.342, phone  1-4  delay=  +0.401717 s
+Location: time=2000 Jan  1 01:01:58.342, phone  2-3  delay=  +0.052212 s
+Location: time=2000 Jan  1 01:01:58.342, phone  2-4  delay=  -0.441409 s
+Location: time=2000 Jan  1 01:01:58.342, phone  3-4  delay=  -0.029736 s
+Location: time=2000 Jan  1 01:01:58.342, position=(491818.906,5377402.000)
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0006.wav
+Location: time=2000 Jan  1 01:02:01.203, phone  1-2  delay=  +0.138325 s
+Location: time=2000 Jan  1 01:02:01.203, phone  1-3  delay=  +0.029125 s
+Location: time=2000 Jan  1 01:02:01.203, phone  1-4  delay=  +0.085371 s
+Location: time=2000 Jan  1 01:02:01.203, phone  2-3  delay=  -0.059729 s
+Location: time=2000 Jan  1 01:02:01.203, phone  2-4  delay=  -0.051228 s
+Location: time=2000 Jan  1 01:02:01.203, phone  3-4  delay=  -0.037316 s
+Location: time=2000 Jan  1 01:02:01.203, position=(487002.656,5380099.500)
+
+plotLoc3: input=M2345-170606-191500.wav, sel=(120.781 s, 8722.83 Hz) to (121.625 s, 32690.22 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:24:00.
+
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0008.wav
+Location: time=2000 Jan  1 01:04:18.578, phone  1-2  delay=  -0.228541 s
+Location: time=2000 Jan  1 01:04:18.578, phone  1-3  delay=  -0.526720 s
+Location: time=2000 Jan  1 01:04:18.578, phone  1-4  delay=  -0.355432 s
+Location: time=2000 Jan  1 01:04:18.578, phone  2-3  delay=  -0.258561 s
+Location: time=2000 Jan  1 01:04:18.578, phone  2-4  delay=  +0.047956 s
+Location: time=2000 Jan  1 01:04:18.578, phone  3-4  delay=  +0.186043 s
+Location: time=2000 Jan  1 01:04:18.578, position=(486304.469,5380319.000)
+hyperbolicLocPosition: input=M2345-170606-191500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-191500-0009.wav
+Location: time=2000 Jan  1 01:04:18.628, phone  1-2  delay=  -0.268866 s
+Location: time=2000 Jan  1 01:04:18.628, phone  1-3  delay=  -0.515464 s
+Location: time=2000 Jan  1 01:04:18.628, phone  1-4  delay=  -0.183772 s
+Location: time=2000 Jan  1 01:04:18.628, phone  2-3  delay=  -0.258228 s
+Location: time=2000 Jan  1 01:04:18.628, phone  2-4  delay=  +0.065180 s
+Location: time=2000 Jan  1 01:04:18.628, phone  3-4  delay=  +0.342505 s
+Location: time=2000 Jan  1 01:04:18.628, position=(486608.938,5380294.000)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-191500.wav' localTimeNow=2017 Oct 10 22:27:24.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-193000.wav' localTimeNow=2017 Oct 10 22:28:54.
+
+hyperbolicLocPosition: input=M2345-170606-193000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-193000-0010.wav
+Location: time=2000 Jan  1 01:00:05.255, phone  1-2  delay=  +0.097751 s
+Location: time=2000 Jan  1 01:00:05.255, phone  1-3  delay=  +0.042411 s
+Location: time=2000 Jan  1 01:00:05.255, phone  1-4  delay=  +0.049982 s
+Location: time=2000 Jan  1 01:00:05.255, phone  2-3  delay=  +0.007741 s
+Location: time=2000 Jan  1 01:00:05.255, phone  2-4  delay=  +0.006471 s
+Location: time=2000 Jan  1 01:00:05.255, phone  3-4  delay=  +0.171488 s
+Location: time=2000 Jan  1 01:00:05.255, position=(487035.469,5380177.500)
+
+plotLoc1: input=M2345-170606-193000.wav, sel=(4.848 s, 7923.91 Hz) to (5.663 s, 28163.04 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\testM2345-170606-193000-0011.wav
+
+plotLoc0: input=M2345-170606-193000.wav, sel=(4.848 s, 7923.91 Hz) to (5.663 s, 28163.04 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-193000.wav' localTimeNow=2017 Oct 10 22:29:47.
+
+hyperbolicLocPosition: input=M2345-170606-193000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-193000-0013.wav
+hyperbolicLocPosition: input=M2345-170606-193000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-193000-0014.wav
+Location: time=2000 Jan  1 01:02:49.004, phone  1-2  delay=  -0.021615 s
+Location: time=2000 Jan  1 01:02:49.004, phone  1-3  delay=  +0.000626 s
+Location: time=2000 Jan  1 01:02:49.004, phone  1-4  delay=  +0.127097 s
+Location: time=2000 Jan  1 01:02:49.004, phone  2-3  delay=  +0.088359 s
+Location: time=2000 Jan  1 01:02:49.004, phone  2-4  delay=  -0.018781 s
+Location: time=2000 Jan  1 01:02:49.004, phone  3-4  delay=  -0.030079 s
+Location: time=2000 Jan  1 01:02:49.004, position=(487090.062,5380213.500)
+hyperbolicLocPosition: input=M2345-170606-193000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-193000-0015.wav
+Location: time=2000 Jan  1 01:02:49.550, phone  1-2  delay=  +0.067799 s
+Location: time=2000 Jan  1 01:02:49.550, phone  1-3  delay=  -0.030275 s
+Location: time=2000 Jan  1 01:02:49.550, phone  1-4  delay=  +0.004229 s
+Location: time=2000 Jan  1 01:02:49.550, phone  2-3  delay=  +0.113676 s
+Location: time=2000 Jan  1 01:02:49.550, phone  2-4  delay=  -0.201063 s
+Location: time=2000 Jan  1 01:02:49.550, phone  3-4  delay=  -0.150211 s
+Location: time=2000 Jan  1 01:02:49.550, position=(486912.062,5380038.500)
+hyperbolicLocPosition: input=M2345-170606-193000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-193000-0016.wav
+Location: time=2000 Jan  1 01:02:51.383, phone  1-2  delay=  +0.017000 s
+Location: time=2000 Jan  1 01:02:51.383, phone  1-3  delay=  -0.021307 s
+Location: time=2000 Jan  1 01:02:51.383, phone  1-4  delay=  -0.014355 s
+Location: time=2000 Jan  1 01:02:51.383, phone  2-3  delay=  +0.143624 s
+Location: time=2000 Jan  1 01:02:51.383, phone  2-4  delay=  -0.012175 s
+Location: time=2000 Jan  1 01:02:51.383, phone  3-4  delay=  -0.116802 s
+Location: time=2000 Jan  1 01:02:51.383, position=(487052.188,5380201.000)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-193000.wav' localTimeNow=2017 Oct 10 22:34:16.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-195000.wav' localTimeNow=2017 Oct 10 22:34:32.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-195000.wav' localTimeNow=2017 Oct 10 22:34:37.
+
+hyperbolicLocPosition: input=M2345-170606-195000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-195000-0017.wav
+Location: time=2000 Jan  1 01:03:50.678, phone  1-2  delay=  -0.087085 s
+Location: time=2000 Jan  1 01:03:50.678, phone  1-3  delay=  -0.070216 s
+Location: time=2000 Jan  1 01:03:50.678, phone  1-4  delay=  +0.055343 s
+Location: time=2000 Jan  1 01:03:50.678, phone  2-3  delay=  +0.039164 s
+Location: time=2000 Jan  1 01:03:50.678, phone  2-4  delay=  -0.181155 s
+Location: time=2000 Jan  1 01:03:50.678, phone  3-4  delay=  -0.009210 s
+Location: time=2000 Jan  1 01:03:50.678, position=(486938.969,5380150.000)
+hyperbolicLocPosition: input=M2345-170606-195000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-195000-0018.wav
+Location: time=2000 Jan  1 01:03:50.703, phone  1-2  delay=  -0.087079 s
+Location: time=2000 Jan  1 01:03:50.703, phone  1-3  delay=  -0.053133 s
+Location: time=2000 Jan  1 01:03:50.703, phone  1-4  delay=  -0.078667 s
+Location: time=2000 Jan  1 01:03:50.703, phone  2-3  delay=  +0.039146 s
+Location: time=2000 Jan  1 01:03:50.703, phone  2-4  delay=  +0.017856 s
+Location: time=2000 Jan  1 01:03:50.703, phone  3-4  delay=  +0.029249 s
+Location: time=2000 Jan  1 01:03:50.703, position=(486959.719,5380232.500)
+hyperbolicLocPosition: input=M2345-170606-195000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-195000-0019.wav
+Location: time=2000 Jan  1 01:03:50.653, phone  1-2  delay=  -0.087088 s
+Location: time=2000 Jan  1 01:03:50.653, phone  1-3  delay=  -0.053149 s
+Location: time=2000 Jan  1 01:03:50.653, phone  1-4  delay=  +0.010009 s
+Location: time=2000 Jan  1 01:03:50.653, phone  2-3  delay=  +0.039126 s
+Location: time=2000 Jan  1 01:03:50.653, phone  2-4  delay=  +0.018020 s
+Location: time=2000 Jan  1 01:03:50.653, phone  3-4  delay=  -0.009211 s
+Location: time=2000 Jan  1 01:03:50.653, position=(486993.688,5380232.500)
+plotLoc3: input=M2345-170606-195000.wav, sel=(230.499 s, 2065.22 Hz) to (230.807 s, 11119.57 Hz)%WRITE FAILURE!!!!sfile=%s
+
+hyperbolicLocPosition: input=M2345-170606-195000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-195000-0021.wav
+
+Location: time=2000 Jan  1 01:04:38.027, phone  1-2  delay=  -0.025448 s
+Location: time=2000 Jan  1 01:04:38.027, phone  1-3  delay=  -0.043880 s
+Location: time=2000 Jan  1 01:04:38.027, phone  1-4  delay=  +0.011982 s
+Location: time=2000 Jan  1 01:04:38.027, phone  2-3  delay=  +0.022742 s
+Location: time=2000 Jan  1 01:04:38.027, phone  2-4  delay=  +0.002014 s
+Location: time=2000 Jan  1 01:04:38.027, phone  3-4  delay=  +0.049184 s
+Location: time=2000 Jan  1 01:04:38.027, position=(486985.750,5380207.000)
+
+plotLoc0: input=M2345-170606-195000.wav, sel=(277.828 s, 10853.26 Hz) to (278.226 s, 34820.65 Hz)%WRITE FAILURE!!!!sfile=%s
+
+hyperbolicLocPosition: input=M2345-170606-195000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-195000-0023.wav
+
+Location: time=2000 Jan  1 01:04:37.967, phone  1-2  delay=  +0.133261 s
+Location: time=2000 Jan  1 01:04:37.967, phone  1-3  delay=  -0.043814 s
+Location: time=2000 Jan  1 01:04:37.967, phone  1-4  delay=  +0.011985 s
+Location: time=2000 Jan  1 01:04:37.967, phone  2-3  delay=  -0.048670 s
+Location: time=2000 Jan  1 01:04:37.967, phone  2-4  delay=  +0.016840 s
+Location: time=2000 Jan  1 01:04:37.967, phone  3-4  delay=  +0.008706 s
+Location: time=2000 Jan  1 01:04:37.967, position=(486973.000,5380138.000)
+
+plotLoc3: input=M2345-170606-195000.wav, sel=(277.808 s, 13516.30 Hz) to (278.126 s, 37483.70 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-195000.wav' localTimeNow=2017 Oct 10 22:43:47.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-195000.wav' localTimeNow=2017 Oct 10 22:44:59.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 10 22:45:17.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 10 22:45:22.
+
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0025.wav
+Location: time=2000 Jan  1 01:00:01.450, phone  1-2  delay=  -0.203788 s
+Location: time=2000 Jan  1 01:00:01.450, phone  1-3  delay=  +0.027906 s
+Location: time=2000 Jan  1 01:00:01.450, phone  1-4  delay=  -0.110880 s
+Location: time=2000 Jan  1 01:00:01.450, phone  2-3  delay=  -0.236936 s
+Location: time=2000 Jan  1 01:00:01.450, phone  2-4  delay=  -1.404843 s
+Location: time=2000 Jan  1 01:00:01.450, phone  3-4  delay=  -1.174112 s
+Location: time=2000 Jan  1 01:00:01.450, position=(486705.000,5379803.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0026.wav
+Location: time=2000 Jan  1 01:00:01.555, phone  1-2  delay=  -0.278045 s
+Location: time=2000 Jan  1 01:00:01.555, phone  1-3  delay=  +0.075601 s
+Location: time=2000 Jan  1 01:00:01.555, phone  1-4  delay=  -1.698201 s
+Location: time=2000 Jan  1 01:00:01.555, phone  2-3  delay=  -0.246581 s
+Location: time=2000 Jan  1 01:00:01.555, phone  2-4  delay=  -1.419588 s
+Location: time=2000 Jan  1 01:00:01.555, phone  3-4  delay=  -1.171723 s
+Location: time=2000 Jan  1 01:00:01.555, position=(486705.000,5379803.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0027.wav
+Location: time=2000 Jan  1 01:00:48.484, phone  1-2  delay=  -0.080171 s
+Location: time=2000 Jan  1 01:00:48.484, phone  1-3  delay=  -0.006520 s
+Location: time=2000 Jan  1 01:00:48.484, phone  1-4  delay=  -0.052812 s
+Location: time=2000 Jan  1 01:00:48.484, phone  2-3  delay=  +0.074915 s
+Location: time=2000 Jan  1 01:00:48.484, phone  2-4  delay=  +0.044352 s
+Location: time=2000 Jan  1 01:00:48.484, phone  3-4  delay=  -0.141430 s
+Location: time=2000 Jan  1 01:00:48.484, position=(487032.344,5380233.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0028.wav
+Location: time=2000 Jan  1 01:02:17.964, phone  1-2  delay=  -0.102824 s
+Location: time=2000 Jan  1 01:02:17.964, phone  1-3  delay=  -0.034953 s
+Location: time=2000 Jan  1 01:02:17.964, phone  1-4  delay=  -0.268759 s
+Location: time=2000 Jan  1 01:02:17.964, phone  2-3  delay=  -0.249399 s
+Location: time=2000 Jan  1 01:02:17.964, phone  2-4  delay=  +0.063950 s
+Location: time=2000 Jan  1 01:02:17.964, phone  3-4  delay=  -0.204630 s
+Location: time=2000 Jan  1 01:02:17.964, position=(-13727850496.000,-1224247808.000)
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 10 22:48:35.
+
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0029.wav
+Location: time=2000 Jan  1 01:00:01.361, phone  1-2  delay=  -0.278632 s
+Location: time=2000 Jan  1 01:00:01.361, phone  1-3  delay=  +0.075745 s
+Location: time=2000 Jan  1 01:00:01.361, phone  1-4  delay=  -1.683719 s
+Location: time=2000 Jan  1 01:00:01.361, phone  2-3  delay=  -0.246574 s
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:21:23.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:21:48.
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0000.wav
+Location: time=2000 Jan  1 01:00:48.609, phone  1-2  delay=  +0.053569 s
+Location: time=2000 Jan  1 01:00:48.609, phone  1-3  delay=  +0.363169 s
+Location: time=2000 Jan  1 01:00:48.609, phone  1-4  delay=  -0.045423 s
+Location: time=2000 Jan  1 01:00:48.609, phone  2-3  delay=  +0.074925 s
+Location: time=2000 Jan  1 01:00:48.609, phone  2-4  delay=  +1.424984 s
+Location: time=2000 Jan  1 01:00:48.609, phone  3-4  delay=  -0.264857 s
+Location: time=2000 Jan  1 01:00:48.609, position=(21150343168.000,20233603072.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0001.wav
+Location: time=2000 Jan  1 01:00:48.967, phone  1-2  delay=  +0.053592 s
+Location: time=2000 Jan  1 01:00:48.967, phone  1-3  delay=  +0.153346 s
+Location: time=2000 Jan  1 01:00:48.967, phone  1-4  delay=  +0.276020 s
+Location: time=2000 Jan  1 01:00:48.967, phone  2-3  delay=  +0.074934 s
+Location: time=2000 Jan  1 01:00:48.967, phone  2-4  delay=  -0.036888 s
+Location: time=2000 Jan  1 01:00:48.967, phone  3-4  delay=  -0.129736 s
+Location: time=2000 Jan  1 01:00:48.967, position=(44789829632.000,-4874199552.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0002.wav
+Location: time=2000 Jan  1 01:01:32.913, phone  1-2  delay=  -0.277478 s
+Location: time=2000 Jan  1 01:01:32.913, phone  1-3  delay=  -0.515595 s
+Location: time=2000 Jan  1 01:01:32.913, phone  1-4  delay=  -0.032964 s
+Location: time=2000 Jan  1 01:01:32.913, phone  2-3  delay=  -0.237827 s
+Location: time=2000 Jan  1 01:01:32.913, phone  2-4  delay=  -0.134125 s
+Location: time=2000 Jan  1 01:01:32.913, phone  3-4  delay=  +0.260664 s
+Location: time=2000 Jan  1 01:01:32.913, position=(486621.219,5380243.000)
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:28:59.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:29:17.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:29:31.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:29:56.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:30:01.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:30:22.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:30:27.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:30:35.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:30:57.
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0003.wav
+Location: time=2000 Jan  1 01:00:02.075, phone  1-2  delay=  -0.278996 s
+Location: time=2000 Jan  1 01:00:02.075, phone  1-3  delay=  -0.522640 s
+Location: time=2000 Jan  1 01:00:02.075, phone  1-4  delay=  +0.093831 s
+Location: time=2000 Jan  1 01:00:02.075, phone  2-3  delay=  -0.247527 s
+Location: time=2000 Jan  1 01:00:02.075, phone  2-4  delay=  -0.011097 s
+Location: time=2000 Jan  1 01:00:02.075, phone  3-4  delay=  +0.123084 s
+Location: time=2000 Jan  1 01:00:02.075, position=(486628.531,5380275.000)
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 13:38:01.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 21:05:35.
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0004.wav
+Location: time=2000 Jan  1 01:00:01.411, phone  1-2  delay=  -0.278946 s
+Location: time=2000 Jan  1 01:00:01.411, phone  1-3  delay=  -0.520806 s
+Location: time=2000 Jan  1 01:00:01.411, phone  1-4  delay=  -1.683870 s
+Location: time=2000 Jan  1 01:00:01.411, phone  2-3  delay=  -0.242958 s
+Location: time=2000 Jan  1 01:00:01.411, phone  2-4  delay=  -1.404592 s
+Location: time=2000 Jan  1 01:00:01.411, phone  3-4  delay=  -1.161852 s
+Location: time=2000 Jan  1 01:00:01.411, position=(486705.000,5379803.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0005.wav
+Location: time=2000 Jan  1 01:00:02.133, phone  1-2  delay=  -0.278916 s
+Location: time=2000 Jan  1 01:00:02.133, phone  1-3  delay=  -0.522609 s
+Location: time=2000 Jan  1 01:00:02.133, phone  1-4  delay=  +0.148375 s
+Location: time=2000 Jan  1 01:00:02.133, phone  2-3  delay=  -0.247671 s
+Location: time=2000 Jan  1 01:00:02.133, phone  2-4  delay=  -0.176290 s
+Location: time=2000 Jan  1 01:00:02.133, phone  3-4  delay=  +0.122843 s
+Location: time=2000 Jan  1 01:00:02.133, position=(486636.656,5380225.000)
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 21:07:00.
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0006.wav
+Location: time=2000 Jan  1 01:00:55.398, phone  1-2  delay=  -0.278061 s
+Location: time=2000 Jan  1 01:00:55.398, phone  1-3  delay=  -0.528456 s
+Location: time=2000 Jan  1 01:00:55.398, phone  1-4  delay=  -0.088315 s
+Location: time=2000 Jan  1 01:00:55.398, phone  2-3  delay=  -0.250393 s
+Location: time=2000 Jan  1 01:00:55.398, phone  2-4  delay=  -0.006407 s
+Location: time=2000 Jan  1 01:00:55.398, phone  3-4  delay=  -0.041499 s
+Location: time=2000 Jan  1 01:00:55.398, position=(486178.250,5380323.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0007.wav
+Location: time=2000 Jan  1 01:00:55.084, phone  1-2  delay=  -0.277951 s
+Location: time=2000 Jan  1 01:00:55.084, phone  1-3  delay=  -0.527990 s
+Location: time=2000 Jan  1 01:00:55.084, phone  1-4  delay=  -0.052936 s
+Location: time=2000 Jan  1 01:00:55.084, phone  2-3  delay=  -0.250357 s
+Location: time=2000 Jan  1 01:00:55.084, phone  2-4  delay=  +0.266798 s
+Location: time=2000 Jan  1 01:00:55.084, phone  3-4  delay=  -0.030568 s
+Location: time=2000 Jan  1 01:00:55.084, position=(486404.531,5380420.500)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0008.wav
+Location: time=2000 Jan  1 01:01:03.158, phone  1-2  delay=  -0.278894 s
+Location: time=2000 Jan  1 01:01:03.158, phone  1-3  delay=  -0.530612 s
+Location: time=2000 Jan  1 01:01:03.158, phone  1-4  delay=  -0.109408 s
+Location: time=2000 Jan  1 01:01:03.158, phone  2-3  delay=  -0.250571 s
+Location: time=2000 Jan  1 01:01:03.158, phone  2-4  delay=  -0.039870 s
+Location: time=2000 Jan  1 01:01:03.158, phone  3-4  delay=  +0.098324 s
+Location: time=2000 Jan  1 01:01:03.158, position=(486416.156,5380287.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0009.wav
+Location: time=2000 Jan  1 01:01:05.139, phone  1-2  delay=  -0.277946 s
+Location: time=2000 Jan  1 01:01:05.139, phone  1-3  delay=  -0.528650 s
+Location: time=2000 Jan  1 01:01:05.139, phone  1-4  delay=  -0.232406 s
+Location: time=2000 Jan  1 01:01:05.139, phone  2-3  delay=  -0.250710 s
+Location: time=2000 Jan  1 01:01:05.139, phone  2-4  delay=  +0.034024 s
+Location: time=2000 Jan  1 01:01:05.139, phone  3-4  delay=  +0.007981 s
+Location: time=2000 Jan  1 01:01:05.139, position=(485957.469,5380386.500)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0010.wav
+Location: time=2000 Jan  1 01:01:17.651, phone  1-2  delay=  -0.278215 s
+Location: time=2000 Jan  1 01:01:17.651, phone  1-3  delay=  -0.529598 s
+Location: time=2000 Jan  1 01:01:17.651, phone  1-4  delay=  -0.058385 s
+Location: time=2000 Jan  1 01:01:17.651, phone  2-3  delay=  -0.251339 s
+Location: time=2000 Jan  1 01:01:17.651, phone  2-4  delay=  +0.006434 s
+Location: time=2000 Jan  1 01:01:17.651, phone  3-4  delay=  -0.007403 s
+Location: time=2000 Jan  1 01:01:17.651, position=(486324.906,5380313.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0011.wav
+Location: time=2000 Jan  1 01:01:32.491, phone  1-2  delay=  -0.277614 s
+Location: time=2000 Jan  1 01:01:32.491, phone  1-3  delay=  -0.492686 s
+Location: time=2000 Jan  1 01:01:32.491, phone  1-4  delay=  +0.042391 s
+Location: time=2000 Jan  1 01:01:32.491, phone  2-3  delay=  -0.249996 s
+Location: time=2000 Jan  1 01:01:32.491, phone  2-4  delay=  +0.000660 s
+Location: time=2000 Jan  1 01:01:32.491, phone  3-4  delay=  +0.018439 s
+Location: time=2000 Jan  1 01:01:32.491, position=(486489.125,5380290.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0012.wav
+Location: time=2000 Jan  1 01:01:39.054, phone  1-2  delay=  -0.246625 s
+Location: time=2000 Jan  1 01:01:39.054, phone  1-3  delay=  -0.526641 s
+Location: time=2000 Jan  1 01:01:39.054, phone  1-4  delay=  -0.173590 s
+Location: time=2000 Jan  1 01:01:39.054, phone  2-3  delay=  -0.246652 s
+Location: time=2000 Jan  1 01:01:39.054, phone  2-4  delay=  -0.223591 s
+Location: time=2000 Jan  1 01:01:39.054, phone  3-4  delay=  -0.085551 s
+Location: time=2000 Jan  1 01:01:39.054, position=(485775.812,5380164.500)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0013.wav
+Location: time=2000 Jan  1 01:01:39.074, phone  1-2  delay=  -0.274843 s
+Location: time=2000 Jan  1 01:01:39.074, phone  1-3  delay=  -0.529968 s
+Location: time=2000 Jan  1 01:01:39.074, phone  1-4  delay=  -0.042679 s
+Location: time=2000 Jan  1 01:01:39.074, phone  2-3  delay=  -0.251713 s
+Location: time=2000 Jan  1 01:01:39.074, phone  2-4  delay=  +0.028242 s
+Location: time=2000 Jan  1 01:01:39.074, phone  3-4  delay=  +0.019226 s
+Location: time=2000 Jan  1 01:01:39.074, position=(486407.688,5380311.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0014.wav
+Location: time=2000 Jan  1 01:02:02.019, phone  1-2  delay=  -0.275964 s
+Location: time=2000 Jan  1 01:02:02.019, phone  1-3  delay=  -0.529667 s
+Location: time=2000 Jan  1 01:02:02.019, phone  1-4  delay=  +0.071412 s
+Location: time=2000 Jan  1 01:02:02.019, phone  2-3  delay=  -0.247788 s
+Location: time=2000 Jan  1 01:02:02.019, phone  2-4  delay=  +0.290139 s
+Location: time=2000 Jan  1 01:02:02.019, phone  3-4  delay=  -0.046411 s
+Location: time=2000 Jan  1 01:02:02.019, position=(486564.000,5380387.500)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0015.wav
+Location: time=2000 Jan  1 01:02:15.245, phone  1-2  delay=  -0.246666 s
+Location: time=2000 Jan  1 01:02:15.245, phone  1-3  delay=  -0.526848 s
+Location: time=2000 Jan  1 01:02:15.245, phone  1-4  delay=  -0.155936 s
+Location: time=2000 Jan  1 01:02:15.245, phone  2-3  delay=  -0.147774 s
+Location: time=2000 Jan  1 01:02:15.245, phone  2-4  delay=  -0.089192 s
+Location: time=2000 Jan  1 01:02:15.245, phone  3-4  delay=  +0.140444 s
+Location: time=2000 Jan  1 01:02:15.245, position=(486293.438,5380308.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0016.wav
+Location: time=2000 Jan  1 01:02:26.307, phone  1-2  delay=  -0.246731 s
+Location: time=2000 Jan  1 01:02:26.307, phone  1-3  delay=  -0.493311 s
+Location: time=2000 Jan  1 01:02:26.307, phone  1-4  delay=  -0.201876 s
+Location: time=2000 Jan  1 01:02:26.307, phone  2-3  delay=  -0.248114 s
+Location: time=2000 Jan  1 01:02:26.307, phone  2-4  delay=  -0.158154 s
+Location: time=2000 Jan  1 01:02:26.307, phone  3-4  delay=  +0.034779 s
+Location: time=2000 Jan  1 01:02:26.307, position=(486124.688,5380226.500)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0017.wav
+Location: time=2000 Jan  1 01:04:09.831, phone  1-2  delay=  -0.275261 s
+Location: time=2000 Jan  1 01:04:09.831, phone  1-3  delay=  +0.081389 s
+Location: time=2000 Jan  1 01:04:09.831, phone  1-4  delay=  -0.081192 s
+Location: time=2000 Jan  1 01:04:09.831, phone  2-3  delay=  -0.189369 s
+Location: time=2000 Jan  1 01:04:09.831, phone  2-4  delay=  -0.188924 s
+Location: time=2000 Jan  1 01:04:09.831, phone  3-4  delay=  -0.159276 s
+Location: time=2000 Jan  1 01:04:09.831, position=(-16217752576.000,-2606530304.000)
+hyperbolicLocPosition: input=M2345-170606-200500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-200500-0018.wav
+Location: time=2000 Jan  1 01:04:09.826, phone  1-2  delay=  -0.275272 s
+Location: time=2000 Jan  1 01:04:09.826, phone  1-3  delay=  +0.036388 s
+Location: time=2000 Jan  1 01:04:09.826, phone  1-4  delay=  -0.074493 s
+Location: time=2000 Jan  1 01:04:09.826, phone  2-3  delay=  -0.247202 s
+Location: time=2000 Jan  1 01:04:09.826, phone  2-4  delay=  -0.027896 s
+Location: time=2000 Jan  1 01:04:09.826, phone  3-4  delay=  +0.122880 s
+Location: time=2000 Jan  1 01:04:09.826, position=(486347.469,5380262.000)
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:13:41.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:13:48.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:15:03.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:18:09.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 21:19:08.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-200500.wav' localTimeNow=2017 Oct 11 21:19:14.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:19:54.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:19:59.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:21:35.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-202500.wav' localTimeNow=2017 Oct 11 21:24:37.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-204500.wav' localTimeNow=2017 Oct 11 21:25:33.
+hyperbolicLocPosition: input=M2345-170606-204500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\testM2345-170606-204500-0019.wav
+Location: time=2000 Jan  1 01:04:39.986, phone  1-2  delay=  +0.006616 s
+Location: time=2000 Jan  1 01:04:39.986, phone  1-3  delay=  -0.934401 s
+Location: time=2000 Jan  1 01:04:39.986, phone  1-4  delay=  +0.127681 s
+Location: time=2000 Jan  1 01:04:39.986, phone  2-3  delay=  -0.102620 s
+Location: time=2000 Jan  1 01:04:39.986, phone  2-4  delay=  -3.614909 s
+Location: time=2000 Jan  1 01:04:39.986, phone  3-4  delay=  +0.080965 s
+Location: time=2000 Jan  1 01:04:39.986, position=(486705.000,5379803.000)
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\Multichannel_Output_96000\M2345-170606-204500.wav' localTimeNow=2017 Oct 11 21:27:05.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_48000\M234-170601-220000.wav' localTimeNow=2017 Oct 15 13:17:01.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_48000\M234-170601-220000.wav' localTimeNow=2017 Oct 15 13:17:39.
+
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_48000\M234-170601-220000.wav' localTimeNow=2017 Oct 15 13:17:44.
+
+Hyperbolic: input=M234-170601-220000.wav, sel=(23.160 s, 9236.69 Hz) to (24.375 s, 12550.00 Hz)
+
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\04JUN17\Multichannel_Output\M-170604-021000.wav' localTimeNow=2017 Sep 20 15:30:02.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\04JUN17\Multichannel_Output\M-170604-055000.wav' localTimeNow=2017 Sep 20 15:31:26.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\04JUN17\Multichannel_Output\M-170604-132500.wav' localTimeNow=2017 Sep 20 15:32:19.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\04JUN17\Multichannel_Output\M-170604-132500.wav' localTimeNow=2017 Sep 20 15:32:45.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\04JUN17\Multichannel_Output\M-170604-144500.wav' localTimeNow=2017 Sep 20 15:33:42.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\04JUN17\Multichannel_Output\M-170604-144500.wav' localTimeNow=2017 Sep 20 15:34:02.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202000.wav' localTimeNow=2017 Sep 21 17:17:11.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202000.wav' localTimeNow=2017 Sep 21 17:17:20.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202000.wav' localTimeNow=2017 Sep 21 17:17:33.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202000.wav' localTimeNow=2017 Sep 21 17:17:50.
+Location: time=2000 Jan  1 01:00:21.326, phone  1-2  delay=  +0.159626 s
+Location: time=2000 Jan  1 01:00:21.326, phone  1-3  delay=  -0.000274 s
+Location: time=2000 Jan  1 01:00:21.326, phone  1-4  delay=  +0.000530 s
+Location: time=2000 Jan  1 01:00:21.326, phone  2-3  delay=  -0.541118 s
+Location: time=2000 Jan  1 01:00:21.326, phone  2-4  delay=  -0.005343 s
+Location: time=2000 Jan  1 01:00:21.326, phone  3-4  delay=  -0.001267 s
+Location: time=2000 Jan  1 01:00:21.326, position=(126192296.000,283906336.000)
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202000.wav' localTimeNow=2017 Sep 21 17:20:44.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202000.wav' localTimeNow=2017 Sep 21 17:21:13.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202500.wav' localTimeNow=2017 Sep 21 17:21:39.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-202500.wav' localTimeNow=2017 Sep 21 17:21:55.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-204000.wav' localTimeNow=2017 Sep 21 17:22:19.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-204000.wav' localTimeNow=2017 Sep 21 17:22:45.
+StartFile: inputFile='G:\_San Juan Island 2017\_Field Recordings\1JUNE2017\Multichannel_Output_24K\M-170601-204500.wav' localTimeNow=2017 Sep 21 17:23:30.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-221500.wav' localTimeNow=2017 Sep 21 18:01:13.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-221500.wav' localTimeNow=2017 Sep 21 18:05:38.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-221500.wav' localTimeNow=2017 Sep 21 18:06:05.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-221500.wav' localTimeNow=2017 Sep 21 18:06:17.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-221500.wav' localTimeNow=2017 Sep 21 18:07:11.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-221500.wav' localTimeNow=2017 Sep 21 18:07:22.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-222000.wav' localTimeNow=2017 Sep 21 18:07:35.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-222000.wav' localTimeNow=2017 Sep 21 18:07:45.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-222000.wav' localTimeNow=2017 Sep 21 18:08:31.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-222000.wav' localTimeNow=2017 Sep 21 18:08:54.
+StartFile: inputFile='E:\SanJuanIsland(FHL)May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-222000.wav' localTimeNow=2017 Sep 21 18:08:57.
+Hyperbolic: input=M234-170601-222000.wav, sel=(46.387 s, 6359.45 Hz) to (49.596 s, 10064.52 Hz)
+Hyperbolic: input=M234-170601-222000.wav, sel=(45.652 s, 5529.95 Hz) to (49.061 s, 8018.43 Hz)
+Hyperbolic: input=M234-170601-222000.wav, sel=(45.920 s, 442.40 Hz) to (50.665 s, 6082.95 Hz)
+Hyperbolic: input=M234-170601-222000.wav, sel=(45.920 s, 442.40 Hz) to (50.665 s, 6082.95 Hz)
+Hyperbolic: input=M234-170601-222000.wav, sel=(45.920 s, 442.40 Hz) to (50.665 s, 6082.95 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 22 17:08:32.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Sep 22 17:08:43.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234filtered-170601-230500.wav' localTimeNow=2017 Sep 22 17:09:35.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-230500.wav' localTimeNow=2017 Sep 22 17:10:17.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234-170601-230500.wav' localTimeNow=2017 Sep 22 17:10:33.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ-170601-231000.wav' localTimeNow=2017 Sep 22 17:18:05.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ-170601-231000.wav' localTimeNow=2017 Sep 22 17:18:29.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ-170601-231000.wav' localTimeNow=2017 Sep 22 17:18:48.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ-170601-231000.wav' localTimeNow=2017 Sep 22 17:19:00.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ2-170601-231000.wav' localTimeNow=2017 Sep 22 17:22:41.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ2-170601-231000.wav' localTimeNow=2017 Sep 22 17:23:25.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ2-170601-231000.wav' localTimeNow=2017 Sep 22 17:23:58.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ2-170601-231000.wav' localTimeNow=2017 Sep 22 17:25:41.
+StartFile: inputFile='E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\Multichannel_Output_24000\M234EQ2-170601-231000.wav' localTimeNow=2017 Sep 22 17:26:57.
+Hyperbolic: input=M234EQ2-170601-231000.wav, sel=(72.914 s, 10355.56 Hz) to (78.431 s, 11555.56 Hz)
+Hyperbolic: input=M234EQ2-170601-231000.wav, sel=(71.535 s, 10133.33 Hz) to (78.491 s, 11200.00 Hz)
+Hyperbolic: input=M234EQ2-170601-231000.wav, sel=(71.535 s, 10133.33 Hz) to (78.491 s, 11200.00 Hz)
+Hyperbolic: input=M234EQ2-170601-231000.wav, sel=(71.535 s, 10133.33 Hz) to (78.491 s, 11200.00 Hz)
+Hyperbolic: input=M234EQ2-170601-231000.wav, sel=(71.535 s, 10133.33 Hz) to (78.491 s, 11200.00 Hz)
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-152500.wav' localTimeNow=2017 Oct 15 13:37:42.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-152500.wav' localTimeNow=2017 Oct 15 13:38:17.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-152500.wav' localTimeNow=2017 Oct 15 13:38:34.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-152500.wav' localTimeNow=2017 Oct 15 13:38:51.
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 13:39:03.
+plotRecorders: input=4CHD1235-170813-190000.wav
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 13:55:02.
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(228.307 s, 423.37 Hz) to (229.200 s, 2104.89 Hz)
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(228.307 s, 423.37 Hz) to (229.200 s, 2104.89 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0021.wav
+
+Location: time=2000 Jan  1 01:03:48.876, phone  1-2  delay=  +0.080043 s
+Location: time=2000 Jan  1 01:03:48.876, phone  1-3  delay=  +0.051071 s
+Location: time=2000 Jan  1 01:03:48.876, phone  1-4  delay=  -0.112272 s
+Location: time=2000 Jan  1 01:03:48.876, phone  2-3  delay=  -0.132780 s
+Location: time=2000 Jan  1 01:03:48.876, phone  2-4  delay=  -0.284132 s
+Location: time=2000 Jan  1 01:03:48.876, phone  3-4  delay=  -0.153049 s
+Location: time=2000 Jan  1 01:03:48.876, position=(-15990295552.000,-9473397760.000)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(228.334 s, 229.35 Hz) to (229.065 s, 2234.24 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(228.334 s, 229.35 Hz) to (229.065 s, 2234.24 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0022.wav
+
+Location: time=2000 Jan  1 01:03:48.605, phone  1-2  delay=  +0.080056 s
+Location: time=2000 Jan  1 01:03:48.605, phone  1-3  delay=  +0.051005 s
+Location: time=2000 Jan  1 01:03:48.605, phone  1-4  delay=  -0.112272 s
+Location: time=2000 Jan  1 01:03:48.605, phone  2-3  delay=  -0.132824 s
+Location: time=2000 Jan  1 01:03:48.605, phone  2-4  delay=  -0.284117 s
+Location: time=2000 Jan  1 01:03:48.605, phone  3-4  delay=  -0.153052 s
+Location: time=2000 Jan  1 01:03:48.605, position=(-5977662464.000,604308160.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0023.wav
+
+Location: time=2000 Jan  1 01:03:48.713, phone  1-2  delay=  +0.079638 s
+Location: time=2000 Jan  1 01:03:48.713, phone  1-3  delay=  +0.098421 s
+Location: time=2000 Jan  1 01:03:48.713, phone  1-4  delay=  -0.112256 s
+Location: time=2000 Jan  1 01:03:48.713, phone  2-3  delay=  -0.088376 s
+Location: time=2000 Jan  1 01:03:48.713, phone  2-4  delay=  -0.192245 s
+Location: time=2000 Jan  1 01:03:48.713, phone  3-4  delay=  -0.189557 s
+Location: time=2000 Jan  1 01:03:48.713, position=(-6187065344.000,-229524320.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0024.wav
+
+Location: time=2000 Jan  1 01:03:48.713, phone  1-2  delay=  +0.079638 s
+Location: time=2000 Jan  1 01:03:48.713, phone  1-3  delay=  +0.098421 s
+Location: time=2000 Jan  1 01:03:48.713, phone  1-4  delay=  -0.112256 s
+Location: time=2000 Jan  1 01:03:48.713, phone  2-3  delay=  -0.088376 s
+Location: time=2000 Jan  1 01:03:48.713, phone  2-4  delay=  -0.192245 s
+Location: time=2000 Jan  1 01:03:48.713, phone  3-4  delay=  -0.189557 s
+Location: time=2000 Jan  1 01:03:48.713, position=(-6187065344.000,-229524320.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:06:26.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:07:02.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:07:13.
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(74.215 s, 164.67 Hz) to (75.514 s, 1134.78 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:08:32.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:09:27.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:09:31.
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(20.266 s, 42.38 Hz) to (21.592 s, 884.22 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0025.wav
+
+Location: time=2000 Jan  1 01:00:20.929, phone  1-2  delay=  -0.139253 s
+Location: time=2000 Jan  1 01:00:20.929, phone  1-3  delay=  -0.044439 s
+Location: time=2000 Jan  1 01:00:20.929, phone  1-4  delay=  +0.058010 s
+Location: time=2000 Jan  1 01:00:20.929, phone  2-3  delay=  +0.094737 s
+Location: time=2000 Jan  1 01:00:20.929, phone  2-4  delay=  +0.197591 s
+Location: time=2000 Jan  1 01:00:20.929, phone  3-4  delay=  +0.050782 s
+Location: time=2000 Jan  1 01:00:20.929, position=(604539.812,4071976.500)
+
+plotLoc1: input=4CHD1235-170813-190000.wav, sel=(20.266 s, 42.38 Hz) to (21.592 s, 884.22 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-190000-0026.wav
+
+plotRecorders: input=4CHD1235-170813-190000.wav
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(43.752 s, 42.38 Hz) to (45.186 s, 1013.73 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0027.wav
+
+Location: time=2000 Jan  1 01:00:44.469, phone  1-2  delay=  -0.141129 s
+Location: time=2000 Jan  1 01:00:44.469, phone  1-3  delay=  -0.026275 s
+Location: time=2000 Jan  1 01:00:44.469, phone  1-4  delay=  +0.048831 s
+Location: time=2000 Jan  1 01:00:44.469, phone  2-3  delay=  +0.115259 s
+Location: time=2000 Jan  1 01:00:44.469, phone  2-4  delay=  +0.189397 s
+Location: time=2000 Jan  1 01:00:44.469, phone  3-4  delay=  +0.075581 s
+Location: time=2000 Jan  1 01:00:44.469, position=(604497.750,4071996.250)
+
+plotLoc1: input=4CHD1235-170813-190000.wav, sel=(43.752 s, 42.38 Hz) to (45.186 s, 1013.73 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-190000-0028.wav
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:11:28.
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(74.323 s, 42.55 Hz) to (75.920 s, 1572.61 Hz)
+
+plotLoc1: input=4CHD1235-170813-190000.wav, sel=(74.323 s, 42.55 Hz) to (75.920 s, 1572.61 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-190000-0029.wav
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:12:30.
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(177.551 s, 74.76 Hz) to (178.931 s, 981.35 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0030.wav
+
+Location: time=2000 Jan  1 01:02:58.241, phone  1-2  delay=  +0.020441 s
+Location: time=2000 Jan  1 01:02:58.241, phone  1-3  delay=  -0.047937 s
+Location: time=2000 Jan  1 01:02:58.241, phone  1-4  delay=  -0.052730 s
+Location: time=2000 Jan  1 01:02:58.241, phone  2-3  delay=  -0.067994 s
+Location: time=2000 Jan  1 01:02:58.241, phone  2-4  delay=  +0.060247 s
+Location: time=2000 Jan  1 01:02:58.241, phone  3-4  delay=  -0.174795 s
+Location: time=2000 Jan  1 01:02:58.241, position=(604292.812,4071945.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0031.wav
+
+Location: time=2000 Jan  1 01:02:58.160, phone  1-2  delay=  +0.020472 s
+Location: time=2000 Jan  1 01:02:58.160, phone  1-3  delay=  -0.047947 s
+Location: time=2000 Jan  1 01:02:58.160, phone  1-4  delay=  -0.052548 s
+Location: time=2000 Jan  1 01:02:58.160, phone  2-3  delay=  -0.067988 s
+Location: time=2000 Jan  1 01:02:58.160, phone  2-4  delay=  +0.060243 s
+Location: time=2000 Jan  1 01:02:58.160, phone  3-4  delay=  -0.174791 s
+Location: time=2000 Jan  1 01:02:58.160, position=(604292.750,4071945.000)
+
+plotLoc2: input=4CHD1235-170813-190000.wav, sel=(177.443 s, 74.76 Hz) to (178.877 s, 981.35 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:13:58.
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(227.875 s, 42.38 Hz) to (229.200 s, 2826.92 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0033.wav
+
+Location: time=2000 Jan  1 01:03:48.537, phone  1-2  delay=  +0.079992 s
+Location: time=2000 Jan  1 01:03:48.537, phone  1-3  delay=  +0.051070 s
+Location: time=2000 Jan  1 01:03:48.537, phone  1-4  delay=  -0.112230 s
+Location: time=2000 Jan  1 01:03:48.537, phone  2-3  delay=  -0.121219 s
+Location: time=2000 Jan  1 01:03:48.537, phone  2-4  delay=  -0.284080 s
+Location: time=2000 Jan  1 01:03:48.537, phone  3-4  delay=  -0.153154 s
+Location: time=2000 Jan  1 01:03:48.537, position=(-9381678080.000,798086912.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0034.wav
+
+Location: time=2000 Jan  1 01:03:48.673, phone  1-2  delay=  +0.080021 s
+Location: time=2000 Jan  1 01:03:48.673, phone  1-3  delay=  +0.051053 s
+Location: time=2000 Jan  1 01:03:48.673, phone  1-4  delay=  -0.112220 s
+Location: time=2000 Jan  1 01:03:48.673, phone  2-3  delay=  -0.121297 s
+Location: time=2000 Jan  1 01:03:48.673, phone  2-4  delay=  -0.284059 s
+Location: time=2000 Jan  1 01:03:48.673, phone  3-4  delay=  -0.153162 s
+Location: time=2000 Jan  1 01:03:48.673, position=(-6739088384.000,575414400.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0035.wav
+
+Location: time=2000 Jan  1 01:03:48.835, phone  1-2  delay=  +0.080064 s
+Location: time=2000 Jan  1 01:03:48.835, phone  1-3  delay=  +0.051059 s
+Location: time=2000 Jan  1 01:03:48.835, phone  1-4  delay=  -0.112280 s
+Location: time=2000 Jan  1 01:03:48.835, phone  2-3  delay=  -0.107160 s
+Location: time=2000 Jan  1 01:03:48.835, phone  2-4  delay=  -0.192397 s
+Location: time=2000 Jan  1 01:03:48.835, phone  3-4  delay=  -0.153219 s
+Location: time=2000 Jan  1 01:03:48.835, position=(-8536518656.000,1270826368.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:16:00.
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0036.wav
+
+Location: time=2000 Jan  1 01:02:58.282, phone  1-2  delay=  +0.020368 s
+Location: time=2000 Jan  1 01:02:58.282, phone  1-3  delay=  -0.047891 s
+Location: time=2000 Jan  1 01:02:58.282, phone  1-4  delay=  -0.052732 s
+Location: time=2000 Jan  1 01:02:58.282, phone  2-3  delay=  -0.067874 s
+Location: time=2000 Jan  1 01:02:58.282, phone  2-4  delay=  +0.196508 s
+Location: time=2000 Jan  1 01:02:58.282, phone  3-4  delay=  +0.154981 s
+Location: time=2000 Jan  1 01:02:58.282, position=(604388.500,4072147.750)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0037.wav
+
+Location: time=2000 Jan  1 01:02:58.268, phone  1-2  delay=  +0.020346 s
+Location: time=2000 Jan  1 01:02:58.268, phone  1-3  delay=  -0.047926 s
+Location: time=2000 Jan  1 01:02:58.268, phone  1-4  delay=  -0.052939 s
+Location: time=2000 Jan  1 01:02:58.268, phone  2-3  delay=  -0.068078 s
+Location: time=2000 Jan  1 01:02:58.268, phone  2-4  delay=  +0.196407 s
+Location: time=2000 Jan  1 01:02:58.268, phone  3-4  delay=  -0.174730 s
+Location: time=2000 Jan  1 01:02:58.268, position=(604337.125,4071970.250)
+
+plotLoc2: input=4CHD1235-170813-190000.wav, sel=(177.713 s, 42.32 Hz) to (178.823 s, 931.24 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:17:30.
+
+Hyperbolic: input=4CHD1235-170813-190000.wav, sel=(228.091 s, 26.16 Hz) to (229.200 s, 2030.27 Hz)
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0039.wav
+Location: time=2000 Jan  1 01:03:48.646, phone  1-2  delay=  +0.080010 s
+Location: time=2000 Jan  1 01:03:48.646, phone  1-3  delay=  +0.051035 s
+Location: time=2000 Jan  1 01:03:48.646, phone  1-4  delay=  -0.112215 s
+Location: time=2000 Jan  1 01:03:48.646, phone  2-3  delay=  -0.121261 s
+Location: time=2000 Jan  1 01:03:48.646, phone  2-4  delay=  -0.284061 s
+Location: time=2000 Jan  1 01:03:48.646, phone  3-4  delay=  -0.153172 s
+Location: time=2000 Jan  1 01:03:48.646, position=(-9879797760.000,841156416.000)
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0040.wav
+Location: time=2000 Jan  1 01:03:48.862, phone  1-2  delay=  +0.080021 s
+Location: time=2000 Jan  1 01:03:48.862, phone  1-3  delay=  +0.051043 s
+Location: time=2000 Jan  1 01:03:48.862, phone  1-4  delay=  -0.112232 s
+Location: time=2000 Jan  1 01:03:48.862, phone  2-3  delay=  -0.121308 s
+Location: time=2000 Jan  1 01:03:48.862, phone  2-4  delay=  -0.284097 s
+Location: time=2000 Jan  1 01:03:48.862, phone  3-4  delay=  -0.153115 s
+Location: time=2000 Jan  1 01:03:48.862, position=(-10631372800.000,906273152.000)
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0041.wav
+Location: time=2000 Jan  1 01:03:48.673, phone  1-2  delay=  +0.080056 s
+Location: time=2000 Jan  1 01:03:48.673, phone  1-3  delay=  +0.051084 s
+Location: time=2000 Jan  1 01:03:48.673, phone  1-4  delay=  -0.112252 s
+Location: time=2000 Jan  1 01:03:48.673, phone  2-3  delay=  -0.132825 s
+Location: time=2000 Jan  1 01:03:48.673, phone  2-4  delay=  -0.284156 s
+Location: time=2000 Jan  1 01:03:48.673, phone  3-4  delay=  -0.153117 s
+Location: time=2000 Jan  1 01:03:48.673, position=(-8685563904.000,874469760.000)
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0042.wav
+Location: time=2000 Jan  1 01:03:48.321, phone  1-2  delay=  -0.427757 s
+Location: time=2000 Jan  1 01:03:48.321, phone  1-3  delay=  -0.138177 s
+Location: time=2000 Jan  1 01:03:48.321, phone  1-4  delay=  -0.111284 s
+Location: time=2000 Jan  1 01:03:48.321, phone  2-3  delay=  +0.414468 s
+Location: time=2000 Jan  1 01:03:48.321, phone  2-4  delay=  +0.433686 s
+Location: time=2000 Jan  1 01:03:48.321, phone  3-4  delay=  +0.053579 s
+Location: time=2000 Jan  1 01:03:48.321, position=(604435.625,4072030.750)
+plotLoc1: input=4CHD1235-170813-190000.wav, sel=(227.956 s, 26.25 Hz) to (228.686 s, 335.00 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-190000-0043.wav
+
+plotLoc1: input=4CHD1235-170813-190000.wav
+
+plotLoc2: input=4CHD1235-170813-190000.wav
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0044.wav
+
+Location: time=2000 Jan  1 01:03:48.362, phone  1-2  delay=  -0.561559 s
+Location: time=2000 Jan  1 01:03:48.362, phone  1-3  delay=  -0.177485 s
+Location: time=2000 Jan  1 01:03:48.362, phone  1-4  delay=  -0.111834 s
+Location: time=2000 Jan  1 01:03:48.362, phone  2-3  delay=  +0.522867 s
+Location: time=2000 Jan  1 01:03:48.362, phone  2-4  delay=  +0.434014 s
+Location: time=2000 Jan  1 01:03:48.362, phone  3-4  delay=  -0.104383 s
+Location: time=2000 Jan  1 01:03:48.362, position=(604435.625,4072030.750)
+
+plotLoc1: input=4CHD1235-170813-190000.wav, sel=(227.902 s, 26.16 Hz) to (228.822 s, 478.70 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-190000-0045.wav
+
+hyperbolicLocPosition: input=4CHD1235-170813-190000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190000-0046.wav
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:21:07.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190000.wav' localTimeNow=2017 Oct 15 23:21:19.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Oct 15 23:23:39.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Oct 15 23:23:51.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Oct 15 23:23:56.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Oct 15 23:24:39.
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(59.096 s, 20.82 Hz) to (60.339 s, 712.99 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(59.096 s, 20.82 Hz) to (60.339 s, 712.99 Hz)
+
+Hyperbolic: input=4CHD1235-170813-190500.wav
+
+Hyperbolic: input=4CHD1235-170813-190500.wav
+Hyperbolic: input=4CHD1235-170813-190500.wav
+
+Hyperbolic: input=4CHD1235-170813-190500.wav
+Hyperbolic: input=4CHD1235-170813-190500.wav
+Hyperbolic: input=4CHD1235-170813-190500.wav
+
+Hyperbolic: input=4CHD1235-170813-190500.wav
+Hyperbolic: input=4CHD1235-170813-190500.wav
+Hyperbolic: input=4CHD1235-170813-190500.wav
+hyperbolicLocPosition: input=4CHD1235-170813-190500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190500-0047.wav
+
+Location: time=2000 Jan  1 01:00:59.737, phone  1-2  delay=  +0.036462 s
+Location: time=2000 Jan  1 01:00:59.737, phone  1-3  delay=  +0.109458 s
+Location: time=2000 Jan  1 01:00:59.737, phone  1-4  delay=  -0.018942 s
+Location: time=2000 Jan  1 01:00:59.737, phone  2-3  delay=  +0.072914 s
+Location: time=2000 Jan  1 01:00:59.737, phone  2-4  delay=  -0.054869 s
+Location: time=2000 Jan  1 01:00:59.737, phone  3-4  delay=  -0.127578 s
+Location: time=2000 Jan  1 01:00:59.737, position=(604257.375,4071953.500)
+
+plotLoc2: input=4CHD1235-170813-190500.wav, sel=(59.153 s, 20.82 Hz) to (60.320 s, 529.13 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc3: input=4CHD1235-170813-190500.wav, sel=(59.153 s, 20.82 Hz) to (60.320 s, 529.13 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Oct 15 23:36:10.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-190500.wav' localTimeNow=2017 Oct 15 23:37:02.
+
+Hyperbolic: input=4CHD1235-170813-190500.wav, sel=(59.057 s, 20.82 Hz) to (60.435 s, 496.68 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-190500.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-190500-0050.wav
+
+Location: time=2000 Jan  1 01:00:59.746, phone  1-2  delay=  +0.036513 s
+Location: time=2000 Jan  1 01:00:59.746, phone  1-3  delay=  +0.109412 s
+Location: time=2000 Jan  1 01:00:59.746, phone  1-4  delay=  -0.018526 s
+Location: time=2000 Jan  1 01:00:59.746, phone  2-3  delay=  +0.072924 s
+Location: time=2000 Jan  1 01:00:59.746, phone  2-4  delay=  -0.054725 s
+Location: time=2000 Jan  1 01:00:59.746, phone  3-4  delay=  -0.127774 s
+Location: time=2000 Jan  1 01:00:59.746, position=(604258.438,4071955.500)
+
+plotLoc0: input=4CHD1235-170813-190500.wav, sel=(59.057 s, 20.82 Hz) to (60.435 s, 496.68 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotRecorders: input=4CHD1235-170813-190500.wav
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:38:47.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:38:55.
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:39:51.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(8.160 s, 42.45 Hz) to (8.945 s, 410.16 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0052.wav
+
+Location: time=2000 Jan  1 01:00:08.552, phone  1-2  delay=  -0.452893 s
+Location: time=2000 Jan  1 01:00:08.552, phone  1-3  delay=  -0.411129 s
+Location: time=2000 Jan  1 01:00:08.552, phone  1-4  delay=  -0.400449 s
+Location: time=2000 Jan  1 01:00:08.552, phone  2-3  delay=  +0.036414 s
+Location: time=2000 Jan  1 01:00:08.552, phone  2-4  delay=  +0.048490 s
+Location: time=2000 Jan  1 01:00:08.552, phone  3-4  delay=  +0.011055 s
+Location: time=2000 Jan  1 01:00:08.552, position=(14455953408.000,-8405190656.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0053.wav
+
+Location: time=2000 Jan  1 01:00:08.634, phone  1-2  delay=  -0.453119 s
+Location: time=2000 Jan  1 01:00:08.634, phone  1-3  delay=  -0.411035 s
+Location: time=2000 Jan  1 01:00:08.634, phone  1-4  delay=  -0.400548 s
+Location: time=2000 Jan  1 01:00:08.634, phone  2-3  delay=  +0.036791 s
+Location: time=2000 Jan  1 01:00:08.634, phone  2-4  delay=  +0.048135 s
+Location: time=2000 Jan  1 01:00:08.634, phone  3-4  delay=  +0.010972 s
+Location: time=2000 Jan  1 01:00:08.634, position=(5248040448.000,-3053620736.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:40:50.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(40.598 s, 203.62 Hz) to (40.741 s, 1204.00 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0054.wav
+Location: time=2000 Jan  1 01:00:40.669, phone  1-2  delay=  -0.002730 s
+Location: time=2000 Jan  1 01:00:40.669, phone  1-3  delay=  +0.096039 s
+Location: time=2000 Jan  1 01:00:40.669, phone  1-4  delay=  -0.045381 s
+Location: time=2000 Jan  1 01:00:40.669, phone  2-3  delay=  -0.034777 s
+Location: time=2000 Jan  1 01:00:40.669, phone  2-4  delay=  -0.021873 s
+Location: time=2000 Jan  1 01:00:40.669, phone  3-4  delay=  -0.099714 s
+Location: time=2000 Jan  1 01:00:40.669, position=(604307.625,4071953.250)
+
+plotLoc3: input=4CHD1235-170813-192000.wav, sel=(40.598 s, 203.62 Hz) to (40.741 s, 1204.00 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:42:09.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(60.239 s, 397.24 Hz) to (60.688 s, 698.43 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0056.wav
+
+Location: time=2000 Jan  1 01:01:00.464, phone  1-2  delay=  +0.158108 s
+Location: time=2000 Jan  1 01:01:00.464, phone  1-3  delay=  -0.224158 s
+Location: time=2000 Jan  1 01:01:00.464, phone  1-4  delay=  +0.103058 s
+Location: time=2000 Jan  1 01:01:00.464, phone  2-3  delay=  -0.340063 s
+Location: time=2000 Jan  1 01:01:00.464, phone  2-4  delay=  -0.235905 s
+Location: time=2000 Jan  1 01:01:00.464, phone  3-4  delay=  +0.265288 s
+Location: time=2000 Jan  1 01:01:00.464, position=(-1530301696.000,4656738816.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:42:58.
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0057.wav
+
+Location: time=2000 Jan  1 01:01:00.492, phone  1-2  delay=  +0.157417 s
+Location: time=2000 Jan  1 01:01:00.492, phone  1-3  delay=  -0.223160 s
+Location: time=2000 Jan  1 01:01:00.492, phone  1-4  delay=  +0.032198 s
+Location: time=2000 Jan  1 01:01:00.492, phone  2-3  delay=  -0.338471 s
+Location: time=2000 Jan  1 01:01:00.492, phone  2-4  delay=  -0.236530 s
+Location: time=2000 Jan  1 01:01:00.492, phone  3-4  delay=  +0.023257 s
+Location: time=2000 Jan  1 01:01:00.492, position=(-11621678080.000,15821355008.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:43:28.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(129.352 s, 496.68 Hz) to (130.232 s, 1762.07 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0058.wav
+
+Location: time=2000 Jan  1 01:02:09.792, phone  1-2  delay=  -0.151240 s
+Location: time=2000 Jan  1 01:02:09.792, phone  1-3  delay=  -0.034828 s
+Location: time=2000 Jan  1 01:02:09.792, phone  1-4  delay=  +0.004114 s
+Location: time=2000 Jan  1 01:02:09.792, phone  2-3  delay=  +0.116255 s
+Location: time=2000 Jan  1 01:02:09.792, phone  2-4  delay=  +0.155282 s
+Location: time=2000 Jan  1 01:02:09.792, phone  3-4  delay=  +0.038990 s
+Location: time=2000 Jan  1 01:02:09.792, position=(605152.750,4071520.250)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:44:48.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(193.553 s, 291.20 Hz) to (194.471 s, 1123.97 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0059.wav
+
+Location: time=2000 Jan  1 01:03:14.012, phone  1-2  delay=  +0.114876 s
+Location: time=2000 Jan  1 01:03:14.012, phone  1-3  delay=  +0.153762 s
+Location: time=2000 Jan  1 01:03:14.012, phone  1-4  delay=  -0.113735 s
+Location: time=2000 Jan  1 01:03:14.012, phone  2-3  delay=  +0.098338 s
+Location: time=2000 Jan  1 01:03:14.012, phone  2-4  delay=  -0.169388 s
+Location: time=2000 Jan  1 01:03:14.012, phone  3-4  delay=  -0.264847 s
+Location: time=2000 Jan  1 01:03:14.012, position=(-4217881600.000,-4384749568.000)
+
+plotRecorders: input=4CHD1235-170813-192000.wav
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:46:42.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(150.954 s, 842.77 Hz) to (151.442 s, 1686.36 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0060.wav
+
+Location: time=2000 Jan  1 01:02:31.198, phone  1-2  delay=  -0.154674 s
+Location: time=2000 Jan  1 01:02:31.198, phone  1-3  delay=  -0.043771 s
+Location: time=2000 Jan  1 01:02:31.198, phone  1-4  delay=  +0.010329 s
+Location: time=2000 Jan  1 01:02:31.198, phone  2-3  delay=  +0.111043 s
+Location: time=2000 Jan  1 01:02:31.198, phone  2-4  delay=  +0.164845 s
+Location: time=2000 Jan  1 01:02:31.198, phone  3-4  delay=  +0.053821 s
+Location: time=2000 Jan  1 01:02:31.198, position=(605155.625,4071588.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:47:44.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(193.964 s, 366.90 Hz) to (194.471 s, 1556.58 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0061.wav
+
+Location: time=2000 Jan  1 01:03:14.218, phone  1-2  delay=  +0.058657 s
+Location: time=2000 Jan  1 01:03:14.218, phone  1-3  delay=  +0.153683 s
+Location: time=2000 Jan  1 01:03:14.218, phone  1-4  delay=  -0.111040 s
+Location: time=2000 Jan  1 01:03:14.218, phone  2-3  delay=  +0.122234 s
+Location: time=2000 Jan  1 01:03:14.218, phone  2-4  delay=  -0.169622 s
+Location: time=2000 Jan  1 01:03:14.218, phone  3-4  delay=  -0.264941 s
+Location: time=2000 Jan  1 01:03:14.218, position=(-3615484160.000,-5906857472.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0062.wav
+
+Location: time=2000 Jan  1 01:03:14.189, phone  1-2  delay=  +0.057385 s
+Location: time=2000 Jan  1 01:03:14.189, phone  1-3  delay=  +0.155135 s
+Location: time=2000 Jan  1 01:03:14.189, phone  1-4  delay=  -0.112353 s
+Location: time=2000 Jan  1 01:03:14.189, phone  2-3  delay=  +0.122252 s
+Location: time=2000 Jan  1 01:03:14.189, phone  2-4  delay=  -0.169735 s
+Location: time=2000 Jan  1 01:03:14.189, phone  3-4  delay=  -0.264977 s
+Location: time=2000 Jan  1 01:03:14.189, position=(-2883147264.000,-4728755712.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0063.wav
+
+Location: time=2000 Jan  1 01:03:14.308, phone  1-2  delay=  +0.058611 s
+Location: time=2000 Jan  1 01:03:14.308, phone  1-3  delay=  +0.154317 s
+Location: time=2000 Jan  1 01:03:14.308, phone  1-4  delay=  -0.112075 s
+Location: time=2000 Jan  1 01:03:14.308, phone  2-3  delay=  +0.106656 s
+Location: time=2000 Jan  1 01:03:14.308, phone  2-4  delay=  -0.169984 s
+Location: time=2000 Jan  1 01:03:14.308, phone  3-4  delay=  -0.266263 s
+Location: time=2000 Jan  1 01:03:14.308, position=(603101.375,4070108.250)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0064.wav
+
+Location: time=2000 Jan  1 01:03:14.232, phone  1-2  delay=  +0.114805 s
+Location: time=2000 Jan  1 01:03:14.232, phone  1-3  delay=  +0.153750 s
+Location: time=2000 Jan  1 01:03:14.232, phone  1-4  delay=  -0.113645 s
+Location: time=2000 Jan  1 01:03:14.232, phone  2-3  delay=  +0.098137 s
+Location: time=2000 Jan  1 01:03:14.232, phone  2-4  delay=  -0.228595 s
+Location: time=2000 Jan  1 01:03:14.232, phone  3-4  delay=  -0.267539 s
+Location: time=2000 Jan  1 01:03:14.232, position=(603969.875,4071741.750)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:50:04.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(80.171 s, 1236.27 Hz) to (80.650 s, 1612.76 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0065.wav
+
+Location: time=2000 Jan  1 01:01:20.411, phone  1-2  delay=  -0.152859 s
+Location: time=2000 Jan  1 01:01:20.411, phone  1-3  delay=  -0.144100 s
+Location: time=2000 Jan  1 01:01:20.411, phone  1-4  delay=  +0.080240 s
+Location: time=2000 Jan  1 01:01:20.411, phone  2-3  delay=  +0.009940 s
+Location: time=2000 Jan  1 01:01:20.411, phone  2-4  delay=  +0.233105 s
+Location: time=2000 Jan  1 01:01:20.411, phone  3-4  delay=  +0.221548 s
+Location: time=2000 Jan  1 01:01:20.411, position=(606930.688,4072589.750)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0066.wav
+
+Location: time=2000 Jan  1 01:01:20.444, phone  1-2  delay=  -0.152852 s
+Location: time=2000 Jan  1 01:01:20.444, phone  1-3  delay=  -0.143490 s
+Location: time=2000 Jan  1 01:01:20.444, phone  1-4  delay=  +0.079826 s
+Location: time=2000 Jan  1 01:01:20.444, phone  2-3  delay=  +0.010651 s
+Location: time=2000 Jan  1 01:01:20.444, phone  2-4  delay=  +0.232926 s
+Location: time=2000 Jan  1 01:01:20.444, phone  3-4  delay=  +0.220744 s
+Location: time=2000 Jan  1 01:01:20.444, position=(606718.875,4072537.750)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:51:17.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(120.956 s, 172.23 Hz) to (122.047 s, 1459.24 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0067.wav
+
+Location: time=2000 Jan  1 01:02:01.501, phone  1-2  delay=  -0.150161 s
+Location: time=2000 Jan  1 01:02:01.501, phone  1-3  delay=  -0.032441 s
+Location: time=2000 Jan  1 01:02:01.501, phone  1-4  delay=  +0.001348 s
+Location: time=2000 Jan  1 01:02:01.501, phone  2-3  delay=  +0.117843 s
+Location: time=2000 Jan  1 01:02:01.501, phone  2-4  delay=  +0.151722 s
+Location: time=2000 Jan  1 01:02:01.501, phone  3-4  delay=  +0.033841 s
+Location: time=2000 Jan  1 01:02:01.501, position=(605181.312,4071475.500)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:53:50.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(114.575 s, 702.17 Hz) to (115.025 s, 972.55 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0068.wav
+
+Location: time=2000 Jan  1 01:01:54.800, phone  1-2  delay=  +0.045638 s
+Location: time=2000 Jan  1 01:01:54.800, phone  1-3  delay=  +0.099300 s
+Location: time=2000 Jan  1 01:01:54.800, phone  1-4  delay=  -0.153183 s
+Location: time=2000 Jan  1 01:01:54.800, phone  2-3  delay=  +0.033550 s
+Location: time=2000 Jan  1 01:01:54.800, phone  2-4  delay=  -0.215898 s
+Location: time=2000 Jan  1 01:01:54.800, phone  3-4  delay=  -0.250300 s
+Location: time=2000 Jan  1 01:01:54.800, position=(604154.375,4071850.500)
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(119.531 s, 655.41 Hz) to (120.267 s, 1462.16 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0069.wav
+
+Location: time=2000 Jan  1 01:01:59.899, phone  1-2  delay=  -0.149978 s
+Location: time=2000 Jan  1 01:01:59.899, phone  1-3  delay=  -0.031963 s
+Location: time=2000 Jan  1 01:01:59.899, phone  1-4  delay=  -0.106063 s
+Location: time=2000 Jan  1 01:01:59.899, phone  2-3  delay=  +0.117990 s
+Location: time=2000 Jan  1 01:01:59.899, phone  2-4  delay=  -0.184416 s
+Location: time=2000 Jan  1 01:01:59.899, phone  3-4  delay=  +0.033420 s
+Location: time=2000 Jan  1 01:01:59.899, position=(7921187328.000,-16162376704.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0070.wav
+
+Location: time=2000 Jan  1 01:01:59.899, phone  1-2  delay=  -0.149978 s
+Location: time=2000 Jan  1 01:01:59.899, phone  1-3  delay=  -0.031963 s
+Location: time=2000 Jan  1 01:01:59.899, phone  1-4  delay=  -0.106063 s
+Location: time=2000 Jan  1 01:01:59.899, phone  2-3  delay=  +0.117990 s
+Location: time=2000 Jan  1 01:01:59.899, phone  2-4  delay=  -0.184416 s
+Location: time=2000 Jan  1 01:01:59.899, phone  3-4  delay=  +0.033420 s
+Location: time=2000 Jan  1 01:01:59.899, position=(7921187328.000,-16162376704.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0071.wav
+
+Location: time=2000 Jan  1 01:01:59.980, phone  1-2  delay=  -0.150017 s
+Location: time=2000 Jan  1 01:01:59.980, phone  1-3  delay=  -0.031983 s
+Location: time=2000 Jan  1 01:01:59.980, phone  1-4  delay=  +0.004157 s
+Location: time=2000 Jan  1 01:01:59.980, phone  2-3  delay=  +0.117993 s
+Location: time=2000 Jan  1 01:01:59.980, phone  2-4  delay=  +0.151344 s
+Location: time=2000 Jan  1 01:01:59.980, phone  3-4  delay=  +0.033419 s
+Location: time=2000 Jan  1 01:01:59.980, position=(605126.750,4071513.500)
+
+plotLoc0: input=4CHD1235-170813-192000.wav, sel=(119.665 s, 518.32 Hz) to (120.296 s, 1253.75 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc0: input=4CHD1235-170813-192000.wav, sel=(119.665 s, 518.32 Hz) to (120.296 s, 1253.75 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc3: input=4CHD1235-170813-192000.wav, sel=(119.665 s, 518.32 Hz) to (120.296 s, 1253.75 Hz)%WRITE FAILURE!!!!sfile=%s
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0075.wav
+
+Location: time=2000 Jan  1 01:02:01.683, phone  1-2  delay=  -0.150285 s
+Location: time=2000 Jan  1 01:02:01.683, phone  1-3  delay=  -0.032495 s
+Location: time=2000 Jan  1 01:02:01.683, phone  1-4  delay=  +0.001554 s
+Location: time=2000 Jan  1 01:02:01.683, phone  2-3  delay=  +0.117775 s
+Location: time=2000 Jan  1 01:02:01.683, phone  2-4  delay=  +0.151928 s
+Location: time=2000 Jan  1 01:02:01.683, phone  3-4  delay=  +0.033988 s
+Location: time=2000 Jan  1 01:02:01.683, position=(605178.062,4071478.750)
+
+plotLoc0: input=4CHD1235-170813-192000.wav, sel=(121.339 s, 550.76 Hz) to (122.027 s, 1632.28 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:57:25.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(123.095 s, 193.86 Hz) to (123.822 s, 1426.79 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0077.wav
+
+Location: time=2000 Jan  1 01:02:03.459, phone  1-2  delay=  -0.150899 s
+Location: time=2000 Jan  1 01:02:03.459, phone  1-3  delay=  -0.032426 s
+Location: time=2000 Jan  1 01:02:03.459, phone  1-4  delay=  +0.002044 s
+Location: time=2000 Jan  1 01:02:03.459, phone  2-3  delay=  +0.156068 s
+Location: time=2000 Jan  1 01:02:03.459, phone  2-4  delay=  +0.152670 s
+Location: time=2000 Jan  1 01:02:03.459, phone  3-4  delay=  -0.000049 s
+Location: time=2000 Jan  1 01:02:03.459, position=(604758.875,4071714.750)
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(129.208 s, 961.74 Hz) to (129.667 s, 1805.33 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0078.wav
+
+Location: time=2000 Jan  1 01:02:09.438, phone  1-2  delay=  +0.028748 s
+Location: time=2000 Jan  1 01:02:09.438, phone  1-3  delay=  +0.047087 s
+Location: time=2000 Jan  1 01:02:09.438, phone  1-4  delay=  -0.076199 s
+Location: time=2000 Jan  1 01:02:09.438, phone  2-3  delay=  -0.062977 s
+Location: time=2000 Jan  1 01:02:09.438, phone  2-4  delay=  -0.104792 s
+Location: time=2000 Jan  1 01:02:09.438, phone  3-4  delay=  +0.039371 s
+Location: time=2000 Jan  1 01:02:09.438, position=(-5373581824.000,4961818112.000)
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(136.067 s, 442.61 Hz) to (136.785 s, 1394.35 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0079.wav
+
+Location: time=2000 Jan  1 01:02:16.426, phone  1-2  delay=  -0.152884 s
+Location: time=2000 Jan  1 01:02:16.426, phone  1-3  delay=  -0.037813 s
+Location: time=2000 Jan  1 01:02:16.426, phone  1-4  delay=  +0.005451 s
+Location: time=2000 Jan  1 01:02:16.426, phone  2-3  delay=  +0.114653 s
+Location: time=2000 Jan  1 01:02:16.426, phone  2-4  delay=  +0.158398 s
+Location: time=2000 Jan  1 01:02:16.426, phone  3-4  delay=  +0.043021 s
+Location: time=2000 Jan  1 01:02:16.426, position=(605164.062,4071534.000)
+
+plotLoc0: input=4CHD1235-170813-192000.wav, sel=(136.067 s, 442.61 Hz) to (136.785 s, 1394.35 Hz)%WRITE FAILURE!!!!sfile=%s
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0081.wav
+
+Location: time=2000 Jan  1 01:02:19.205, phone  1-2  delay=  -0.152937 s
+Location: time=2000 Jan  1 01:02:19.205, phone  1-3  delay=  -0.039128 s
+Location: time=2000 Jan  1 01:02:19.205, phone  1-4  delay=  +0.006421 s
+Location: time=2000 Jan  1 01:02:19.205, phone  2-3  delay=  +0.113709 s
+Location: time=2000 Jan  1 01:02:19.205, phone  2-4  delay=  +0.159840 s
+Location: time=2000 Jan  1 01:02:19.205, phone  3-4  delay=  +0.045830 s
+Location: time=2000 Jan  1 01:02:19.205, position=(605169.312,4071542.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 15 23:59:47.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(150.992 s, 821.14 Hz) to (151.375 s, 1307.83 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0082.wav
+
+Location: time=2000 Jan  1 01:02:31.184, phone  1-2  delay=  -0.154877 s
+Location: time=2000 Jan  1 01:02:31.184, phone  1-3  delay=  -0.043971 s
+Location: time=2000 Jan  1 01:02:31.184, phone  1-4  delay=  +0.010099 s
+Location: time=2000 Jan  1 01:02:31.184, phone  2-3  delay=  +0.111028 s
+Location: time=2000 Jan  1 01:02:31.184, phone  2-4  delay=  +0.164918 s
+Location: time=2000 Jan  1 01:02:31.184, phone  3-4  delay=  +0.053709 s
+Location: time=2000 Jan  1 01:02:31.184, position=(605162.000,4071584.250)
+
+plotLoc0: input=4CHD1235-170813-192000.wav, sel=(150.992 s, 821.14 Hz) to (151.375 s, 1307.83 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 16 00:01:13.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(169.840 s, 345.27 Hz) to (170.366 s, 1048.26 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0084.wav
+
+Location: time=2000 Jan  1 01:02:50.103, phone  1-2  delay=  -0.156815 s
+Location: time=2000 Jan  1 01:02:50.103, phone  1-3  delay=  -0.052946 s
+Location: time=2000 Jan  1 01:02:50.103, phone  1-4  delay=  +0.019490 s
+Location: time=2000 Jan  1 01:02:50.103, phone  2-3  delay=  +0.104463 s
+Location: time=2000 Jan  1 01:02:50.103, phone  2-4  delay=  +0.172877 s
+Location: time=2000 Jan  1 01:02:50.103, phone  3-4  delay=  +0.072204 s
+Location: time=2000 Jan  1 01:02:50.103, position=(605139.750,4071670.250)
+
+plotLoc0: input=4CHD1235-170813-192000.wav, sel=(169.840 s, 345.27 Hz) to (170.366 s, 1048.26 Hz)%WRITE FAILURE!!!!sfile=%s
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0086.wav
+
+Location: time=2000 Jan  1 01:02:52.117, phone  1-2  delay=  -0.158316 s
+Location: time=2000 Jan  1 01:02:52.117, phone  1-3  delay=  -0.053400 s
+Location: time=2000 Jan  1 01:02:52.117, phone  1-4  delay=  +0.016751 s
+Location: time=2000 Jan  1 01:02:52.117, phone  2-3  delay=  +0.100305 s
+Location: time=2000 Jan  1 01:02:52.117, phone  2-4  delay=  +0.171608 s
+Location: time=2000 Jan  1 01:02:52.117, phone  3-4  delay=  +0.070030 s
+Location: time=2000 Jan  1 01:02:52.117, position=(605298.938,4071585.750)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 16 00:02:48.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(182.811 s, 280.38 Hz) to (183.102 s, 1005.00 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0087.wav
+
+Location: time=2000 Jan  1 01:03:02.956, phone  1-2  delay=  +0.054775 s
+Location: time=2000 Jan  1 01:03:02.956, phone  1-3  delay=  +0.151959 s
+Location: time=2000 Jan  1 01:03:02.956, phone  1-4  delay=  +0.079414 s
+Location: time=2000 Jan  1 01:03:02.956, phone  2-3  delay=  +0.095776 s
+Location: time=2000 Jan  1 01:03:02.956, phone  2-4  delay=  -0.011335 s
+Location: time=2000 Jan  1 01:03:02.956, phone  3-4  delay=  +0.044540 s
+Location: time=2000 Jan  1 01:03:02.956, position=(604316.438,4072048.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0088.wav
+
+Location: time=2000 Jan  1 01:03:03.055, phone  1-2  delay=  -0.235172 s
+Location: time=2000 Jan  1 01:03:03.055, phone  1-3  delay=  -0.114905 s
+Location: time=2000 Jan  1 01:03:03.055, phone  1-4  delay=  +0.053762 s
+Location: time=2000 Jan  1 01:03:03.055, phone  2-3  delay=  +0.096554 s
+Location: time=2000 Jan  1 01:03:03.055, phone  2-4  delay=  +0.152517 s
+Location: time=2000 Jan  1 01:03:03.055, phone  3-4  delay=  +0.121961 s
+Location: time=2000 Jan  1 01:03:03.055, position=(624544.250,4066274.250)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 16 00:04:45.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(192.156 s, 312.83 Hz) to (192.738 s, 669.73 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0089.wav
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0090.wav
+
+Location: time=2000 Jan  1 01:03:12.386, phone  1-2  delay=  +0.112116 s
+Location: time=2000 Jan  1 01:03:12.386, phone  1-3  delay=  +0.152708 s
+Location: time=2000 Jan  1 01:03:12.386, phone  1-4  delay=  -0.113732 s
+Location: time=2000 Jan  1 01:03:12.386, phone  2-3  delay=  +0.050125 s
+Location: time=2000 Jan  1 01:03:12.386, phone  2-4  delay=  -0.220930 s
+Location: time=2000 Jan  1 01:03:12.386, phone  3-4  delay=  -0.266180 s
+Location: time=2000 Jan  1 01:03:12.386, position=(604160.312,4071933.000)
+
+plotLoc2: input=4CHD1235-170813-192000.wav, sel=(192.142 s, 332.70 Hz) to (192.629 s, 558.59 Hz)%WRITE FAILURE!!!!sfile=%s
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 16 00:06:53.
+
+plotRecorders: input=4CHD1235-170813-192000.wav
+
+plotRecorders: input=4CHD1235-170813-192000.wav
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(201.272 s, 550.76 Hz) to (201.570 s, 1026.63 Hz)
+
+plotRecorders: input=4CHD1235-170813-192000.wav
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0092.wav
+
+Location: time=2000 Jan  1 01:03:21.421, phone  1-2  delay=  +0.185515 s
+Location: time=2000 Jan  1 01:03:21.421, phone  1-3  delay=  -0.043920 s
+Location: time=2000 Jan  1 01:03:21.421, phone  1-4  delay=  +0.014244 s
+Location: time=2000 Jan  1 01:03:21.421, phone  2-3  delay=  +0.099232 s
+Location: time=2000 Jan  1 01:03:21.421, phone  2-4  delay=  +0.166348 s
+Location: time=2000 Jan  1 01:03:21.421, phone  3-4  delay=  +0.055516 s
+Location: time=2000 Jan  1 01:03:21.421, position=(604359.750,4072089.250)
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(201.272 s, 550.76 Hz) to (201.570 s, 1026.63 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-192000-0093.wav
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0094.wav
+
+Location: time=2000 Jan  1 01:03:22.848, phone  1-2  delay=  -0.138709 s
+Location: time=2000 Jan  1 01:03:22.848, phone  1-3  delay=  -0.042824 s
+Location: time=2000 Jan  1 01:03:22.848, phone  1-4  delay=  +0.013983 s
+Location: time=2000 Jan  1 01:03:22.848, phone  2-3  delay=  +0.110918 s
+Location: time=2000 Jan  1 01:03:22.848, phone  2-4  delay=  -0.052546 s
+Location: time=2000 Jan  1 01:03:22.848, phone  3-4  delay=  +0.056104 s
+Location: time=2000 Jan  1 01:03:22.848, position=(6100219392.000,-6060994048.000)
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 16 00:09:40.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(211.511 s, 257.41 Hz) to (211.944 s, 1160.97 Hz)
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0095.wav
+Location: time=2000 Jan  1 01:03:31.727, phone  1-2  delay=  -0.061913 s
+Location: time=2000 Jan  1 01:03:31.727, phone  1-3  delay=  -0.044131 s
+Location: time=2000 Jan  1 01:03:31.727, phone  1-4  delay=  -0.007432 s
+Location: time=2000 Jan  1 01:03:31.727, phone  2-3  delay=  +0.032990 s
+Location: time=2000 Jan  1 01:03:31.727, phone  2-4  delay=  -0.119563 s
+Location: time=2000 Jan  1 01:03:31.727, phone  3-4  delay=  +0.019075 s
+Location: time=2000 Jan  1 01:03:31.727, position=(604347.625,4071983.500)
+plotLoc2: input=4CHD1235-170813-192000.wav, sel=(211.511 s, 257.41 Hz) to (211.944 s, 1160.97 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc2: input=4CHD1235-170813-192000.wav, sel=(211.511 s, 257.41 Hz) to (211.944 s, 1160.97 Hz)%WRITE FAILURE!!!!sfile=%s
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(211.511 s, 257.41 Hz) to (211.944 s, 1160.97 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-192000-0098.wav
+
+StartFile: inputFile='E:\Monterey Bay 13Aug2017\4Channel combined files\4Ch 24K files\4CHD1235-170813-192000.wav' localTimeNow=2017 Oct 16 00:12:33.
+
+Hyperbolic: input=4CHD1235-170813-192000.wav, sel=(274.154 s, 1199.67 Hz) to (274.621 s, 1675.54 Hz)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0099.wav
+
+Location: time=2000 Jan  1 01:04:34.387, phone  1-2  delay=  +0.114375 s
+Location: time=2000 Jan  1 01:04:34.387, phone  1-3  delay=  +0.153032 s
+Location: time=2000 Jan  1 01:04:34.387, phone  1-4  delay=  +0.048544 s
+Location: time=2000 Jan  1 01:04:34.387, phone  2-3  delay=  +0.006508 s
+Location: time=2000 Jan  1 01:04:34.387, phone  2-4  delay=  -0.096185 s
+Location: time=2000 Jan  1 01:04:34.387, phone  3-4  delay=  -0.141622 s
+Location: time=2000 Jan  1 01:04:34.387, position=(604225.125,4072024.000)
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0100.wav
+
+Location: time=2000 Jan  1 01:04:34.320, phone  1-2  delay=  +0.115258 s
+Location: time=2000 Jan  1 01:04:34.320, phone  1-3  delay=  +0.152943 s
+Location: time=2000 Jan  1 01:04:34.320, phone  1-4  delay=  +0.048708 s
+Location: time=2000 Jan  1 01:04:34.320, phone  2-3  delay=  +0.007037 s
+Location: time=2000 Jan  1 01:04:34.320, phone  2-4  delay=  -0.096574 s
+Location: time=2000 Jan  1 01:04:34.320, phone  3-4  delay=  -0.149789 s
+Location: time=2000 Jan  1 01:04:34.320, position=(604222.875,4072022.750)
+
+plotLoc1: input=4CHD1235-170813-192000.wav, sel=(274.100 s, 1253.75 Hz) to (274.540 s, 1686.36 Hz), file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\06JUN17\test4CHD1235-170813-192000-0101.wav
+
+hyperbolicLocPosition: input=4CHD1235-170813-192000.wav, file=E:\SanJuanIsland_FHL_May2017\SoundRecordings\_FieldRecordings\1JUNE2017\saved_clips\test4CHD1235-170813-192000-0102.wav
+
+Location: time=2000 Jan  1 01:04:30.251, phone  1-2  delay=  +0.006628 s
+Location: time=2000 Jan  1 01:04:30.251, phone  1-3  delay=  +0.037106 s
+Location: time=2000 Jan  1 01:04:30.251, phone  1-4  delay=  +0.090058 s
+Location: time=2000 Jan  1 01:04:30.251, phone  2-3  delay=  -0.135089 s
+Location: time=2000 Jan  1 01:04:30.251, phone  2-4  delay=  -0.050264 s
+Location: time=2000 Jan  1 01:04:30.251, phone  3-4  delay=  +0.159146 s
+Location: time=2000 Jan  1 01:04:30.251, position=(604173.062,4072447.250)
+

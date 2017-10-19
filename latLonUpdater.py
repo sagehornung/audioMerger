@@ -13,6 +13,9 @@ import requests
 import json
 import urllib2
 
+
+
+
 # FIXME Add an argumnet for UMT ZONE --- Such as 'S 10' for
 
 # Here is a list of arguments to pass to the script
@@ -21,6 +24,9 @@ import urllib2
 # 3. Duration of audio files
 # 4. Location of the FOLDER containing the FOLDERS with the GPS files
 # 5. Add as many folder names as you like that contain GPS file -- Ex: Recorder_1 Recorder_2 ... Recorder_N
+
+
+#"E:\Monterey Bay 13Aug2017\logs" "E:\Monterey Bay 13Aug2017\Ish_Array_&_Pref_Files\latLonUpdater.arr" "10" "E:\Monterey Bay 13Aug2017"  "Buoy_1" "Buoy_2" "Buoy_3" "Buoy_5"
 
 last_hyperloc_pos = 0,0
 
@@ -166,17 +172,20 @@ def parse_log_file(event_str):
         append_to_complete_log(content)
         clear_ish_log(logfile_path)
         return
-    elif content.startswith('seaFloor'):
+    elif content.startswith('plotSeafloorRecorder'):
+        print 'XXXXXX Found a plotSeafloorRecorder in LOG'
         arr_path = os.path.join(sys.argv[2])
         file = open(arr_path, 'r')
         recorder_dirs = sys.argv[5:]
         curr_dir = 0
         for line in file:
             parts = line.split()
-            l = utm.to_latlon(parts[0], parts[1], 10, 'S')
+            print'Line in array flie',  parts[0], parts[1]
+            l = utm.to_latlon(int(parts[0]), int(parts[1]), 10, 'S')
             d = recorder_dirs[curr_dir]
             d = d.split('_')
             d = d[1]
+            print 'Some directory number ', d
             payload = {'lat': l[0], 'lng': l[1], 'recorder_id': d}
             print "Payload before request", payload
 
@@ -184,6 +193,8 @@ def parse_log_file(event_str):
             req.add_header('Content-Type', 'application/json')
             response = urllib2.urlopen(req, json.dumps(payload))
             curr_dir = curr_dir + 1
+        append_to_complete_log(content)
+        clear_ish_log(logfile_path)
     elif content.startswith('plotRecorders'):
         parts = content.split(' ')
         wav_file = parts[1]

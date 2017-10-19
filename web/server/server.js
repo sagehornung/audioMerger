@@ -30,7 +30,7 @@ var room;
 app.use(express.static(__dirname + '/bower_components'));
 app.get('/', function(req, res, next) {
     console.log(__dirname + '/../app/index.html');
-    res.sendFile('C:\\Users\\User\\PycharmProjects\\audioMerger\\web\\app\\index.html');
+    res.sendFile('C:/Users/bioWavesUser/PycharmProjects/audoScripts/web/app/index.html');
 });
 
 app.post('/update', function (req, res, next) {
